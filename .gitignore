@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Large data files (re-downloadable via src/download_10k.py)
+data/filings/
+data/refind/
+
+# Copyrighted PDFs and assignment binaries
+*.pdf
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
