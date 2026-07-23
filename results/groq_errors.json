@@ -1,0 +1,42 @@
+[
+  {
+    "sentence": "Volatility of demand for manufacturing equipment can also increase our and our suppliers’ capital, technical, operational and other risks, and may cause some suppliers to exit businesses, or scale back or cease operations, which could impact our ability to meet customer demand",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 114)  |  raw='{\"triples\":[{\"head\":\"Applied Materials\",\"relation\":\"customer_of\",\"tail\":\"Applied Materials\",\"confidence\":0.95}]}\\n\\nNote: The sentence does not explicitly state a relationship between Applied Materials and another company. However, it does mention \"our suppliers\", which implies that Applied Materials has suppliers. But since the suppliers are not explicitly named, we cannot extract a specific relationship. The only relationship we can extract is that Applied Materials is a customer of itself, which is a weak inference and likely not what the sentence intends to convey.'",
+    "source_file": "AMAT_2023.txt"
+  },
+  {
+    "sentence": "Other factors that may result in excess or obsolete inventory include, a reduction in the average selling price, or a reduction in our gross margin include: a sudden or significant decrease in demand for our products; a production or design defect in our products; a higher incidence of inventory obsolescence because of rapidly changing technology and customer requirements; a failure to accurately estimate customer demand for our products, including for our older products as our new products are introduced; or our competitors introducing new products or taking aggressive pricing actions",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 116)  |  raw='{\"triples\":[{\"head\":\"Advanced Micro Devices\",\"relation\":\"customer_of\",\"tail\":\"our competitors\",\"confidence\":0.8}]}\\n\\nNote: The relation \"customer_of\" is used here because the sentence implies that AMD\\'s competitors are introducing products that may affect AMD\\'s inventory, implying that AMD is a customer of its competitors in the sense that it is affected by their actions. However, this is a somewhat indirect relationship, and the confidence level is set to 0.8 to reflect this.'",
+    "source_file": "AMD_2023.txt"
+  },
+  {
+    "sentence": "A prolonged disruption at or shut-down of one or more of our manufacturing facilities or warehouses, especially our Colorado, Singapore, Malaysia and Pennsylvania facilities, or those of our CMs or suppliers, due to natural- or man-made 22 Table of Contents disasters or other events outside of our control, such as equipment malfunction or widespread outbreaks of acute illness, including COVID-19, or for any other reason, would limit our capacity to meet customer demands and delay new product development until a replacement facility and equipment, if necessary, were found",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 104)  |  raw='{\"triples\":[{\"head\":\"Broadcom\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\nNote: The sentence mentions \"our customers\" which implies that Broadcom is the customer of itself, but since the relation is customer_of, the tail is set to the filing company.'",
+    "source_file": "AVGO_2023.txt"
+  },
+  {
+    "sentence": "In addition, customers with liquidity issues may be forced to reduce purchases of our equipment, delay deliveries of our products, discontinue operations or may be acquired by one of our customers, and, in either case, such event would have the effect of further consolidating our customer base; 25 Table of Contents • Semiconductor manufacturers generally must commit significant resources to qualify, install and integrate process control and yield management equipment into a semiconductor production line",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 111)  |  raw='{\"triples\":[{\"head\":\"KLA Corporation\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"semiconductor manufacturers\",\"relation\":\"customer_of\",\"tail\":\"KLA Corporation\",\"confidence\":0.90}]}\\n\\n{\"triples\":[{\"head\":\"semiconductor manufacturers\",\"relation\":\"supplier_of\",\"tail\":\"KLA Corporation\",\"confidence\":0.90}]}'",
+    "source_file": "KLAC_2023.txt"
+  },
+  {
+    "sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 111)  |  raw='{\"triples\":[{\"head\":\"KLA Corporation\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"supplier_of\",\"tail\":\"KLA Corporation\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"KLA Corporation\",\"relation\":\"competitor_of\",\"tail\":\"<filing company>\",\"confidence\":0.90}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"competitor_of\",\"tail\":\"KLA Corporation\",\"confidence\":0.90}]}'",
+    "source_file": "KLAC_2023.txt"
+  },
+  {
+    "sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for a product line application if that customer initially selects a competitor’s equipment for the same product line application",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 108)  |  raw='{\"triples\":[{\"head\":\"Lam Research\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"supplier_of\",\"tail\":\"Lam Research\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"Lam Research\",\"relation\":\"competitor_of\",\"tail\":\"<filing company>\",\"confidence\":0.90}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"competitor_of\",\"tail\":\"Lam Research\",\"confidence\":0.90}]}'",
+    "source_file": "LRCX_2023.txt"
+  },
+  {
+    "sentence": "We Depend on Creating New Products and Processes and Enhancing Existing Products and Processes for Our Success; Consequently, We Are Subject to Risks Associated with Rapid Technological Change Rapid technological changes in semiconductor manufacturing processes subject us to increased pressure to develop technological advances that enable those processes",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 158)  |  raw='{\"triples\":[{\"head\":\"Lam Research\",\"relation\":\"depends_on\",\"tail\":\"Rapid technological changes in semiconductor manufacturing processes\",\"confidence\":0.8}]}\\n\\nNote: The relation \"depends_on\" is used here because the sentence states that Lam Research is subject to risks associated with rapid technological changes, implying that they critically rely on these changes for their success. However, the confidence is set to 0.8 because the sentence does not explicitly state that Lam Research depends on the technological changes, but rather that they are subject to risks associated with those changes.'",
+    "source_file": "LRCX_2023.txt"
+  },
+  {
+    "sentence": "Our customer programs involve rebates, which are designed to serve as sales incentives to resellers of our products in various target markets, and marketing development funds, or MDFs, which represent monies paid to our partners that are earmarked for market segment development and are designed to support our partners’ activities while also promoting NVIDIA products",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 102)  |  raw='{\"triples\":[{\"head\":\"NVIDIA\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"partner_of\",\"tail\":\"NVIDIA\",\"confidence\":0.90}]}\\n\\n{\"triples\":[{\"head\":\"<filing company>\",\"relation\":\"supplier_of\",\"tail\":\"NVIDIA\",\"confidence\":0.95}]}'",
+    "source_file": "NVDA_2023.txt"
+  }
+]

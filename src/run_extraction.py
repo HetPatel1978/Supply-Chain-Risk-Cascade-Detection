@@ -47,37 +47,61 @@ def run_rule_based():
     return all_triples
 
 
-def run_groq(max_sentences_per_file: int = 60):
+def run_groq(max_sentences_per_file: int = 60, resume: bool = True):
     api_key = os.environ.get("GROQ_API_KEY", "")
     if not api_key:
         print("\n=== GROQ EXTRACTION: SKIPPED (GROQ_API_KEY not set) ===")
         return [], []
 
-    print(f"\n=== GROQ EXTRACTION (max {max_sentences_per_file} sentences/file) ===")
-    all_triples = []
-    all_errors  = []
+    root = pathlib.Path(__file__).parent.parent / "results"
+    triples_path = root / "groq_triples.json"
+    errors_path  = root / "groq_errors.json"
+
+    # Load existing results so we can resume without re-processing done files
+    done_files: set[str] = set()
+    all_triples: list[dict] = []
+    all_errors:  list[dict] = []
+    if resume and triples_path.exists():
+        existing = json.loads(triples_path.read_text(encoding="utf-8"))
+        all_triples = existing.get("triples", [])
+        done_files  = {t["source_file"] for t in all_triples}
+    if resume and errors_path.exists():
+        existing_errors = json.loads(errors_path.read_text(encoding="utf-8"))
+        # Only keep errors from already-done files so we don't lose them on resume
+        all_errors = [e for e in existing_errors if e.get("source_file", "") in done_files]
+
+    print(f"\n=== GROQ EXTRACTION (max {max_sentences_per_file} sentences/file, model={zero_shot_llm.MODEL}) ===")
+    if done_files:
+        print(f"  Resuming — skipping already-done files: {sorted(done_files)}")
 
     for fp in FILING_FILES:
+        if fp.name in done_files:
+            print(f"  {fp.name}: skipped (already done)")
+            continue
         triples, errors = zero_shot_llm.extract_file(fp, max_sentences=max_sentences_per_file)
-        print(f"  {fp.name}: {len(triples)} triples | {len(errors)} parse errors")
+        # Tag errors with source file for resume tracking
+        for e in errors:
+            e["source_file"] = fp.name
+        print(f"  {fp.name}: {len(triples)} triples | {len(errors)} errors")
         all_triples.extend(t.to_dict() for t in triples)
         all_errors.extend(errors)
 
-    root = pathlib.Path(__file__).parent.parent / "results"
-    (root / "groq_triples.json").write_text(
-        json.dumps({"total": len(all_triples), "triples": all_triples}, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-    (root / "groq_errors.json").write_text(
-        json.dumps(all_errors, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+        # Save after every file so a mid-run crash doesn't lose everything
+        triples_path.write_text(
+            json.dumps({"total": len(all_triples), "triples": all_triples}, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        errors_path.write_text(
+            json.dumps(all_errors, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+
     (RESULTS_DIR / "groq_triples.json").write_text(
         json.dumps({"total": len(all_triples), "triples": all_triples}, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
 
-    print(f"\n  Total: {len(all_triples)} triples, {len(all_errors)} parse errors")
+    print(f"\n  Total: {len(all_triples)} triples, {len(all_errors)} errors")
     print(f"  Saved to results/groq_triples.json and results/groq_errors.json")
     return all_triples, all_errors
 

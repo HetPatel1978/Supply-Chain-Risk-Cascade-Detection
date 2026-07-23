@@ -25,10 +25,13 @@ from .schema import Triple, RELATION_VOCAB, normalize_triples
 # ---------------------------------------------------------------------------
 _CLIENT: Groq | None = None
 
-MODEL = "llama-3.3-70b-versatile"
-MAX_RETRIES = 3
-RETRY_DELAY = 2.0          # seconds between retries on rate-limit
+# llama-3.1-8b-instant: 500k tokens/day free tier (vs 100k for 70b)
+MODEL = "llama-3.1-8b-instant"
+MAX_RETRIES = 5
+RETRY_DELAY = 2.0          # base delay; overridden by 429 wait time when available
 INTER_REQUEST_DELAY = 0.3  # polite pause between calls
+
+_WAIT_RE = re.compile(r"try again in ([\d]+)m([\d.]+)s")
 
 
 def _get_client() -> Groq:
@@ -194,8 +197,15 @@ def extract_sentence(
             break
         except Exception as e:
             err_str = str(e)
-            if "rate" in err_str.lower() and attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY * (attempt + 1))
+            if "429" in err_str and attempt < MAX_RETRIES - 1:
+                # Parse "try again in Xm Y.Zs" from the error message
+                m = _WAIT_RE.search(err_str)
+                if m:
+                    wait = int(m.group(1)) * 60 + float(m.group(2)) + 5
+                else:
+                    wait = RETRY_DELAY * (2 ** attempt)
+                print(f"    [rate limit] waiting {wait:.0f}s before retry {attempt+1}/{MAX_RETRIES-1}...")
+                time.sleep(wait)
                 continue
             return [], f"API error: {e}"
 
