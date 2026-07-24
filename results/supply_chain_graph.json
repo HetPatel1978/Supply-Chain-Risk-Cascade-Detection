@@ -1,0 +1,574 @@
+{
+  "nodes": [
+    {
+      "id": "AMD",
+      "is_filer": true,
+      "in_degree": 6,
+      "out_degree": 9
+    },
+    {
+      "id": "TSMC",
+      "is_filer": false,
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    {
+      "id": "GLOBALFOUNDRIES",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "UMC",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Applied Materials",
+      "is_filer": true,
+      "in_degree": 4,
+      "out_degree": 1
+    },
+    {
+      "id": "KLA",
+      "is_filer": true,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "id": "Hitachi",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Intel",
+      "is_filer": true,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "id": "Broadcom",
+      "is_filer": true,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "id": "Pensando Systems",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "VMware",
+      "is_filer": false,
+      "in_degree": 3,
+      "out_degree": 1
+    },
+    {
+      "id": "Lam Research",
+      "is_filer": true,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "id": "Novellus",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SanDisk Corporation",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Western Digital Corporation",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Sony",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Huawei",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "NVIDIA",
+      "is_filer": true,
+      "in_degree": 5,
+      "out_degree": 2
+    },
+    {
+      "id": "Amkor Technology",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Advantest America Inc.",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "SMIC",
+      "is_filer": false,
+      "in_degree": 2,
+      "out_degree": 1
+    },
+    {
+      "id": "ASM International",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Atlassian Corporation",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Microsoft",
+      "is_filer": false,
+      "in_degree": 2,
+      "out_degree": 1
+    },
+    {
+      "id": "Chroma ATE Inc.",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "BYD Auto",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Ibiden Co",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Arm",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "SoftBank",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Dell",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Microchip",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Microsemi Corporation",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "AMD",
+      "target": "TSMC",
+      "relation": "depends_on",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm"
+    },
+    {
+      "source": "AMD",
+      "target": "TSMC",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Therefore, the foundries, particularly TSMC which manufactures our newest IC products, must be able to transition to advanced manufacturing process technologies and increased wafer sizes, produce wafers at acceptable yields and deliver them in a timely manner"
+    },
+    {
+      "source": "AMD",
+      "target": "GLOBALFOUNDRIES",
+      "relation": "depends_on",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm"
+    },
+    {
+      "source": "AMD",
+      "target": "UMC",
+      "relation": "depends_on",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Moreover, we rely on TSMC, UMC and our other foundries to produce wafers with competitive performance attributes for our IC products"
+    },
+    {
+      "source": "AMD",
+      "target": "Pensando Systems",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Also, with the acquisition of Pensando Systems, Inc. in May 2022, we offer high-performance DPUs and next generation data center solutions"
+    },
+    {
+      "source": "AMD",
+      "target": "Sony",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The success of our semi-custom SoC products is dependent on securing customers for our semi-custom design pipeline and consumer market conditions, including the success of the Sony PlayStation® 5, Microsoft® Xbox TM Series S and Microsoft® Xbox TM Series X game console systems and next generation consoles for Sony and Microsoft, worldwide"
+    },
+    {
+      "source": "AMD",
+      "target": "Intel",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Competition in Data Center Segment In Data Center, we compete against Intel Corporation (Intel) with our FPGA, Adaptive SoC, CPU and DPU server products and NVIDIA Corporation (NVIDIA) with our CPU, GPU and DPU server products"
+    },
+    {
+      "source": "AMD",
+      "target": "Intel",
+      "relation": "supplier_of",
+      "confidence": 0.75,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our primary competitor in the supply of CPUs is Intel"
+    },
+    {
+      "source": "AMD",
+      "target": "Microsoft",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
+    },
+    {
+      "source": "TSMC",
+      "target": "AMD",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "For example, if TSMC is not able to manufacture wafers for our microprocessor and GPU products at 7 nm or smaller nodes and our newest IC products in sufficient quantities to meet customer demand, it could have a material adverse effect on our business"
+    },
+    {
+      "source": "TSMC",
+      "target": "Broadcom",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Further, any substantial disruption in the contract manufacturing services that we utilize, including TSMC’s supply of wafers to us, as a result of a natural disaster, climate change, water shortages, political unrest, military conflicts, geopolitical turmoil, trade tensions, government orders, labor shortages, medical epidemics, such as the COVID-19 pandemic, economic instability, equipment failure or other cause, could materially harm our business, customer relationships and results of operations"
+    },
+    {
+      "source": "TSMC",
+      "target": "NVIDIA",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co"
+    },
+    {
+      "source": "UMC",
+      "target": "AMD",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd"
+    },
+    {
+      "source": "Applied Materials",
+      "target": "KLA",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "KLA",
+      "target": "Applied Materials",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "KLA",
+      "target": "Applied Materials",
+      "relation": "supplier_of",
+      "confidence": 0.75,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "Hitachi",
+      "target": "KLA",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "Intel",
+      "target": "AMD",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs, and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, APUs, and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs and Adaptive SoC products"
+    },
+    {
+      "source": "Intel",
+      "target": "AMD",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "As a result of Intel’s position in the microprocessor market, Intel has been able to control x86 microprocessor and computer system standards and benchmarks and to dictate the type of products the microprocessor market requires of us"
+    },
+    {
+      "source": "Intel",
+      "target": "AMD",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to innovate beyond the x86 instruction set controlled by Intel depends partially on Microsoft designing and developing its operating systems to run on or support our x86-based microprocessor products"
+    },
+    {
+      "source": "Intel",
+      "target": "NVIDIA",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Intel could also take actions that place our discrete graphics processing units (GPUs) at a competitive disadvantage, including giving one or more of our competitors in the graphics market, such as NVIDIA Corporation, preferential access to its proprietary graphics interface or other useful information or restricting access to external companies"
+    },
+    {
+      "source": "Intel",
+      "target": "Microsoft",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to innovate beyond the x86 instruction set controlled by Intel depends partially on Microsoft designing and developing its operating systems to run on or support our x86-based microprocessor products"
+    },
+    {
+      "source": "Broadcom",
+      "target": "VMware",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Recent Development Acquisition of VMware, Inc"
+    },
+    {
+      "source": "Broadcom",
+      "target": "VMware",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Achieving these benefits will depend, in part, on our ability to integrate VMware's business successfully and efficiently"
+    },
+    {
+      "source": "Broadcom",
+      "target": "TSMC",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”)"
+    },
+    {
+      "source": "Broadcom",
+      "target": "Huawei",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce"
+    },
+    {
+      "source": "Broadcom",
+      "target": "Atlassian Corporation",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our primary competitors are Atlassian Corporation, Plc, BeyondTrust Corporation, BMC Software Inc., Cisco Systems, Inc., CrowdStrike Holdings, Inc., CyberArk Software, Ltd., Dino-Software Corporation, International Business Machines Corporation, Microsoft Corporation, New Relic, Inc., OpenText Corporation, Oracle Corporation, Proofpoint, Inc., Rocket Software, Inc., SailPoint Technologies Holdings, Inc., Salesforce.com, Inc., ServiceNow, Inc., SolarWinds Corporation, Splunk, Inc. and Zscaler, Inc"
+    },
+    {
+      "source": "VMware",
+      "target": "Broadcom",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, the hybrid-cloud portfolio we acquired with VMware helps enterprises simplify their information technology (“IT”) environments so they can increase business velocity and flexibility"
+    },
+    {
+      "source": "Lam Research",
+      "target": "Novellus",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "He joined the company in 2012 through the acquisition of Novellus, where he was the vice president of sales operations"
+    },
+    {
+      "source": "Lam Research",
+      "target": "Intel",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our most significant customers during the fiscal years ending June 25, 2023, June 26, 2022, and June 27, 2021 included Intel Corporation; Kioxia Corporation; Micron Technology, Inc.; Samsung Electronics Company, Ltd.; and Taiwan Semiconductor Manufacturing Company"
+    },
+    {
+      "source": "Lam Research",
+      "target": "Applied Materials",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our primary competitor in the dielectric and metals deposition market is Applied Materials, Inc"
+    },
+    {
+      "source": "Lam Research",
+      "target": "ASM International",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd"
+    },
+    {
+      "source": "Lam Research",
+      "target": "SMIC",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
+    },
+    {
+      "source": "Lam Research",
+      "target": "SMIC",
+      "relation": "supplier_of",
+      "confidence": 0.75,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
+    },
+    {
+      "source": "SanDisk Corporation",
+      "target": "Western Digital Corporation",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "He was Chief Legal Officer and Senior Vice President, IP Licensing for SanDisk Corporation from 2014 until its acquisition by Western Digital Corporation in 2016"
+    },
+    {
+      "source": "NVIDIA",
+      "target": "Amkor Technology",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co"
+    },
+    {
+      "source": "NVIDIA",
+      "target": "Advantest America Inc.",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
+    },
+    {
+      "source": "Amkor Technology",
+      "target": "NVIDIA",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co"
+    },
+    {
+      "source": "Advantest America Inc.",
+      "target": "NVIDIA",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
+    },
+    {
+      "source": "SMIC",
+      "target": "Lam Research",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
+    },
+    {
+      "source": "ASM International",
+      "target": "Applied Materials",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd"
+    },
+    {
+      "source": "Microsoft",
+      "target": "AMD",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, some software drivers licensed for use with our products are certified by Microsoft"
+    },
+    {
+      "source": "Chroma ATE Inc.",
+      "target": "BYD Auto",
+      "relation": "supplier_of",
+      "confidence": 0.75,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
+    },
+    {
+      "source": "Ibiden Co",
+      "target": "NVIDIA",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We purchase substrates from Ibiden Co"
+    },
+    {
+      "source": "Arm",
+      "target": "SoftBank",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Termination of the Arm Share Purchase Agreement In February 2022, NVIDIA and SoftBank Group Corp., or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited, or Arm, from SoftBank"
+    },
+    {
+      "source": "Dell",
+      "target": "VMware",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Risks Relating to Taxes • Changes in tax legislation or policies could materially impact our financial position and results of operations. • Our corporate income taxes could significantly increase if we are unable to maintain our tax concessions or if our assumptions and interpretations regarding tax laws and concessions prove to be incorrect. • Our income taxes and overall cash tax costs are affected by a number of factors that could materially, adversely affect financial results. • We have potential tax liabilities as a result of VMware’s former controlling ownership by Dell, which could have an adverse effect on our financial condition and operating results"
+    },
+    {
+      "source": "Microchip",
+      "target": "Microsemi Corporation",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Competition in Embedded Segment We expect continued competition from our primary FPGA competitors such as Intel, Lattice Semiconductor Corporation and Microsemi Corporation (Microsemi, acquired by Microchip), from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated and NXP Semiconductors N.V., and from NVIDIA. In addition, we expect continued competition from the ASIC market, which has been ongoing since the inception of FPGAs"
+    }
+  ]
+}
