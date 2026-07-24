@@ -3,8 +3,8 @@
     {
       "id": "AMD",
       "is_filer": true,
-      "in_degree": 6,
-      "out_degree": 9
+      "in_degree": 7,
+      "out_degree": 10
     },
     {
       "id": "TSMC",
@@ -15,25 +15,37 @@
     {
       "id": "GLOBALFOUNDRIES",
       "is_filer": false,
-      "in_degree": 1,
+      "in_degree": 2,
       "out_degree": 0
+    },
+    {
+      "id": "Microsoft",
+      "is_filer": false,
+      "in_degree": 2,
+      "out_degree": 1
     },
     {
       "id": "UMC",
       "is_filer": false,
       "in_degree": 1,
-      "out_degree": 1
+      "out_degree": 2
     },
     {
-      "id": "Applied Materials",
-      "is_filer": true,
-      "in_degree": 4,
+      "id": "ASML",
+      "is_filer": false,
+      "in_degree": 0,
       "out_degree": 1
     },
     {
       "id": "KLA",
       "is_filer": true,
-      "in_degree": 2,
+      "in_degree": 5,
+      "out_degree": 2
+    },
+    {
+      "id": "Applied Materials",
+      "is_filer": true,
+      "in_degree": 4,
       "out_degree": 2
     },
     {
@@ -49,13 +61,61 @@
       "out_degree": 5
     },
     {
-      "id": "Broadcom",
+      "id": "Lasertec",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Novellus Systems",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Lam Research",
       "is_filer": true,
       "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "id": "Onto Innovation",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Broadcom",
+      "is_filer": true,
+      "in_degree": 4,
       "out_degree": 5
     },
     {
+      "id": "Xilinx",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
       "id": "Pensando Systems",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "AT&T",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Aruba Networks",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "HPE",
       "is_filer": false,
       "in_degree": 1,
       "out_degree": 0
@@ -67,25 +127,19 @@
       "out_degree": 1
     },
     {
-      "id": "Lam Research",
-      "is_filer": true,
-      "in_degree": 1,
-      "out_degree": 6
-    },
-    {
-      "id": "Novellus",
-      "is_filer": false,
-      "in_degree": 1,
-      "out_degree": 0
-    },
-    {
-      "id": "SanDisk Corporation",
+      "id": "CA Technologies",
       "is_filer": false,
       "in_degree": 0,
       "out_degree": 1
     },
     {
-      "id": "Western Digital Corporation",
+      "id": "SanDisk",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Western Digital",
       "is_filer": false,
       "in_degree": 1,
       "out_degree": 0
@@ -100,12 +154,18 @@
       "id": "Huawei",
       "is_filer": false,
       "in_degree": 1,
-      "out_degree": 0
+      "out_degree": 1
+    },
+    {
+      "id": "Flex",
+      "is_filer": false,
+      "in_degree": 0,
+      "out_degree": 1
     },
     {
       "id": "NVIDIA",
       "is_filer": true,
-      "in_degree": 5,
+      "in_degree": 6,
       "out_degree": 2
     },
     {
@@ -115,7 +175,7 @@
       "out_degree": 1
     },
     {
-      "id": "Advantest America Inc.",
+      "id": "Advantest",
       "is_filer": false,
       "in_degree": 1,
       "out_degree": 1
@@ -133,19 +193,25 @@
       "out_degree": 1
     },
     {
-      "id": "Atlassian Corporation",
+      "id": "Atlassian",
       "is_filer": false,
       "in_degree": 1,
       "out_degree": 0
     },
     {
-      "id": "Microsoft",
+      "id": "Tokyo Electron",
       "is_filer": false,
-      "in_degree": 2,
+      "in_degree": 0,
       "out_degree": 1
     },
     {
-      "id": "Chroma ATE Inc.",
+      "id": "Screen Holdings",
+      "is_filer": false,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Chroma ATE",
       "is_filer": false,
       "in_degree": 0,
       "out_degree": 1
@@ -157,7 +223,7 @@
       "out_degree": 0
     },
     {
-      "id": "Ibiden Co",
+      "id": "Ibiden",
       "is_filer": false,
       "in_degree": 0,
       "out_degree": 1
@@ -181,13 +247,13 @@
       "out_degree": 1
     },
     {
-      "id": "Microchip",
+      "id": "Microchip Technology",
       "is_filer": false,
       "in_degree": 0,
       "out_degree": 1
     },
     {
-      "id": "Microsemi Corporation",
+      "id": "Microsemi",
       "is_filer": false,
       "in_degree": 1,
       "out_degree": 0
@@ -220,11 +286,27 @@
     },
     {
       "source": "AMD",
+      "target": "Microsoft",
+      "relation": "depends_on",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
+    },
+    {
+      "source": "AMD",
       "target": "UMC",
       "relation": "depends_on",
       "confidence": 0.95,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Moreover, we rely on TSMC, UMC and our other foundries to produce wafers with competitive performance attributes for our IC products"
+    },
+    {
+      "source": "AMD",
+      "target": "Xilinx",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With the acquisition of Xilinx, Inc. (XIlinx) in February 2022, our product portfolio now includes FPGAs and Adaptive SoCs used in the data center and embedded markets"
     },
     {
       "source": "AMD",
@@ -259,14 +341,6 @@
       "source_sentence": "Our primary competitor in the supply of CPUs is Intel"
     },
     {
-      "source": "AMD",
-      "target": "Microsoft",
-      "relation": "depends_on",
-      "confidence": 0.78,
-      "source_file": "AMD_2023.txt",
-      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
-    },
-    {
       "source": "TSMC",
       "target": "AMD",
       "relation": "supplier_of",
@@ -291,6 +365,22 @@
       "source_sentence": "We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co"
     },
     {
+      "source": "Microsoft",
+      "target": "AMD",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, some software drivers licensed for use with our products are certified by Microsoft"
+    },
+    {
+      "source": "UMC",
+      "target": "GLOBALFOUNDRIES",
+      "relation": "supplier_of",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd"
+    },
+    {
       "source": "UMC",
       "target": "AMD",
       "relation": "supplier_of",
@@ -299,7 +389,7 @@
       "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd"
     },
     {
-      "source": "Applied Materials",
+      "source": "ASML",
       "target": "KLA",
       "relation": "supplier_of",
       "confidence": 0.95,
@@ -321,6 +411,22 @@
       "confidence": 0.75,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "Applied Materials",
+      "target": "KLA",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "Applied Materials",
+      "target": "AT&T",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Dickerson started his semiconductor career in manufacturing and engineering management at General Motors’ Delco Electronics Division and then AT&T Technologies. (2) Mr"
     },
     {
       "source": "Hitachi",
@@ -371,56 +477,24 @@
       "source_sentence": "Our ability to innovate beyond the x86 instruction set controlled by Intel depends partially on Microsoft designing and developing its operating systems to run on or support our x86-based microprocessor products"
     },
     {
-      "source": "Broadcom",
-      "target": "VMware",
-      "relation": "subsidiary_of",
-      "confidence": 0.9,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "Recent Development Acquisition of VMware, Inc"
-    },
-    {
-      "source": "Broadcom",
-      "target": "VMware",
-      "relation": "depends_on",
-      "confidence": 0.78,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "Achieving these benefits will depend, in part, on our ability to integrate VMware's business successfully and efficiently"
-    },
-    {
-      "source": "Broadcom",
-      "target": "TSMC",
+      "source": "Lasertec",
+      "target": "KLA",
       "relation": "supplier_of",
-      "confidence": 0.85,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”)"
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
     },
     {
-      "source": "Broadcom",
-      "target": "Huawei",
+      "source": "Novellus Systems",
+      "target": "Lam Research",
       "relation": "supplier_of",
-      "confidence": 0.85,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce"
-    },
-    {
-      "source": "Broadcom",
-      "target": "Atlassian Corporation",
-      "relation": "competitor_of",
-      "confidence": 0.8,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "Our primary competitors are Atlassian Corporation, Plc, BeyondTrust Corporation, BMC Software Inc., Cisco Systems, Inc., CrowdStrike Holdings, Inc., CyberArk Software, Ltd., Dino-Software Corporation, International Business Machines Corporation, Microsoft Corporation, New Relic, Inc., OpenText Corporation, Oracle Corporation, Proofpoint, Inc., Rocket Software, Inc., SailPoint Technologies Holdings, Inc., Salesforce.com, Inc., ServiceNow, Inc., SolarWinds Corporation, Splunk, Inc. and Zscaler, Inc"
-    },
-    {
-      "source": "VMware",
-      "target": "Broadcom",
-      "relation": "subsidiary_of",
-      "confidence": 0.65,
-      "source_file": "AVGO_2023.txt",
-      "source_sentence": "In addition, the hybrid-cloud portfolio we acquired with VMware helps enterprises simplify their information technology (“IT”) environments so they can increase business velocity and flexibility"
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Prior to joining us, he spent 18 years at Novellus Systems, Inc., (“Novellus”) in various technology development and business leadership roles, including most recently as chief operating officer from January 2011 to June 2012; executive vice president of Worldwide Sales, Marketing, and Customer Satisfaction from September 2009 to January 2011; and executive vice president of the PECVD and Electrofill Business Units from November 2008 to September 2009"
     },
     {
       "source": "Lam Research",
-      "target": "Novellus",
+      "target": "Novellus Systems",
       "relation": "subsidiary_of",
       "confidence": 0.9,
       "source_file": "LRCX_2023.txt",
@@ -467,12 +541,108 @@
       "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
     },
     {
-      "source": "SanDisk Corporation",
-      "target": "Western Digital Corporation",
+      "source": "Onto Innovation",
+      "target": "KLA",
+      "relation": "supplier_of",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "source": "Broadcom",
+      "target": "VMware",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Recent Development Acquisition of VMware, Inc"
+    },
+    {
+      "source": "Broadcom",
+      "target": "VMware",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Achieving these benefits will depend, in part, on our ability to integrate VMware's business successfully and efficiently"
+    },
+    {
+      "source": "Broadcom",
+      "target": "TSMC",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”)"
+    },
+    {
+      "source": "Broadcom",
+      "target": "Huawei",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce"
+    },
+    {
+      "source": "Broadcom",
+      "target": "Atlassian",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our primary competitors are Atlassian Corporation, Plc, BeyondTrust Corporation, BMC Software Inc., Cisco Systems, Inc., CrowdStrike Holdings, Inc., CyberArk Software, Ltd., Dino-Software Corporation, International Business Machines Corporation, Microsoft Corporation, New Relic, Inc., OpenText Corporation, Oracle Corporation, Proofpoint, Inc., Rocket Software, Inc., SailPoint Technologies Holdings, Inc., Salesforce.com, Inc., ServiceNow, Inc., SolarWinds Corporation, Splunk, Inc. and Zscaler, Inc"
+    },
+    {
+      "source": "Xilinx",
+      "target": "AMD",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Hill was Executive Vice President and Chief Financial Officer of Xilinx, Inc., a company that designed and developed programmable devices and associated technologies, from April 2020 until its acquisition by Advanced Micro Devices, Inc. in February 2022"
+    },
+    {
+      "source": "Aruba Networks",
+      "target": "HPE",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Hahn served as executive vice president, chief compliance officer, general counsel and secretary of CA Technologies, an enterprise software company, from February 2019 to November 2019 (until its acquisition by Broadcom Corp.), general counsel and secretary of Aruba Networks from April 2013 to June 2016 (until its acquisition by Hewlett Packard Enterprise), general counsel and secretary of ShoreTel, Inc. from 2007 to 2013, and general counsel and secretary of Genesis Microchip from 2002 to 2007"
+    },
+    {
+      "source": "VMware",
+      "target": "Broadcom",
+      "relation": "subsidiary_of",
+      "confidence": 0.65,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, the hybrid-cloud portfolio we acquired with VMware helps enterprises simplify their information technology (“IT”) environments so they can increase business velocity and flexibility"
+    },
+    {
+      "source": "CA Technologies",
+      "target": "Broadcom",
+      "relation": "subsidiary_of",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Hahn served as executive vice president, chief compliance officer, general counsel and secretary of CA Technologies, an enterprise software company, from February 2019 to November 2019 (until its acquisition by Broadcom Corp.), general counsel and secretary of Aruba Networks from April 2013 to June 2016 (until its acquisition by Hewlett Packard Enterprise), general counsel and secretary of ShoreTel, Inc. from 2007 to 2013, and general counsel and secretary of Genesis Microchip from 2002 to 2007"
+    },
+    {
+      "source": "SanDisk",
+      "target": "Western Digital",
       "relation": "subsidiary_of",
       "confidence": 0.9,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "He was Chief Legal Officer and Senior Vice President, IP Licensing for SanDisk Corporation from 2014 until its acquisition by Western Digital Corporation in 2016"
+    },
+    {
+      "source": "Huawei",
+      "target": "Broadcom",
+      "relation": "depends_on",
+      "confidence": 0.78,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce"
+    },
+    {
+      "source": "Flex",
+      "target": "NVIDIA",
+      "relation": "supplier_of",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables"
     },
     {
       "source": "NVIDIA",
@@ -484,7 +654,7 @@
     },
     {
       "source": "NVIDIA",
-      "target": "Advantest America Inc.",
+      "target": "Advantest",
       "relation": "supplier_of",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
@@ -499,7 +669,7 @@
       "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co"
     },
     {
-      "source": "Advantest America Inc.",
+      "source": "Advantest",
       "target": "NVIDIA",
       "relation": "supplier_of",
       "confidence": 0.7,
@@ -523,15 +693,15 @@
       "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd"
     },
     {
-      "source": "Microsoft",
-      "target": "AMD",
-      "relation": "supplier_of",
-      "confidence": 0.7,
-      "source_file": "AMD_2023.txt",
-      "source_sentence": "In addition, some software drivers licensed for use with our products are certified by Microsoft"
+      "source": "Tokyo Electron",
+      "target": "Screen Holdings",
+      "relation": "competitor_of",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd"
     },
     {
-      "source": "Chroma ATE Inc.",
+      "source": "Chroma ATE",
       "target": "BYD Auto",
       "relation": "supplier_of",
       "confidence": 0.75,
@@ -539,7 +709,7 @@
       "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
     },
     {
-      "source": "Ibiden Co",
+      "source": "Ibiden",
       "target": "NVIDIA",
       "relation": "supplier_of",
       "confidence": 0.7,
@@ -563,8 +733,8 @@
       "source_sentence": "Risks Relating to Taxes • Changes in tax legislation or policies could materially impact our financial position and results of operations. • Our corporate income taxes could significantly increase if we are unable to maintain our tax concessions or if our assumptions and interpretations regarding tax laws and concessions prove to be incorrect. • Our income taxes and overall cash tax costs are affected by a number of factors that could materially, adversely affect financial results. • We have potential tax liabilities as a result of VMware’s former controlling ownership by Dell, which could have an adverse effect on our financial condition and operating results"
     },
     {
-      "source": "Microchip",
-      "target": "Microsemi Corporation",
+      "source": "Microchip Technology",
+      "target": "Microsemi",
       "relation": "subsidiary_of",
       "confidence": 0.65,
       "source_file": "AMD_2023.txt",

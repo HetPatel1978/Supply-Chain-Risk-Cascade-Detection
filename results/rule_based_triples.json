@@ -1,5 +1,5 @@
 {
-  "total": 632,
+  "total": 630,
   "triples": [
     {
       "head": "Applied Materials",
@@ -26,9 +26,9 @@
       "source_sentence": "Centris, Centura, Producer and Vistara Systems Selective Processing (Deposition and Removal) Selective processing uses specially co-designed chemical and materials interactions to enable delicate and precise deposition and removal of target materials"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "Applied",
+      "head": "Applied",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "Customer demand for products and services is fulfilled through a global distribution system in more than 195 locations and trained service engineers located in close proximity to customer sites to support over 52,000 installed Applied semiconductor, display and other manufacturing systems worldwide"
@@ -42,9 +42,9 @@
       "source_sentence": "We offer the following general types of services and products under the Applied Global Services segment"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.7,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "We utilize a distributed manufacturing model under which manufacturing and supply chain activities are conducted in various countries, primarily including China, Israel, Japan, Korea, Singapore, Taiwan, the United States and other countries in Asia and Europe"
@@ -66,9 +66,9 @@
       "source_sentence": "Our supply chain strategy commits to adhere to ethical labor practices, responsible minerals sourcing, Responsible Business Alliance and SEMI guidelines, and the Applied Materials Standards of Business Conduct as defined in our Environmental, Social and Governance (ESG) commitment"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "Responsible Business Alliance",
+      "head": "Responsible Business Alliance",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.7,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "Our supply chain strategy commits to adhere to ethical labor practices, responsible minerals sourcing, Responsible Business Alliance and SEMI guidelines, and the Applied Materials Standards of Business Conduct as defined in our Environmental, Social and Governance (ESG) commitment"
@@ -82,17 +82,17 @@
       "source_sentence": "Our supply chain strategy commits to adhere to ethical labor practices, responsible minerals sourcing, Responsible Business Alliance and SEMI guidelines, and the Applied Materials Standards of Business Conduct as defined in our Environmental, Social and Governance (ESG) commitment"
     },
     {
-      "head": "RD&E",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "RD&E",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "In addition, certain outsourced RD&E activities, process support and customer demonstrations are performed in China, India, Singapore, Taiwan and the United States. 8 Table of Contents Marketing and Sales Because of the highly technical nature of our products, we market and sell products worldwide almost entirely through a direct sales force"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "Consolidated Financial Statements",
+      "head": "Consolidated Financial Statements",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "Information on net sales to unaffiliated customers and long-lived assets attributable to our geographic regions is included in Note 16 of Notes to Consolidated Financial Statements"
@@ -122,9 +122,9 @@
       "source_sentence": "Competition in the Applied Global Services segment includes a diverse group of numerous third-party service providers and customers that perform their own service"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "Licenses Protection",
+      "head": "Licenses Protection",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "Important factors affecting the competitive position of our Display and Adjacent Markets products include: industry trends, our ability to innovate and develop new products, and the extent to which our products are technically-differentiated, as well as which customers within a highly concentrated customer base are making capital equipment investments and our existing position at these customers. 10 Table of Contents Patents and Licenses Protection of our technology assets through enforcement of our intellectual property rights, including patents, is important for our competitive position"
@@ -186,9 +186,9 @@
       "source_sentence": "We make available free of charge, on or through our website, our annual, quarterly and current reports, and any amendments to those reports, as soon as reasonably practicable after electronically filing such reports with, or furnishing them to, the SEC. The SEC’s website, www.sec.gov, contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC. These website addresses are intended to be an inactive textual references only"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "the United States",
+      "head": "the United States",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "In fiscal 2023, approximately 85% of our net sales were to customers in regions outside the United States"
@@ -202,9 +202,9 @@
       "source_sentence": "We sell a significant majority of our products into jurisdictions outside of the United States, including China, Taiwan, Korea and Japan"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "the United States",
+      "head": "the United States",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.7,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "We also purchase a significant portion of equipment and supplies from suppliers outside of the United States"
@@ -234,9 +234,9 @@
       "source_sentence": "The U.S. Department of Commerce has promulgated rules and regulations expanding export license requirements for U.S. companies that sell certain products to entities in China whose actions or functions are intended to support military end uses, eliminated certain export license exceptions that applied to exports of certain items to China, added certain Chinese companies to its “Entity List” and “Unverified List,” making those companies subject to additional licensing requirements, and expanded licensing requirements for exports to China of items for use in the development or production of integrated circuits and certain technologies"
     },
     {
-      "head": "The U.S. Department of Commerce",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "The U.S. Department of Commerce",
       "confidence": 0.7,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "The U.S. Department of Commerce has promulgated rules and regulations expanding export license requirements for U.S. companies that sell certain products to entities in China whose actions or functions are intended to support military end uses, eliminated certain export license exceptions that applied to exports of certain items to China, added certain Chinese companies to its “Entity List” and “Unverified List,” making those companies subject to additional licensing requirements, and expanded licensing requirements for exports to China of items for use in the development or production of integrated circuits and certain technologies"
@@ -250,25 +250,25 @@
       "source_sentence": "These rules and regulations require us to obtain additional export licenses to supply certain of our products or provide services to certain customers in China"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "These rules and regulations require us to obtain additional export licenses to supply certain of our products or provide services to certain customers in China"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "Our customer base is geographically concentrated, particularly in China, Taiwan, Korea and Japan"
     },
     {
-      "head": "Applied Materials",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
       "confidence": 0.85,
       "source_file": "AMAT_2023.txt",
       "source_sentence": "As a result, the actions of even a single customer or export regulations that apply to customers in certain countries, such as those in China, have exposed and can further expose 18 Table of Contents our business and operating results to greater volatility"
@@ -322,17 +322,17 @@
       "source_sentence": "From time to time, we may also sell or license portions of our IP portfolio"
     },
     {
-      "head": "CPU",
-      "relation": "customer_of",
-      "tail": "GPU",
+      "head": "GPU",
+      "relation": "supplier_of",
+      "tail": "CPU",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "AMD Accelerated Parallel Processing or General Purpose GPU (GPGPU) refers to a set of advanced hardware and software technologies that enable our discrete GPUs, working in concert with the CPU, to accelerate computational tasks beyond traditional CPU processing by utilizing the vast number of GPU cores while working with the CPU to process information cooperatively"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "APU",
+      "head": "APU",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "In addition, we believe customers also benefit from an all-AMD platform (consisting of an APU or CPU, a discrete GPU, and a chipset when needed), as we are able to optimize interoperability, provide our customers a single point of contact for the key platform components and enable them to bring the platforms to market quickly in a variety of PC and server system form factors"
@@ -402,17 +402,17 @@
       "source_sentence": "Our APUs deliver visual processing functionality for value and mainstream PCs by integrating a CPU and a GPU on a single chip, while discrete GPUs (which are also known as dGPUs) offer high-performance graphics processing across all platforms"
     },
     {
-      "head": "IP",
-      "relation": "customer_of",
-      "tail": "CPU",
+      "head": "CPU",
+      "relation": "supplier_of",
+      "tail": "IP",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We leverage our existing IP to create a variety of products tailored to a specific customer’s needs, including complex fully-customized SoCs to more modest adaptations and integrations of existing CPU, APU or GPU products"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "CPU",
+      "head": "CPU",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Our semi-custom products are tailored, co-developed, high-performance, customer-specific solutions based on our CPU, GPU and multi-media technologies"
@@ -426,9 +426,9 @@
       "source_sentence": "We partnered with Valve to create a semi-custom APU optimized for handheld gaming to power the Steam Deck™. 5 Table of Contents Discrete Desktop and Notebook GPUs . Our AMD Radeon series discrete GPU processors for desktop and notebook PCs support current generation application program interfaces (APIs) like DirectX® 12 Ultimate and Vulkan ® , support high-refresh rate displays using AMD FreeSync™, AMD FreeSync Premium, and AMD FreeSync Premium Pro technologies, and are designed to support VR in PC platforms"
     },
     {
-      "head": "Ultimate",
-      "relation": "customer_of",
-      "tail": "AMD",
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "Ultimate",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We partnered with Valve to create a semi-custom APU optimized for handheld gaming to power the Steam Deck™. 5 Table of Contents Discrete Desktop and Notebook GPUs . Our AMD Radeon series discrete GPU processors for desktop and notebook PCs support current generation application program interfaces (APIs) like DirectX® 12 Ultimate and Vulkan ® , support high-refresh rate displays using AMD FreeSync™, AMD FreeSync Premium, and AMD FreeSync Premium Pro technologies, and are designed to support VR in PC platforms"
@@ -458,25 +458,25 @@
       "source_sentence": "Our AMD Advantage Design™ Framework is a collaboration with our global PC partners, delivering high-performance gaming notebooks by combining our AMD Radeon RX series mobile graphics, AMD Software: Adrenalin Edition, AMD Ryzen series mobile processors and utilizing AMD smart technologies to provide best-in-class gaming experiences"
     },
     {
-      "head": "Ryzen",
-      "relation": "customer_of",
-      "tail": "AMD",
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "Ryzen",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Our AMD Advantage Design™ Framework is a collaboration with our global PC partners, delivering high-performance gaming notebooks by combining our AMD Radeon RX series mobile graphics, AMD Software: Adrenalin Edition, AMD Ryzen series mobile processors and utilizing AMD smart technologies to provide best-in-class gaming experiences"
     },
     {
-      "head": "AMD Radeon PRO",
-      "relation": "customer_of",
-      "tail": "CAD",
+      "head": "CAD",
+      "relation": "supplier_of",
+      "tail": "AMD Radeon PRO",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "AMD Radeon PRO graphics cards are designed for demanding use cases such as design and manufacturing for CAD, and media and entertainment for broadcast and animation pipelines"
     },
     {
-      "head": "AMD Radeon PRO",
-      "relation": "customer_of",
-      "tail": "GPU",
+      "head": "GPU",
+      "relation": "supplier_of",
+      "tail": "AMD Radeon PRO",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "AMD Radeon PRO supports end users utilizing GPU accelerated visualization for construction, architecture and mechanical design through gaming and visualization engines on high resolution displays"
@@ -498,9 +498,9 @@
       "source_sentence": "We market and sell our latest products under the AMD trademark"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "AMD Athlon",
+      "head": "AMD Athlon",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Our client processors include: AMD Ryzen, AMD Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, and AMD PRO A-Series"
@@ -530,9 +530,9 @@
       "source_sentence": "Our compute and network acceleration board products are sold under the Alveo brand"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "OEM",
+      "head": "OEM",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Customers of our chipset products consist primarily of PC OEMs, often through ODMs or other contract manufacturers, who build the OEM motherboards, as well as desktop and server motherboard manufacturers who incorporate chipsets into their channel motherboards"
@@ -554,25 +554,25 @@
       "source_sentence": "For these products we either sell directly to our customers or through a network of distributors and OEM partners"
     },
     {
-      "head": "OEM",
-      "relation": "customer_of",
-      "tail": "Advanced Micro Devices",
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "OEM",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "For these products we either sell directly to our customers or through a network of distributors and OEM partners"
     },
     {
-      "head": "CPU",
-      "relation": "customer_of",
-      "tail": "Advanced Micro Devices",
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "CPU",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We believe that our commitment to customer service and design support improves our customers’ time-to-market and fosters relationships that encourage customers to use the next generation of our products. 8 Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "CPU",
+      "head": "CPU",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We believe that our commitment to customer service and design support improves our customers’ time-to-market and fosters relationships that encourage customers to use the next generation of our products. 8 Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology"
@@ -597,14 +597,6 @@
       "head": "Advanced Micro Devices",
       "relation": "competitor_of",
       "tail": "Intel Corporation",
-      "confidence": 0.8,
-      "source_file": "AMD_2023.txt",
-      "source_sentence": "Competition in Data Center Segment In Data Center, we compete against Intel Corporation (Intel) with our FPGA, Adaptive SoC, CPU and DPU server products and NVIDIA Corporation (NVIDIA) with our CPU, GPU and DPU server products"
-    },
-    {
-      "head": "Advanced Micro Devices",
-      "relation": "competitor_of",
-      "tail": "FPGA",
       "confidence": 0.8,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Competition in Data Center Segment In Data Center, we compete against Intel Corporation (Intel) with our FPGA, Adaptive SoC, CPU and DPU server products and NVIDIA Corporation (NVIDIA) with our CPU, GPU and DPU server products"
@@ -714,17 +706,17 @@
       "source_sentence": "Manufacturing Arrangements and Assembly and Test Facilities Third-Party Wafer Foundry Facilities We have foundry arrangements with Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and Adaptive SoC products"
     },
     {
-      "head": "GLOBALFOUNDRIES Inc.",
-      "relation": "customer_of",
-      "tail": "United Microelectronics Corporation",
+      "head": "United Microelectronics Corporation",
+      "relation": "supplier_of",
+      "tail": "GLOBALFOUNDRIES Inc.",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "United Microelectronics Corporation",
+      "head": "United Microelectronics Corporation",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd"
@@ -770,9 +762,9 @@
       "source_sentence": "Development We offer our employees opportunities to advance their careers at the Company and the majority of our new leaders are promoted from within"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "the United States",
+      "head": "the United States",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "The chemicals released into the groundwater were commonly used in the semiconductor industry in the United States in the wafer fabrication process prior to 1979"
@@ -802,9 +794,9 @@
       "source_sentence": "We also compete with Intel in field programmable gate arrays (FPGAs) and Adaptive SoC products"
     },
     {
-      "head": "Sony",
-      "relation": "customer_of",
-      "tail": "Advanced Micro Devices",
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "Sony",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "The success of our semi-custom SoC products is dependent on securing customers for our semi-custom design pipeline and consumer market conditions, including the success of the Sony PlayStation® 5, Microsoft® Xbox TM Series S and Microsoft® Xbox TM Series X game console systems and next generation consoles for Sony and Microsoft, worldwide"
@@ -842,9 +834,9 @@
       "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "TSMC",
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We also utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for our integrated circuits (IC) in the form of programmable logic devices"
@@ -882,9 +874,9 @@
       "source_sentence": "The manufacturers we use also fabricate wafers and ATMP products for other companies, including certain of our competitors"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "ATMP",
+      "head": "ATMP",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "The manufacturers we use also fabricate wafers and ATMP products for other companies, including certain of our competitors"
@@ -898,14 +890,6 @@
       "source_sentence": "We are a party to a wafer supply agreement (WSA) with GF that governs the terms by which we purchase products manufactured by GF and this agreement is in place through 2025"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "supplier_of",
-      "tail": "AMD",
-      "confidence": 0.75,
-      "source_file": "AMD_2023.txt",
-      "source_sentence": "Under the Amendment, GF will provide a minimum annual capacity allocation to us for years 2022 through 2025 and AMD has corresponding annual wafer purchase targets"
-    },
-    {
       "head": "ATMP",
       "relation": "subsidiary_of",
       "tail": "Tongfu Microelectronics Co., Ltd",
@@ -914,9 +898,9 @@
       "source_sentence": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with affiliates of Tongfu Microelectronics Co., Ltd"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "ATMP",
+      "head": "ATMP",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business"
@@ -1010,9 +994,9 @@
       "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "Microsoft",
+      "head": "Microsoft",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "In addition, some software drivers licensed for use with our products are certified by Microsoft"
@@ -1074,9 +1058,9 @@
       "source_sentence": "In addition, if we are unable to collect accounts receivable from our significant distributors and/or AIB partners, it could have a material adverse effect on our business"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "AIB",
+      "head": "AIB",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "If we are unable to manage the risks related to the use of our third-party distributors and AIB partners or offer appropriate incentives to focus them on the sale of our products, our business could be materially adversely affected"
@@ -1114,9 +1098,9 @@
       "source_sentence": "BIS has issued new requirements that prevent us from shipping MI250 and MI250X integrated circuits to China and Russia without a license"
     },
     {
-      "head": "the United States",
-      "relation": "customer_of",
-      "tail": "Advanced Micro Devices",
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "the United States",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "There is also a possibility of future tariffs, trade protection measures, import or export regulations or other restrictions imposed on our products or on our customers by the United States, China or other countries that could have a material adverse effect on our business"
@@ -1146,9 +1130,9 @@
       "source_sentence": "We are required to maintain an internal compliance program and security infrastructure to meet EAR and ITAR requirements"
     },
     {
-      "head": "SEC",
-      "relation": "customer_of",
-      "tail": "the Democratic Republic of Congo",
+      "head": "the Democratic Republic of Congo",
+      "relation": "supplier_of",
+      "tail": "SEC",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "Under the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010, the SEC adopted disclosure and reporting requirements for companies that use “conflict” minerals originating from the Democratic Republic of Congo or adjoining countries"
@@ -1162,17 +1146,17 @@
       "source_sentence": "We continue to incur additional costs associated with complying with these requirements, such as costs related to developing internal controls for the due diligence process, determining the source of any conflict minerals used in our products, auditing the process and reporting to our customers and the SEC. In addition to the SEC regulation, the European Union, China and other jurisdictions are developing new policies focused on conflict minerals that may impact and increase the cost of our compliance program"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "SEC",
+      "head": "SEC",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We continue to incur additional costs associated with complying with these requirements, such as costs related to developing internal controls for the due diligence process, determining the source of any conflict minerals used in our products, auditing the process and reporting to our customers and the SEC. In addition to the SEC regulation, the European Union, China and other jurisdictions are developing new policies focused on conflict minerals that may impact and increase the cost of our compliance program"
     },
     {
-      "head": "SEC",
-      "relation": "customer_of",
-      "tail": "Advanced Micro Devices",
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "SEC",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We continue to incur additional costs associated with complying with these requirements, such as costs related to developing internal controls for the due diligence process, determining the source of any conflict minerals used in our products, auditing the process and reporting to our customers and the SEC. In addition to the SEC regulation, the European Union, China and other jurisdictions are developing new policies focused on conflict minerals that may impact and increase the cost of our compliance program"
@@ -1218,9 +1202,9 @@
       "source_sentence": "The identification of suitable acquisition or joint venture candidates can be difficult, time-consuming and costly, and we may not be able to successfully complete identified acquisitions or joint ventures. 31 Table of Contents For example, on February 14, 2022, we completed our acquisition of Xilinx and on May 26, 2022, we completed our acquisition of Pensando"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "ATMP",
+      "head": "ATMP",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.85,
       "source_file": "AMD_2023.txt",
       "source_sentence": "If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business"
@@ -1250,9 +1234,9 @@
       "source_sentence": "We account for certain acquisitions, including the Xilinx and Pensando acquisitions, using the acquisition method of accounting under the provisions of ASC 805, Business Combinations, with AMD representing the accounting acquirer under this guidance"
     },
     {
-      "head": "Advanced Micro Devices",
-      "relation": "customer_of",
-      "tail": "ASC 805",
+      "head": "ASC 805",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "We account for certain acquisitions, including the Xilinx and Pensando acquisitions, using the acquisition method of accounting under the provisions of ASC 805, Business Combinations, with AMD representing the accounting acquirer under this guidance"
@@ -1306,9 +1290,9 @@
       "source_sentence": "Also, geopolitical changes between China and Taiwan could disrupt the operations of our Taiwan based third-party wafer foundries, manufacturing facilities and subcontractors, and materially adversely affect our business, financial condition and/or operating results . In addition, our worldwide operations (or those of our business partners) could be subject to natural disasters and climate change such as earthquakes, tsunamis, flooding, typhoons, droughts, fires, extreme heat and volcanic eruptions that disrupt our operations, or those of our manufacturers, vendors or customers"
     },
     {
-      "head": "Existing Repurchase Program",
-      "relation": "customer_of",
-      "tail": "the Repurchase Program",
+      "head": "the Repurchase Program",
+      "relation": "supplier_of",
+      "tail": "Existing Repurchase Program",
       "confidence": 0.7,
       "source_file": "AMD_2023.txt",
       "source_sentence": "In February 2022, our Board of Directors approved a new stock repurchase program in addition to our Existing Repurchase Program to purchase up to $8 billion of our outstanding common stock in the open market (collectively referred to as the Repurchase Program)"
@@ -1482,25 +1466,25 @@
       "source_sentence": "We deliver reliable and simplified management of these FC SAN products through our software-based management tools designed to maximize uptime, dramatically simplify storage area networking deployment and management, and provide high levels of visibility and insight into the storage network"
     },
     {
-      "head": "DevOps",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "DevOps",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Application Development & Testing : These solutions enable customers to accelerate software delivery while increasing code quality through the use of our agile processes and tools, and DevOps solutions"
     },
     {
-      "head": "Application Development & Testing",
-      "relation": "customer_of",
-      "tail": "DevOps",
+      "head": "DevOps",
+      "relation": "supplier_of",
+      "tail": "Application Development & Testing",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Application Development & Testing : These solutions enable customers to accelerate software delivery while increasing code quality through the use of our agile processes and tools, and DevOps solutions"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "Identity & Access Management",
+      "head": "Identity & Access Management",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Our open-first strategy helps customers modernize their mainframe environment through the use of open source and open application programming technologies across people, process, tooling and applications, resulting in greater synergy and alignment with their corporate IT. Identity & Access Management : These solutions manage mainframe access and elevate it with modern practices such as multi-factor authentication and privileged user management, and support all external security managers. 7 Table of Contents Compliance & Data Protection : These solutions protect crucial mainframe data to ensure compliance, identify risk, proactively respond to potential threats, and reduce those risks to lighten the load on security management with automated identification and authorization cleanup"
@@ -1514,9 +1498,9 @@
       "source_sentence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”)"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "TSMC",
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "We use third-party contract manufacturers for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd"
@@ -1530,9 +1514,9 @@
       "source_sentence": "We use third-party contract manufacturers for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "FBAR",
+      "head": "FBAR",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "We use our internal fabrication facilities for products utilizing our innovative and proprietary processes, such as our FBAR filters for wireless communications and our vertical-cavity surface emitting laser and side emitting lasers-based on GaAs and InP lasers for fiber optic communications, while outsourcing commodity processes such as standard CMOS. By doing so, we can protect our IP and accelerate time to market for our products"
@@ -1578,17 +1562,17 @@
       "source_sentence": "The industries in which we compete are characterized by the existence of a large number of patents, copyrights, trademarks and trade secrets and by the vigorous pursuit, protection and enforcement of IP rights, including by patent holding companies that do not make or sell products"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Some of our customer agreements require us to indemnify our customers for third-party IP infringement claims arising from our products"
     },
     {
-      "head": "IP",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "IP",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Some of our customer agreements require us to indemnify our customers for third-party IP infringement claims arising from our products"
@@ -1666,9 +1650,9 @@
       "source_sentence": "Our business is subject to various domestic and international laws and other legal requirements, including anti-competition and import/export regulations, such as the U.S. Export Administration Regulations, and applicable executive orders"
     },
     {
-      "head": "Huawei",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "Huawei",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce"
@@ -1722,9 +1706,9 @@
       "source_sentence": "We have historically depended on a small number of end customers, OEMs, their respective contract manufacturers (“CMs”) and certain distributors for a majority of our business and revenue"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "CMs",
+      "head": "CMs",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "We have historically depended on a small number of end customers, OEMs, their respective contract manufacturers (“CMs”) and certain distributors for a majority of our business and revenue"
@@ -1770,9 +1754,9 @@
       "source_sentence": "TSMC, one of our CMs, manufactured approximately 90% of the wafers manufactured by our CMs during fiscal year 2023"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "TSMC",
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Further, any substantial disruption in the contract manufacturing services that we utilize, including TSMC’s supply of wafers to us, as a result of a natural disaster, climate change, water shortages, political unrest, military conflicts, geopolitical turmoil, trade tensions, government orders, labor shortages, medical epidemics, such as the COVID-19 pandemic, economic instability, equipment failure or other cause, could materially harm our business, customer relationships and results of operations"
@@ -1818,17 +1802,17 @@
       "source_sentence": "Although we operate a primarily outsourced manufacturing business model, we also rely on our own manufacturing facilities, in particular in Fort Collins, Colorado, Singapore, and Breinigsville, Pennsylvania"
     },
     {
-      "head": "Breinigsville",
-      "relation": "customer_of",
-      "tail": "InP",
+      "head": "InP",
+      "relation": "supplier_of",
+      "tail": "Breinigsville",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively"
     },
     {
-      "head": "FBAR",
-      "relation": "customer_of",
-      "tail": "InP",
+      "head": "InP",
+      "relation": "supplier_of",
+      "tail": "FBAR",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively"
@@ -1842,25 +1826,25 @@
       "source_sentence": "Many of our facilities, and those of our CMs and suppliers, are located in California and the Pacific Rim region, which have above average seismic activity and severe weather activity"
     },
     {
-      "head": "IP",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "IP",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "From time to time, third parties assert against us and our customers and distributors their IP rights to technologies that are important to our business"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Many of our customer agreements, and in some cases our asset sale agreements, and/or the laws of certain jurisdictions may require us to indemnify our customers or purchasers for third-party IP infringement claims, including costs to defend those claims, and payment of damages in the case of adverse rulings"
     },
     {
-      "head": "IP",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "IP",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Many of our customer agreements, and in some cases our asset sale agreements, and/or the laws of certain jurisdictions may require us to indemnify our customers or purchasers for third-party IP infringement claims, including costs to defend those claims, and payment of damages in the case of adverse rulings"
@@ -1874,9 +1858,9 @@
       "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
@@ -1890,9 +1874,9 @@
       "source_sentence": "Some of our competitors may also receive financial and other support from their home country government or may have a greater presence in key markets, a larger customer base, a more comprehensive IP portfolio or better patent protection than us"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Some of our competitors may also receive financial and other support from their home country government or may have a greater presence in key markets, a larger customer base, a more comprehensive IP portfolio or better patent protection than us"
@@ -1906,9 +1890,9 @@
       "source_sentence": "Further, competitors may leverage their superior market position, as well as IP or other proprietary information, including interface, interoperability or technical information, in new and emerging technologies and platforms that may inhibit our ability to compete effectively"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "We utilize a significant amount of IP in our business"
@@ -1946,9 +1930,9 @@
       "source_sentence": "In addition, we may acquire companies with IP that is subject to licensing obligations to other third parties"
     },
     {
-      "head": "us",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "us",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "Any inadvertent failure or perceived failure by us to comply with privacy, data governance or cyber security obligations may result in governmental enforcement actions, litigation, substantial fines and damages, and could cause our customers to lose trust in us, which could have an adverse effect on our reputation and business"
@@ -1970,25 +1954,25 @@
       "source_sentence": "Changing requirements relating to the materials composition of our semiconductor products, including the restrictions on lead and certain other substances in electronic products sold in various countries, including the U.S., China and Japan, and in the European Union, increase the complexity and costs of our product design and procurement operations and may require us to re-engineer our products"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "ESG",
+      "head": "ESG",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "There is an increasing focus from lawmakers, regulators, investors, customers, employees and other stakeholders concerning ESG matters, including environment, climate, diversity and inclusion, human rights and governance transparency"
     },
     {
-      "head": "ESG",
-      "relation": "customer_of",
-      "tail": "Broadcom",
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "ESG",
       "confidence": 0.85,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "A number of our customers have adopted, or may adopt, procurement policies that include ESG provisions or requirements that their suppliers should comply with, or they may seek to include such provisions or requirements in their procurement terms and conditions"
     },
     {
-      "head": "Broadcom",
-      "relation": "customer_of",
-      "tail": "ESG",
+      "head": "ESG",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "A number of our customers have adopted, or may adopt, procurement policies that include ESG provisions or requirements that their suppliers should comply with, or they may seek to include such provisions or requirements in their procurement terms and conditions"
@@ -2002,9 +1986,9 @@
       "source_sentence": "An increasing number of investors are also requiring companies to disclose ESG-related policies, practices and metrics"
     },
     {
-      "head": "ESG",
-      "relation": "customer_of",
-      "tail": "the Democratic Republic of Congo",
+      "head": "the Democratic Republic of Congo",
+      "relation": "supplier_of",
+      "tail": "ESG",
       "confidence": 0.7,
       "source_file": "AVGO_2023.txt",
       "source_sentence": "In addition, as part of their ESG programs, an increasing number of OEMs are seeking to source products that do not contain minerals sourced from areas where proceeds from the sale of such minerals are likely to be used to fund armed conflicts, such as in the Democratic Republic of Congo"
@@ -2042,9 +2026,9 @@
       "source_sentence": "We provide advanced process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (“IC” or “chip”), packaged ICs, printed circuit boards (“PCB”) and flat panel displays (“FPD”), as well as comprehensive support and services across our installed base"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "ir.kla.com",
+      "head": "ir.kla.com",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Investors and others should note that we announce material financial information to investors using an investor relations website (ir.kla.com), which includes our SEC filings, press releases, public earnings calls and conference webcasts"
@@ -2066,17 +2050,17 @@
       "source_sentence": "It also requires our customers to obtain an export license when they use certain semiconductor capital equipment based on U.S. technology to manufacture products connected to certain entities on the U.S. Entity List. 2 Table of Contents Research and Development The market for semiconductor and electronics industries is characterized by rapid technological development and product innovation"
     },
     {
-      "head": "Contents Research and Development",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "Contents Research and Development",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "It also requires our customers to obtain an export license when they use certain semiconductor capital equipment based on U.S. technology to manufacture products connected to certain entities on the U.S. Entity List. 2 Table of Contents Research and Development The market for semiconductor and electronics industries is characterized by rapid technological development and product innovation"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "Contents Research and Development",
+      "head": "Contents Research and Development",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "It also requires our customers to obtain an export license when they use certain semiconductor capital equipment based on U.S. technology to manufacture products connected to certain entities on the U.S. Entity List. 2 Table of Contents Research and Development The market for semiconductor and electronics industries is characterized by rapid technological development and product innovation"
@@ -2090,17 +2074,17 @@
       "source_sentence": "It also requires our customers to obtain an export license when they use certain semiconductor capital equipment based on U.S. technology to manufacture products connected to certain entities on the U.S. Entity List. 2 Table of Contents Research and Development The market for semiconductor and electronics industries is characterized by rapid technological development and product innovation"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Customers We count among our largest customers the leading semiconductor, semiconductor-related and electronic device manufacturers in Asia, the U.S. and Europe"
     },
     {
-      "head": "U.S.",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "U.S.",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Customers We count among our largest customers the leading semiconductor, semiconductor-related and electronic device manufacturers in Asia, the U.S. and Europe"
@@ -2130,9 +2114,9 @@
       "source_sentence": "Our ability to compete in this area depends upon the continuation of favorable trading relationships between countries in the region and the U.S., and our continuing ability to maintain satisfactory relationships with leading semiconductor companies in the region"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "the Semiconductor Process Control",
+      "head": "the Semiconductor Process Control",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "For the fiscal years ended June 30, 2023, 2022 and 2021, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment: Fiscal Year Ended June 30, 2023 2022 2021 Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited Samsung Electronics Co., Ltd"
@@ -2162,17 +2146,17 @@
       "source_sentence": "The Semiconductor Process Control segment offers a variety of solutions and products, including: Segment Technologies Products Semiconductor Process Control Chip Manufacturing: Defect Inspection and Review Inspection and review tools are used to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers. 39xx Series, 29xx Series, C20x Series, eSL10™, Voyager ® Series, 8 Series, Puma™ Series, CIRCL™ Series, Surfscan ® Series, Surfscan ® SP Ax Series, eDR7xxx™ Series"
     },
     {
-      "head": "Segment Technologies Products Semiconductor Process Control Chip Manufacturing",
-      "relation": "customer_of",
-      "tail": "Voyager ® Series",
+      "head": "Voyager ® Series",
+      "relation": "supplier_of",
+      "tail": "Segment Technologies Products Semiconductor Process Control Chip Manufacturing",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "The Semiconductor Process Control segment offers a variety of solutions and products, including: Segment Technologies Products Semiconductor Process Control Chip Manufacturing: Defect Inspection and Review Inspection and review tools are used to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers. 39xx Series, 29xx Series, C20x Series, eSL10™, Voyager ® Series, 8 Series, Puma™ Series, CIRCL™ Series, Surfscan ® Series, Surfscan ® SP Ax Series, eDR7xxx™ Series"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "WLP",
+      "head": "WLP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Chemistry process monitoring systems analyze and monitor wet chemicals used in wafer-level packaging (WLP), panel-level packaging (PLP), and IC substrates"
@@ -2186,9 +2170,9 @@
       "source_sentence": "Candela ® Series, HRP ® -260, Zeta™ Series, Tencor™ P Series, Nano Indenter ® Series, Alpha-Step ® Series, Filmetrics ® F Series, Filmetrics ® R Series, iMicro, iNano ® , Filmetrics ® Profilm3D ® Series, T150 UTM, NanoFlip, InSEM ® HT. The Specialty Semiconductor Process segment develops and sells advanced vacuum deposition and etching process tools, which are used by a broad range of specialty semiconductor customers, including manufacturers of MEMS, RF communication chips and power semiconductors for automotive and industrial applications"
     },
     {
-      "head": "NanoFlip",
-      "relation": "customer_of",
-      "tail": "MEMS",
+      "head": "MEMS",
+      "relation": "supplier_of",
+      "tail": "NanoFlip",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Candela ® Series, HRP ® -260, Zeta™ Series, Tencor™ P Series, Nano Indenter ® Series, Alpha-Step ® Series, Filmetrics ® F Series, Filmetrics ® R Series, iMicro, iNano ® , Filmetrics ® Profilm3D ® Series, T150 UTM, NanoFlip, InSEM ® HT. The Specialty Semiconductor Process segment develops and sells advanced vacuum deposition and etching process tools, which are used by a broad range of specialty semiconductor customers, including manufacturers of MEMS, RF communication chips and power semiconductors for automotive and industrial applications"
@@ -2218,9 +2202,9 @@
       "source_sentence": "The possible negative effects on our future business of export licenses not being granted could be material and could result in a substantial reduction to our RPO or require us to return substantial deposits received from customers in China for purchase orders"
     },
     {
-      "head": "RPO",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "RPO",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "The possible negative effects on our future business of export licenses not being granted could be material and could result in a substantial reduction to our RPO or require us to return substantial deposits received from customers in China for purchase orders"
@@ -2234,17 +2218,17 @@
       "source_sentence": "Our supply chain strategy incorporates considerations for ethical labor practices, responsible minerals sourcing, and Responsible Business Alliance and SEMI guidelines"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "Responsible Business Alliance",
+      "head": "Responsible Business Alliance",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Our supply chain strategy incorporates considerations for ethical labor practices, responsible minerals sourcing, and Responsible Business Alliance and SEMI guidelines"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "Applied Materials, Inc.",
+      "head": "Applied Materials, Inc.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
@@ -2298,9 +2282,9 @@
       "source_sentence": "We have an ESG Steering Committee composed of global leaders within the organization that implements and executes our ESG strategy under the oversight of the KLA executive team and the Board of Directors"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "EV",
+      "head": "EV",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Our devices help customers make the necessary high-power, energy-efficient compound semiconductors which are needed throughout the entire EV assembly"
@@ -2322,9 +2306,9 @@
       "source_sentence": "Our cybersecurity efforts are spearheaded by our Chief Information Security Officer, and cybersecurity updates are provided to the Audit Committee quarterly, or more frequently as needed"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "Scope 1",
+      "head": "Scope 1",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Our goals include using 100% renewable electricity across our global operations by 2030, reducing our Scope 1 and 2 emissions from our 2021 baseline by 50% by 2030 and achieving net zero Scope 1 and 2 emissions by 2050"
@@ -2410,9 +2394,9 @@
       "source_sentence": "We made a commitment to globalize our ISO 45001 (Occupational Health & Safety Management Systems) certification and expand our ISO 14001 (Environmental Management Systems) certification beyond our larger sites"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "• Prevailing",
+      "head": "• Prevailing",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Industry Risks • We may not be able to keep pace with trends and technological changes in the industries in which we operate; • We have a highly concentrated customer base; and • Prevailing local and global economic conditions may negatively affect the purchasing decisions of our customers"
@@ -2434,9 +2418,9 @@
       "source_sentence": "If our practice of requiring prepayments in those jurisdictions changes or deteriorates, our cash flows would be harmed; • Required refunds for customer prepayments resulting from our inability to ship to certain jurisdictions, especially for customers in China, as described in more detail below"
     },
     {
-      "head": "• Required",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "• Required",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "If our practice of requiring prepayments in those jurisdictions changes or deteriorates, our cash flows would be harmed; • Required refunds for customer prepayments resulting from our inability to ship to certain jurisdictions, especially for customers in China, as described in more detail below"
@@ -2482,9 +2466,9 @@
       "source_sentence": "Over the past several years, there have been a variety of rules and regulations issued by BIS that have had an impact on our ability to sell certain products and provide certain services to certain customers in China"
     },
     {
-      "head": "BIS",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "BIS",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Over the past several years, there have been a variety of rules and regulations issued by BIS that have had an impact on our ability to sell certain products and provide certain services to certain customers in China"
@@ -2506,9 +2490,9 @@
       "source_sentence": "These controls have included, for example, restrictions on exporting certain items to military end users and for military end uses, the addition of numerous entities to the U.S. Entity List (a list of parties that are generally ineligible to receive U.S.-regulated items without prior licensing from BIS), and the creation of new licensing requirements that apply to the export, re-export, and transfer of certain foreign-made items that are the direct product of U.S. origin technology or produced by a plant or major component of a plant that itself is the direct product of U.S. origin technology and which are destined to Huawei or its affiliates and other specified companies on the U.S. Entity List"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "the U.S. Entity List",
+      "head": "the U.S. Entity List",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "These controls have included, for example, restrictions on exporting certain items to military end users and for military end uses, the addition of numerous entities to the U.S. Entity List (a list of parties that are generally ineligible to receive U.S.-regulated items without prior licensing from BIS), and the creation of new licensing requirements that apply to the export, re-export, and transfer of certain foreign-made items that are the direct product of U.S. origin technology or produced by a plant or major component of a plant that itself is the direct product of U.S. origin technology and which are destined to Huawei or its affiliates and other specified companies on the U.S. Entity List"
@@ -2546,9 +2530,9 @@
       "source_sentence": "To the extent BIS does issue licenses to us or to our customers, such licenses may have a short duration or require us to satisfy various conditions"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "RPO",
+      "head": "RPO",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "If pending and future export license applications are not granted, or additional restrictions are imposed, or if regulators adopt new interpretations of existing regulations, the potential impact on us could be material by harming our RPO, requiring us to return substantial deposits received from customers in China for purchase orders, and/or further limiting our ability to meet our contractual obligations and sell our products or provide services to our customers in China"
@@ -2562,9 +2546,9 @@
       "source_sentence": "If pending and future export license applications are not granted, or additional restrictions are imposed, or if regulators adopt new interpretations of existing regulations, the potential impact on us could be material by harming our RPO, requiring us to return substantial deposits received from customers in China for purchase orders, and/or further limiting our ability to meet our contractual obligations and sell our products or provide services to our customers in China"
     },
     {
-      "head": "RPO",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "RPO",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "If pending and future export license applications are not granted, or additional restrictions are imposed, or if regulators adopt new interpretations of existing regulations, the potential impact on us could be material by harming our RPO, requiring us to return substantial deposits received from customers in China for purchase orders, and/or further limiting our ability to meet our contractual obligations and sell our products or provide services to our customers in China"
@@ -2578,33 +2562,33 @@
       "source_sentence": "If pending and future export license applications are not granted, or additional restrictions are imposed, or if regulators adopt new interpretations of existing regulations, the potential impact on us could be material by harming our RPO, requiring us to return substantial deposits received from customers in China for purchase orders, and/or further limiting our ability to meet our contractual obligations and sell our products or provide services to our customers in China"
     },
     {
-      "head": "China",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "China",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "If pending and future export license applications are not granted, or additional restrictions are imposed, or if regulators adopt new interpretations of existing regulations, the potential impact on us could be material by harming our RPO, requiring us to return substantial deposits received from customers in China for purchase orders, and/or further limiting our ability to meet our contractual obligations and sell our products or provide services to our customers in China"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "We may lose revenue in future periods related to anticipated sales to customers in China unless we are able to replace their orders with other customer orders for which either a license has been obtained or is not required"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Our revenue from sales of products and provision of services to customers in China was 27%, 29% and 26% for fiscal years 2023, 2022 and 2021, respectively"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Additionally, the Chinese government has adopted, and may further adopt, new regulations, in response to U.S. government actions, which could adversely affect our ability to do business in China"
@@ -2618,17 +2602,17 @@
       "source_sentence": "We have controls and procedures 16 Table of Contents designed to maintain compliance with U.S. and other applicable export control laws and regulations; however, we cannot guarantee that such controls and procedures will be successful in preventing violations or allegations of violations, of increasingly complex and often conflicting regulations worldwide"
     },
     {
-      "head": "Commerce",
-      "relation": "customer_of",
-      "tail": "Company",
+      "head": "Company",
+      "relation": "supplier_of",
+      "tail": "Commerce",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "The complexity and evolving nature of the rules and regulations, and the fact that Commerce or other relevant regulators might adopt interpretations of regulations that differ from those of the Company, increases our risk of non-compliance"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "Company",
+      "head": "Company",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Our employees, customers, suppliers or other third parties with whom we work may also engage in conduct for which the Company might be held responsible"
@@ -2642,17 +2626,17 @@
       "source_sentence": "Our employees, customers, suppliers or other third parties with whom we work may also engage in conduct for which the Company might be held responsible"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In addition, we occasionally receive notification from customers who believe that we owe them indemnification or other obligations related to IP claims made against such customers by third parties"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Furthermore, we may potentially be subject to claims by customers, suppliers or other business partners, or by governmental law enforcement agencies, related to our receipt, distribution and/or use of third-party IP or confidential information"
@@ -2714,9 +2698,9 @@
       "source_sentence": "Certain investors, capital providers, shareholder advocacy groups, other market participants, customers and other stakeholder groups have focused increasingly on companies’ ESG initiatives, including those regarding climate change, human rights and inclusion and diversity, among others"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "ESG",
+      "head": "ESG",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Certain investors, capital providers, shareholder advocacy groups, other market participants, customers and other stakeholder groups have focused increasingly on companies’ ESG initiatives, including those regarding climate change, human rights and inclusion and diversity, among others"
@@ -2738,25 +2722,25 @@
       "source_sentence": "Our ESG efforts may also include the adoption, or expansion, of certain ESG practices or policies, which may require us to expend additional resources to implement or to forego certain business opportunities to the extent others in our value chain do not meet pertinent requirements of such policies"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "ESG",
+      "head": "ESG",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Moreover, despite the voluntary nature of such efforts, we may receive pressure from external sources, such as lenders, investors or other groups, to adopt more aggressive climate or other ESG-related initiatives; however, we may not agree that such initiatives will be appropriate for our business, and we may not be able to implement such initiatives because of potential costs or technical or operational obstacles"
     },
     {
-      "head": "SEC",
-      "relation": "customer_of",
-      "tail": "ESG",
+      "head": "ESG",
+      "relation": "supplier_of",
+      "tail": "SEC",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In addition, we note that certain ESG matters are becoming less “voluntary” as regulators, including the SEC, begin proposing and adopting regulations regarding ESG matters, including, but not limited to, climate change-related matters"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "KLA",
+      "head": "KLA",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In the conduct of our business, we collect, use, transmit and store data on information systems and networks, including systems and networks owned and maintained by KLA and/or by third-party providers"
@@ -2770,9 +2754,9 @@
       "source_sentence": "In the conduct of our business, we collect, use, transmit and store data on information systems and networks, including systems and networks owned and maintained by KLA and/or by third-party providers"
     },
     {
-      "head": "AI",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "AI",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In addition, the threat could be introduced from the result of our customers and business partners incorporating the output of an AI tool that includes a threat, such as introducing malicious code by incorporating AI generated source code"
@@ -2802,9 +2786,9 @@
       "source_sentence": "At times, we may also enter into strategic alliances with customers, suppliers or other business partners with respect to development of technology and IP. These alliances typically require significant investments of capital and exchange of proprietary, highly sensitive information"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "At times, we may also enter into strategic alliances with customers, suppliers or other business partners with respect to development of technology and IP. These alliances typically require significant investments of capital and exchange of proprietary, highly sensitive information"
@@ -2826,9 +2810,9 @@
       "source_sentence": "Disruption of our manufacturing facilities or other operations or those of our suppliers, or in the operations of our customers, due to climate change, earthquake, flood, other natural catastrophic events, public health crises such as the COVID-19 pandemic or terrorism could result in cancellation of orders, delays in deliveries or other business activities, or loss of customers and could seriously harm our business"
     },
     {
-      "head": "COVID-19",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "COVID-19",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Disruption of our manufacturing facilities or other operations or those of our suppliers, or in the operations of our customers, due to climate change, earthquake, flood, other natural catastrophic events, public health crises such as the COVID-19 pandemic or terrorism could result in cancellation of orders, delays in deliveries or other business activities, or loss of customers and could seriously harm our business"
@@ -2842,9 +2826,9 @@
       "source_sentence": "Operations at our manufacturing facilities and our assembly subcontractors and those of our suppliers, as well as our other operations and those of our customers, are subject to disruption for a variety of reasons, including work stoppages, acts of war such as Russia’s invasion of Ukraine, terrorism, public health crises such as the COVID-19 pandemic, fire, earthquake, volcanic eruptions, drought, storms, sea-level rise, extreme temperatures, energy shortages, spikes in energy demand or power blackouts, disruptions in the availability of water necessary for our operations (including, but not limited to, in areas of relatively high water stress), flooding or other natural disasters; and certain of these events may become more frequent or intense as a result of climate change"
     },
     {
-      "head": "COVID-19",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "COVID-19",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Operations at our manufacturing facilities and our assembly subcontractors and those of our suppliers, as well as our other operations and those of our customers, are subject to disruption for a variety of reasons, including work stoppages, acts of war such as Russia’s invasion of Ukraine, terrorism, public health crises such as the COVID-19 pandemic, fire, earthquake, volcanic eruptions, drought, storms, sea-level rise, extreme temperatures, energy shortages, spikes in energy demand or power blackouts, disruptions in the availability of water necessary for our operations (including, but not limited to, in areas of relatively high water stress), flooding or other natural disasters; and certain of these events may become more frequent or intense as a result of climate change"
@@ -2874,9 +2858,9 @@
       "source_sentence": "New technology trends, such as AI, require us to keep pace with evolving regulations and industry standards"
     },
     {
-      "head": "the United States",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "the United States",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In the United States alone, numerous current and proposed regulatory frameworks relating to the use of AI in products and services exist"
@@ -2890,25 +2874,25 @@
       "source_sentence": "Such restrictions could include additional unilateral or multilateral export controls on certain products or technology, including but not limited to AI technologies"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "• New",
+      "head": "• New",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "This increasing concentration exposes our business, financial condition and operating results to a number of risks, including the following: • The mix and type of customers, and sales to any single customer, may vary significantly from quarter to quarter and from year to year, which expose our business and operating results to increased volatility tied to individual customers; • New orders from our foundry/logic customers in the past several years have constituted a significant portion of our total orders"
     },
     {
-      "head": "IP",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "IP",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Many of our large customers have more aggressive policies regarding engaging alternative, second-source suppliers for the products we offer and, in addition, may seek and, on occasion, receive pricing, payment, IP-related or other commercial terms that may have an adverse impact on our business and we may not be able to pass on the cost of inflation to our customers"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Many of our large customers have more aggressive policies regarding engaging alternative, second-source suppliers for the products we offer and, in addition, may seek and, on occasion, receive pricing, payment, IP-related or other commercial terms that may have an adverse impact on our business and we may not be able to pass on the cost of inflation to our customers"
@@ -2922,9 +2906,9 @@
       "source_sentence": "Many of our large customers have more aggressive policies regarding engaging alternative, second-source suppliers for the products we offer and, in addition, may seek and, on occasion, receive pricing, payment, IP-related or other commercial terms that may have an adverse impact on our business and we may not be able to pass on the cost of inflation to our customers"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "• Certain",
+      "head": "• Certain",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Any of these changes could negatively impact our prices, customer orders, revenues and gross margins; • Certain customers have undergone significant ownership changes, created alliances with other companies, experienced management changes or have outsourced manufacturing activities, any of which may result in additional complexities in managing customer relationships and transactions"
@@ -2938,9 +2922,9 @@
       "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "• Prices",
+      "head": "• Prices",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.85,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
@@ -2954,9 +2938,9 @@
       "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
     },
     {
-      "head": "RPO",
-      "relation": "customer_of",
-      "tail": "KLA Corporation",
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "RPO",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "The growth that we have experienced over the past few years has resulted in higher levels of backlog, or RPO. The supply chain disruptions caused by the ongoing pandemic as well as favorable market trends have led to customers agreeing to purchase equipment from us with lead times that are longer than our historical experience"
@@ -3050,9 +3034,9 @@
       "source_sentence": "Our substantial amount of indebtedness could have adverse consequences including, but not limited to: • A negative impact on our ability to satisfy our future obligations; • An increase in the portion of our cash flows that may have to be dedicated to interest and principal payments that may not be available for operations, working capital, capital expenditures, acquisitions, investments, dividends, stock repurchases, general corporate or other purposes; • An impairment of our ability to obtain additional financing in the future; and • Obligations to comply with restrictive and financial covenants as noted in the above risk factor and Note 8 “Debt” to our Consolidated Financial Statements"
     },
     {
-      "head": "KLA Corporation",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
       "confidence": 0.7,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "In addition, in our commercial agreements, from time to time in the normal course of business, we indemnify third parties with whom we enter into contractual relationships, including customers, suppliers and lessors, with respect to certain matters. 30 Table of Contents We have agreed, under certain conditions, to hold these third parties harmless against specified losses, such as those arising from a breach of representations or covenants, third-party claims that our products, when used for their intended purposes, infringe the IP rights of such third parties, or other claims made against certain parties"
@@ -3074,9 +3058,9 @@
       "source_sentence": "Our Annual Report on Form 10-K, Quarterly Reports on Forms 10-Q, Current Reports on Forms 8-K, Proxy Statements and all other filings we make with the SEC are available on our website, free of charge, as soon as reasonably practical after we file them with or furnish them to the SEC and are also available online at the SEC’s website at www.sec.gov"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "Lam Research Corporation",
+      "head": "Lam Research Corporation",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "The Lam Research logo, Lam Research, and all product and service names used in this report are either registered trademarks or trademarks of Lam Research Corporation or its subsidiaries in the United States and/or other countries"
@@ -3090,9 +3074,9 @@
       "source_sentence": "The Lam Research logo, Lam Research, and all product and service names used in this report are either registered trademarks or trademarks of Lam Research Corporation or its subsidiaries in the United States and/or other countries"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "NVM",
+      "head": "NVM",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Our customer base includes leading semiconductor memory, foundry, and integrated device manufacturers (“IDMs”) that make products such as non-volatile memory (“NVM”), dynamic random-access memory (“DRAM”), and logic devices"
@@ -3122,9 +3106,9 @@
       "source_sentence": "Several factors create opportunity for sustainable differentiation for us: (i) our focus on research and development, with several on-going programs relating to sustaining engineering, product and process development, and concept and feasibility; (ii) our ability to effectively leverage cycles of learning from our broad installed base; (iii) our collaborative focus with semi-ecosystem partners; (iv) our ability to identify and invest in the breadth of our product portfolio to meet technology inflections; and (v) our focus on delivering our multi-product solutions with a goal to enhance the value of Lam’s solutions to our customers"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "TSV",
+      "head": "TSV",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Plating of copper and other metals is also used for TSV and WLP applications"
@@ -3138,9 +3122,9 @@
       "source_sentence": "The modular architecture can be configured with multiple plating and pre/post-treatment cells, providing flexibility to address a variety of packaging applications, including HBM. SPEED ® Product Family Dielectric gapfill processes deposit critical insulation layers between conductive and/or active areas by filling openings of various aspect ratios between conducting lines and between devices"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "3D",
+      "head": "3D",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "VECTOR ® Product Family Dielectric film deposition processes are used to form some of the most difficult-to-produce insulating layers in a semiconductor device, including those used in the latest transistors and 3D structures"
@@ -3178,17 +3162,17 @@
       "source_sentence": "With a broad range of process capability, our SP Series products deliver cost-efficient, production-proven wet clean and silicon wet etch solutions for challenging WLP and IoT applications"
     },
     {
-      "head": "the United States",
-      "relation": "customer_of",
-      "tail": "Lam Research",
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "the United States",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "We maintain ongoing service relationships with our customers and have an extensive network of service engineers in place throughout the United States, China, Europe, India, Japan, Korea, Southeast Asia, and Taiwan"
     },
     {
-      "head": "Intel Corporation",
-      "relation": "customer_of",
-      "tail": "Lam Research",
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "Intel Corporation",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Our most significant customers during the fiscal years ending June 25, 2023, June 26, 2022, and June 27, 2021 included Intel Corporation; Kioxia Corporation; Micron Technology, Inc.; Samsung Electronics Company, Ltd.; and Taiwan Semiconductor Manufacturing Company"
@@ -3274,33 +3258,33 @@
       "source_sentence": "Additionally, the U.S. Government has enacted a number of export controls regulating the sales of certain technologies to customers in China, which provides an advantage to our international competitors"
     },
     {
-      "head": "the U.S. Government",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "the U.S. Government",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Additionally, the U.S. Government has enacted a number of export controls regulating the sales of certain technologies to customers in China, which provides an advantage to our international competitors"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "Seshasayee",
+      "head": "Seshasayee",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Information about our Executive Officers As of August 10, 2023, the executive officers of Lam Research were as follows: Name Age Title Timothy M. Archer 56 President and Chief Executive Officer Douglas R. Bettinger 56 Executive Vice President and Chief Financial Officer Patrick J. Lord 57 Executive Vice President and Chief Operating Officer Neil J. Fernandes 56 Senior Vice President, Global Customer Operations Ava M. Hahn 50 Senior Vice President, Chief Legal Officer and Secretary Vahid Vahedi 57 Senior Vice President and Chief Technology Officer Seshasayee (Sesha) Varadarajan 48 Senior Vice President Global Products Group Timothy M. Archer has been our president and chief executive officer since December 2018"
     },
     {
-      "head": "Worldwide Sales, Marketing",
-      "relation": "customer_of",
-      "tail": "PECVD",
+      "head": "PECVD",
+      "relation": "supplier_of",
+      "tail": "Worldwide Sales, Marketing",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Prior to joining us, he spent 18 years at Novellus Systems, Inc., (“Novellus”) in various technology development and business leadership roles, including most recently as chief operating officer from January 2011 to June 2012; executive vice president of Worldwide Sales, Marketing, and Customer Satisfaction from September 2009 to January 2011; and executive vice president of the PECVD and Electrofill Business Units from November 2008 to September 2009"
     },
     {
-      "head": "Global Operations",
-      "relation": "customer_of",
-      "tail": "Global Quality",
+      "head": "Global Quality",
+      "relation": "supplier_of",
+      "tail": "Global Operations",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Lord is responsible for several functions including, Global Operations; Customer Support; Global Quality; Environmental Health and Safety; Information Technology; and Global Resilience, Security, and Transformation"
@@ -3346,9 +3330,9 @@
       "source_sentence": "Prior to our acquisition of Novellus in June 2012, Mr"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "Decline",
+      "head": "Decline",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "INDUSTRY AND CUSTOMER RISKS The Semiconductor Capital Equipment Industry Is Subject to Variability and Periods of Rapid Growth or Decline; We Therefore Face Risks Related to Our Strategic Resource Allocation Decisions The semiconductor capital equipment industry has historically been characterized by rapid changes in demand"
@@ -3362,9 +3346,9 @@
       "source_sentence": "Once a Semiconductor Manufacturer Commits to Purchase a Competitor’s Semiconductor Manufacturing Equipment, the Manufacturer Typically Continues to Purchase That Competitor’s Equipment, Making It More Difficult for Us to Sell Our Equipment to That Customer Semiconductor manufacturers must make a substantial investment to qualify and integrate wafer processing equipment into a semiconductor production line"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "the Manufacturer Typically Continues",
+      "head": "the Manufacturer Typically Continues",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Once a Semiconductor Manufacturer Commits to Purchase a Competitor’s Semiconductor Manufacturing Equipment, the Manufacturer Typically Continues to Purchase That Competitor’s Equipment, Making It More Difficult for Us to Sell Our Equipment to That Customer Semiconductor manufacturers must make a substantial investment to qualify and integrate wafer processing equipment into a semiconductor production line"
@@ -3386,9 +3370,9 @@
       "source_sentence": "Once a Semiconductor Manufacturer Commits to Purchase a Competitor’s Semiconductor Manufacturing Equipment, the Manufacturer Typically Continues to Purchase That Competitor’s Equipment, Making It More Difficult for Us to Sell Our Equipment to That Customer Semiconductor manufacturers must make a substantial investment to qualify and integrate wafer processing equipment into a semiconductor production line"
     },
     {
-      "head": "the Manufacturer Typically Continues",
-      "relation": "customer_of",
-      "tail": "Customer Semiconductor",
+      "head": "Customer Semiconductor",
+      "relation": "supplier_of",
+      "tail": "the Manufacturer Typically Continues",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Once a Semiconductor Manufacturer Commits to Purchase a Competitor’s Semiconductor Manufacturing Equipment, the Manufacturer Typically Continues to Purchase That Competitor’s Equipment, Making It More Difficult for Us to Sell Our Equipment to That Customer Semiconductor manufacturers must make a substantial investment to qualify and integrate wafer processing equipment into a semiconductor production line"
@@ -3458,9 +3442,9 @@
       "source_sentence": "In addition, we make use of Software-as-a-Service (SaaS) products for certain important business functions that are provided by third parties and hosted on their own networks and servers, or third-party networks and servers, all of which rely on networks, email and/or the Internet for their function"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "Software",
+      "head": "Software",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "In addition, we make use of Software-as-a-Service (SaaS) products for certain important business functions that are provided by third parties and hosted on their own networks and servers, or third-party networks and servers, all of which rely on networks, email and/or the Internet for their function"
@@ -3482,9 +3466,9 @@
       "source_sentence": "Recently, these actions have included an expansion of export license requirements imposed by the U.S. government, which have limited the market for our products, adversely impacted our revenues, and increased our exposure to foreign competition, Lam Research Corporation 2023 10-K 20 Table of Contents and could potentially do so to an even greater extent in the future"
     },
     {
-      "head": "China",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "China",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Most recently, the U.S. government has enacted new rules aimed at restricting China’s ability to manufacture advanced semiconductors, which include restrictions on exports, reexports or transfers to, or shipping, transmitting, transferring, or facilitating such movement to, or performing services at, customer facilities in China engaged in certain technology end-uses, without appropriate authorizations obtained from U.S. authorities"
@@ -3506,25 +3490,25 @@
       "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "SMIC",
+      "head": "SMIC",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all"
     },
     {
-      "head": "U.S.",
-      "relation": "customer_of",
-      "tail": "Lam Research",
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "U.S.",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "In addition, our customers (including but not limited to Chinese customers) may require U.S. export licenses for the use of our products in order to manufacture products, including semiconductor wafers and integrated circuits, for those of their customers (i.e"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.85,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "In addition, our customers (including but not limited to Chinese customers) may require U.S. export licenses for the use of our products in order to manufacture products, including semiconductor wafers and integrated circuits, for those of their customers (i.e"
@@ -3562,9 +3546,9 @@
       "source_sentence": "Recommendations made by the Organization for Economic Co-operation and Development’s Base Erosion and Profit Shifting 2.0 (“BEPS 2.0”) project have the potential to lead to changes in the tax laws in numerous countries, including the implementation of a global minimum tax"
     },
     {
-      "head": "Lam Research",
-      "relation": "customer_of",
-      "tail": "PFAS",
+      "head": "PFAS",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
       "confidence": 0.7,
       "source_file": "LRCX_2023.txt",
       "source_sentence": "Compliance obligations, as well as any failure to comply with current or future regulations governing the use, handling, sale, transport, or disposal of hazardous or potentially hazardous substances (including, but not limited to, PFAS) could subject us to future costs and liabilities that may adversely affect our operating results, financial condition, and ability to operate our business"
@@ -3602,17 +3586,17 @@
       "source_sentence": "Impact of China Cyberspace Administration Decision On March 31, 2023, China’s Cyberspace Administration (the “CAC”) notified us that it was conducting a cybersecurity review of our products sold in China"
     },
     {
-      "head": "CAC",
-      "relation": "customer_of",
-      "tail": "Micron",
+      "head": "Micron",
+      "relation": "supplier_of",
+      "tail": "CAC",
       "confidence": 0.7,
       "source_file": "MU_2023.txt",
       "source_sentence": "As such, the CAC determined that critical information infrastructure operators in China may not purchase Micron products"
     },
     {
-      "head": "NAND",
-      "relation": "customer_of",
-      "tail": "CAC",
+      "head": "CAC",
+      "relation": "supplier_of",
+      "tail": "NAND",
       "confidence": 0.85,
       "source_file": "MU_2023.txt",
       "source_sentence": "In addition, although demand for DRAM and NAND is improving as customer inventory levels continue to normalize and secular growth drivers remain intact, the CAC decision continues to impact our revenue opportunity in China"
@@ -3658,9 +3642,9 @@
       "source_sentence": "Our Board of Directors' decisions regarding the amount and payment of dividends will depend on many factors, including, but not limited to, our financial condition, results of operations, capital requirements, business conditions, debt service obligations, contractual restrictions, industry practice, legal requirements, regulatory constraints, and other factors that our Board of Directors may deem relevant"
     },
     {
-      "head": "Micron Technology",
-      "relation": "customer_of",
-      "tail": "Lehi",
+      "head": "Lehi",
+      "relation": "supplier_of",
+      "tail": "Micron Technology",
       "confidence": 0.7,
       "source_file": "MU_2023.txt",
       "source_sentence": "For 2022, net cash used for investing activities consisted primarily of $12.07 billion of expenditures for property, plant, and equipment; contributions of $115 million received from partners to offset capital expenditures; $888 million of net inflows from the sale of the Lehi, Utah fab; and $155 million of net outflows from purchases, sales, and maturities of available-for-sale securities"
@@ -3682,9 +3666,9 @@
       "source_sentence": "Financing Activities: For 2023, net cash provided by financing activities consisted primarily of $3.20 billion of proceeds from our 2025, 2026, and 2027 Term Loan A borrowings, $1.27 billion from the issuance of the 2029 B Notes, $896 million from the issuance of the 2033 B Notes, $749 million from the issuance of the 2033 A Notes, and $599 million from the issuance of the 2028 Notes"
     },
     {
-      "head": "Micron Technology",
-      "relation": "customer_of",
-      "tail": "Notes",
+      "head": "Notes",
+      "relation": "supplier_of",
+      "tail": "Micron Technology",
       "confidence": 0.7,
       "source_file": "MU_2023.txt",
       "source_sentence": "Cash used for financing activities was partially offset by aggregate proceeds of $2.00 billion from the issuance of the unsecured 2032 Green Bonds, 2041 Notes, and 2051 Notes"
@@ -3698,17 +3682,17 @@
       "source_sentence": "We are also required to evaluate the realizability of our deferred tax assets on an ongoing basis in accordance with U.S. GAAP, which requires the assessment of our performance and other relevant factors"
     },
     {
-      "head": "Micron Technology",
-      "relation": "customer_of",
-      "tail": "Micron",
+      "head": "Micron",
+      "relation": "supplier_of",
+      "tail": "Micron Technology",
       "confidence": 0.7,
       "source_file": "MU_2023.txt",
       "source_sentence": "NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (All tabular amounts in millions, except per share amounts) Significant Accounting Policies Basis of Presentation We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands"
     },
     {
-      "head": "Micron",
-      "relation": "customer_of",
-      "tail": "Micron Technology",
+      "head": "Micron Technology",
+      "relation": "supplier_of",
+      "tail": "Micron",
       "confidence": 0.85,
       "source_file": "MU_2023.txt",
       "source_sentence": "NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (All tabular amounts in millions, except per share amounts) Significant Accounting Policies Basis of Presentation We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all . With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands"
@@ -3730,17 +3714,17 @@
       "source_sentence": "The accompanying consolidated financial statements include the accounts of Micron Technology, Inc. and our consolidated subsidiaries and have been prepared in accordance with accounting principles generally accepted in the United States of America"
     },
     {
-      "head": "Micron Technology",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "Micron Technology",
       "confidence": 0.7,
       "source_file": "MU_2023.txt",
       "source_sentence": "Derivative and Hedging Instruments We use derivative instruments to manage our exposure to changes in currency exchange rates from (1) our monetary assets and liabilities denominated in currencies other than the U.S. dollar and (2) forecasted cash flows for certain capital expenditures and manufacturing costs"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Including GPUs and networking, NVIDIA powers over 70% of the supercomputers on the global TOP500 list, including 23 of the top 30 systems on the Green500 list. 4 Table of Contents The world’s leading cloud service providers, or CSPs, and consumer internet companies use our GPUs and broader data center-scale accelerated computing platforms to enable, accelerate or enrich the services they deliver to billions of end-users, including search, recommendations, social networking, online shopping, live video, translation, AI assistants, navigation, and cloud computing"
@@ -3778,9 +3762,9 @@
       "source_sentence": "They are available in industry standard servers from every major computer maker and CSP, as well as in our DGX AI supercomputer, a purpose-built system for deep learning and GPU accelerated applications"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "HGX",
+      "head": "HGX",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "To facilitate customer adoption, we have also built other ready-to-use system reference designs around our GPUs, including HGX for hyperscale and supercomputing data centers, EGX for enterprise and edge computing, IGX for high-precision edge AI, and AGX for autonomous machines"
@@ -3818,9 +3802,9 @@
       "source_sentence": "In addition to software that is delivered to customers as an integral part of our data center computing platform, we offer paid licenses to NVIDIA AI Enterprise, a comprehensive suite of enterprise-grade AI software; and NVIDIA vGPU software for graphics-rich virtual desktops and workstations. 6 Table of Contents Gaming Gaming is the largest entertainment industry, with PC gaming as the predominant platform"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "NVIDIA AI Enterprise",
+      "head": "NVIDIA AI Enterprise",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "In addition to software that is delivered to customers as an integral part of our data center computing platform, we offer paid licenses to NVIDIA AI Enterprise, a comprehensive suite of enterprise-grade AI software; and NVIDIA vGPU software for graphics-rich virtual desktops and workstations. 6 Table of Contents Gaming Gaming is the largest entertainment industry, with PC gaming as the predominant platform"
@@ -3858,9 +3842,9 @@
       "source_sentence": "NVIDIA is working with several hundred partners in the automotive ecosystem including automakers, truck makers, tier-one suppliers, sensor manufacturers, automotive research institutions, HD mapping companies, and startups to develop and deploy AI systems for self-driving vehicles"
     },
     {
-      "head": "AI",
-      "relation": "customer_of",
-      "tail": "the NVIDIA DRIVE Hyperion",
+      "head": "the NVIDIA DRIVE Hyperion",
+      "relation": "supplier_of",
+      "tail": "AI",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our unified AI computing architecture starts with training deep neural networks using our GPUs, and then running a full perception, fusion, planning and control stack within the vehicle on the NVIDIA DRIVE Hyperion platform"
@@ -3906,9 +3890,9 @@
       "source_sentence": "Our GPU platforms are available from virtually every major server maker and CSP, as well as on our own AI supercomputer"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "CUDA",
+      "head": "CUDA",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "There are 3.8 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets"
@@ -3946,9 +3930,9 @@
       "source_sentence": "Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our platforms"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "the International Organization for Standardization",
+      "head": "the International Organization for Standardization",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing"
@@ -3962,9 +3946,9 @@
       "source_sentence": "This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Taiwan Semiconductor Manufacturing Company Limited",
+      "head": "Taiwan Semiconductor Manufacturing Company Limited",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co"
@@ -3978,9 +3962,9 @@
       "source_sentence": "We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Amkor Technology",
+      "head": "Amkor Technology",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co"
@@ -3994,9 +3978,9 @@
       "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Flex Ltd.",
+      "head": "Flex Ltd.",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables"
@@ -4010,17 +3994,17 @@
       "source_sentence": "We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Ibiden Co",
+      "head": "Ibiden Co",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We purchase substrates from Ibiden Co"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Advantest America Inc.",
+      "head": "Advantest America Inc.",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
@@ -4050,9 +4034,9 @@
       "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
     },
     {
-      "head": "AIC",
-      "relation": "customer_of",
-      "tail": "Hong Kong",
+      "head": "Hong Kong",
+      "relation": "supplier_of",
+      "tail": "AIC",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States"
@@ -4066,9 +4050,9 @@
       "source_sentence": "Generally, these manufacturers assemble and test the boards based on our design kit and test specifications, and then ship our products to retailers, system builders, or OEMs as motherboard and AIC solutions"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "A significant source of competition comes from companies that provide or intend to provide GPUs, CPUs, DPUs, embedded SoCs, and other accelerated, AI computing processor products, and providers of semiconductor-based high-performance interconnect products based on InfiniBand, Ethernet, Fibre Channel and proprietary technologies"
@@ -4138,9 +4122,9 @@
       "source_sentence": "Compliance with existing or future governmental regulations, including, but not limited to, those pertaining to IP ownership and infringement, taxes, import and export requirements and tariffs, anti-corruption, business acquisitions, foreign exchange controls and cash repatriation restrictions, data privacy requirements, competition and antitrust, advertising, employment, product regulations, cybersecurity, environmental, health and safety requirements, the responsible use of AI, 11 Table of Contents climate change, cryptocurrency, and consumer laws, could increase our costs, impact our competitive position, and otherwise may have a material adverse impact on our business, financial condition and results of operations in subsequent periods"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Compliance with existing or future governmental regulations, including, but not limited to, those pertaining to IP ownership and infringement, taxes, import and export requirements and tariffs, anti-corruption, business acquisitions, foreign exchange controls and cash repatriation restrictions, data privacy requirements, competition and antitrust, advertising, employment, product regulations, cybersecurity, environmental, health and safety requirements, the responsible use of AI, 11 Table of Contents climate change, cryptocurrency, and consumer laws, could increase our costs, impact our competitive position, and otherwise may have a material adverse impact on our business, financial condition and results of operations in subsequent periods"
@@ -4210,9 +4194,9 @@
       "source_sentence": "Some of our competitors operate their own fabrication facilities, have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, new designs and more design wins, and greater financial, sales, marketing and distribution resources than we do"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Some of our competitors operate their own fabrication facilities, have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, new designs and more design wins, and greater financial, sales, marketing and distribution resources than we do"
@@ -4242,9 +4226,9 @@
       "source_sentence": "Extended lead times may occur if we experience other supply constraints caused by natural disasters, pandemics or other events, such as the COVID-19 pandemic"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Ethereum",
+      "head": "Ethereum",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "For example, a number of years ago, our Gaming GPUs began to be used for digital currency mining, including blockchain-based platforms such as Ethereum"
@@ -4290,9 +4274,9 @@
       "source_sentence": "Our semiconductor wafers are manufactured, assembled, tested and packaged by third parties located outside of the United States, and we generated 69% of our revenue during fiscal year 2023 from sales outside of the United States"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "GFN",
+      "head": "GFN",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "For example, we hold propriety game source code from third-party partners in our GFN service"
@@ -4306,17 +4290,17 @@
       "source_sentence": "For example, we hold propriety game source code from third-party partners in our GFN service"
     },
     {
-      "head": "U.S.",
-      "relation": "customer_of",
-      "tail": "NVIDIA",
+      "head": "NVIDIA",
+      "relation": "supplier_of",
+      "tail": "U.S.",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The loss of any of our large customers, a significant reduction in purchases by them, our inability to sell to a customer due to U.S. or other countries’ trade restrictions, or any difficulties in collecting accounts receivable would likely harm our financial condition and results of operations"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "U.S.",
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The loss of any of our large customers, a significant reduction in purchases by them, our inability to sell to a customer due to U.S. or other countries’ trade restrictions, or any difficulties in collecting accounts receivable would likely harm our financial condition and results of operations"
@@ -4346,9 +4330,9 @@
       "source_sentence": "COVID-19-related disruptions have created and may continue to create supply chain and logistics constraints, and COVID-19 containment around the world has put restrictions on, among other areas, manufacturing facilities, commerce, and support operations"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "End customer sales for our products in China have been negatively impacted by lockdowns and this impact may continue if lockdowns return"
@@ -4370,9 +4354,9 @@
       "source_sentence": "We are subject to laws and regulations domestically and worldwide, affecting our operations in areas including, but not limited to, IP ownership and infringement; taxes; import and export requirements and tariffs; anti-corruption, including the Foreign Corrupt Practices Act; business acquisitions; foreign exchange controls and cash repatriation restrictions; data privacy requirements; competition and antitrust; advertising; employment; product regulations; cybersecurity; environmental, health, and safety requirements; the responsible use of AI; climate change; cryptocurrency; and consumer laws"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We are subject to laws and regulations domestically and worldwide, affecting our operations in areas including, but not limited to, IP ownership and infringement; taxes; import and export requirements and tariffs; anti-corruption, including the Foreign Corrupt Practices Act; business acquisitions; foreign exchange controls and cash repatriation restrictions; data privacy requirements; competition and antitrust; advertising; employment; product regulations; cybersecurity; environmental, health, and safety requirements; the responsible use of AI; climate change; cryptocurrency; and consumer laws"
@@ -4386,9 +4370,9 @@
       "source_sentence": "Government actions, including trade protection and national security policies of U.S. and foreign government bodies, such as tariffs, import or export regulations, including deemed export restrictions, trade and economic sanctions, decrees, quotas or other trade barriers and restrictions could affect our ability to ship products, provide services to our customers and employees, do business without an export license with entities on the U.S. Department of Commerce’s U.S. Entity List or other U.S. government restricted parties lists (which is expected to change from time to time), and generally fulfill our contractual obligations and have a material adverse effect on our business"
     },
     {
-      "head": "the U.S. Department of Commerce’s",
-      "relation": "customer_of",
-      "tail": "NVIDIA",
+      "head": "NVIDIA",
+      "relation": "supplier_of",
+      "tail": "the U.S. Department of Commerce’s",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Government actions, including trade protection and national security policies of U.S. and foreign government bodies, such as tariffs, import or export regulations, including deemed export restrictions, trade and economic sanctions, decrees, quotas or other trade barriers and restrictions could affect our ability to ship products, provide services to our customers and employees, do business without an export license with entities on the U.S. Department of Commerce’s U.S. Entity List or other U.S. government restricted parties lists (which is expected to change from time to time), and generally fulfill our contractual obligations and have a material adverse effect on our business"
@@ -4410,9 +4394,9 @@
       "source_sentence": "For example, in response to the war in Ukraine, the United States and other jurisdictions imposed economic sanctions and export control measures which blocked the passage of our products, services and support into Russia, Belarus, and certain regions of Ukraine"
     },
     {
-      "head": "Ukraine",
-      "relation": "customer_of",
-      "tail": "EMEA",
+      "head": "EMEA",
+      "relation": "supplier_of",
+      "tail": "Ukraine",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Concurrently, the war in Ukraine has impacted end customer sales in EMEA and may continue to do so in the future"
@@ -4442,9 +4426,9 @@
       "source_sentence": "Such controls may be very broad in scope and application, prohibit us from exporting our products to any or all customers in one or more markets, including but not limited to China, and could negatively impact our manufacturing, testing, and warehousing locations and options, or could impose other conditions that limit our ability to serve demand abroad and could negatively and materially impact our business, revenue, and financial results"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Such controls may be very broad in scope and application, prohibit us from exporting our products to any or all customers in one or more markets, including but not limited to China, and could negatively impact our manufacturing, testing, and warehousing locations and options, or could impose other conditions that limit our ability to serve demand abroad and could negatively and materially impact our business, revenue, and financial results"
@@ -4458,9 +4442,9 @@
       "source_sentence": "Export controls targeting GPUs and semiconductors associated with AI, which are increasingly likely, would restrict our ability to export our technology, products, or services even though competitors may not be subject to similar restrictions, creating a competitive disadvantage for us and 28 Table of Contents negatively impacting our business and financial results"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "DGX",
+      "head": "DGX",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "These restrictions impact exports of certain chips, as well as software, hardware, equipment, and technology used to develop, produce, and manufacture certain chips, to China (including Hong Kong and Macau) and Russia, and specifically impact our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits and our A100X. The new license requirements also apply to any future NVIDIA integrated circuit achieving certain peak performance and chip-to-chip I/O performance thresholds, as well as any system or board that includes those circuits"
@@ -4482,9 +4466,9 @@
       "source_sentence": "These restrictions impact exports of certain chips, as well as software, hardware, equipment, and technology used to develop, produce, and manufacture certain chips, to China (including Hong Kong and Macau) and Russia, and specifically impact our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits and our A100X. The new license requirements also apply to any future NVIDIA integrated circuit achieving certain peak performance and chip-to-chip I/O performance thresholds, as well as any system or board that includes those circuits"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "There are also now licensing requirements to export a wide array of products, including networking products, destined for certain end users and for certain end uses in China"
@@ -4498,17 +4482,17 @@
       "source_sentence": "We are required to transition certain operations out of China (including Hong Kong), which could be costly and time consuming, and adversely affect our research and development and supply and distribution operations, as well as our revenue, during any such transition period"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We have engaged with customers in China to provide alternative products not subject to the new license requirements, such as our new A800 offering"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "USG",
+      "head": "USG",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "To the extent that a customer requires products covered by the new license requirements, we may seek a license for the customer but have no assurance that the USG will grant any exemptions or licenses for any customer, or that the USG will act on them in a timely manner"
@@ -4522,17 +4506,17 @@
       "source_sentence": "To the extent that a customer requires products covered by the new license requirements, we may seek a license for the customer but have no assurance that the USG will grant any exemptions or licenses for any customer, or that the USG will act on them in a timely manner"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, if customers develop their own internal solution, if we are unable to provide contractual warranty or other extended service obligations, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs"
     },
     {
-      "head": "China",
-      "relation": "customer_of",
-      "tail": "USG",
+      "head": "USG",
+      "relation": "supplier_of",
+      "tail": "China",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, if customers develop their own internal solution, if we are unable to provide contractual warranty or other extended service obligations, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs"
@@ -4578,9 +4562,9 @@
       "source_sentence": "The new requirements may benefit certain of our competitors, as the licensing process will make our pre-sale and post-sale technical support efforts more cumbersome and less certain, and encourage customers in China to pursue alternatives to our products, including semiconductor suppliers based in China, Europe, and Israel"
     },
     {
-      "head": "China",
-      "relation": "customer_of",
-      "tail": "NVIDIA",
+      "head": "NVIDIA",
+      "relation": "supplier_of",
+      "tail": "China",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The new requirements may benefit certain of our competitors, as the licensing process will make our pre-sale and post-sale technical support efforts more cumbersome and less certain, and encourage customers in China to pursue alternatives to our products, including semiconductor suppliers based in China, Europe, and Israel"
@@ -4594,17 +4578,17 @@
       "source_sentence": "We could also incur additional costs and require additional resources to monitor, report, and comply with various ESG practices, choose not to conduct business with potential 29 Table of Contents customers, or discontinue or not expand business with existing customers due to our policies"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Issues relating to the responsible use of our technologies, including AI in our offerings, may result in reputational and financial harm and liability"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Concerns relating to the responsible use of new and evolving technologies, such as AI, in our products and services may result in reputational and financial harm and liability, and may cause us to incur costs to resolve such issues"
@@ -4626,9 +4610,9 @@
       "source_sentence": "Compliance with government regulation in the area of AI ethics may also increase the cost of related research and development, and changes in AI-related regulation could disproportionately impact and disadvantage us and require us to change our business practices, which may negatively impact our financial results"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our failure to address concerns relating to the responsible use of AI by us or others could undermine public confidence in AI and slow adoption of AI in our products and services or cause reputational harm"
@@ -4642,33 +4626,33 @@
       "source_sentence": "We rely on patents, trademarks, trade secrets, employee and third-party nondisclosure agreements, licensing arrangements, and the laws of the countries in which we operate to protect our IP. Foreign laws may not protect our products or IP rights to the same extent as United States law"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "AI",
+      "head": "AI",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Concerns about our practices or the ultimate use 30 Table of Contents of our products and services with regard to the collection, use, retention, security or disclosure of personal information or other privacy-related matters, including for use in AI, even if unfounded, could damage our reputation and adversely affect our operating results"
     },
     {
-      "head": "CPRA",
-      "relation": "customer_of",
-      "tail": "the California Privacy Protection Agency",
+      "head": "the California Privacy Protection Agency",
+      "relation": "supplier_of",
+      "tail": "CPRA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The California Privacy Rights Act of 2020, or CPRA, became operative in 2023, and restricts the use of certain categories of sensitive personal information; further restricts the use of cross-contextual advertising techniques; restricts the retention of personal information; expands the types of data breaches subject to the private right of action; and establishes the California Privacy Protection Agency which can impose administrative fines for noncompliance"
     },
     {
-      "head": "The European Union",
-      "relation": "customer_of",
-      "tail": "the General Data Protection Regulation",
+      "head": "the General Data Protection Regulation",
+      "relation": "supplier_of",
+      "tail": "The European Union",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The European Union adopted the General Data Protection Regulation, or GDPR, and the United Kingdom similarly adopted the U.K. GDPR, governing the strict handling of personal data of persons within the European Economic Area, or EEA, and the United Kingdom, respectively, including its use and protection and the ability of persons whose data is stored to access, correct, and delete such data about themselves"
     },
     {
-      "head": "The European Union",
-      "relation": "customer_of",
-      "tail": "the European Economic Area",
+      "head": "the European Economic Area",
+      "relation": "supplier_of",
+      "tail": "The European Union",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The European Union adopted the General Data Protection Regulation, or GDPR, and the United Kingdom similarly adopted the U.K. GDPR, governing the strict handling of personal data of persons within the European Economic Area, or EEA, and the United Kingdom, respectively, including its use and protection and the ability of persons whose data is stored to access, correct, and delete such data about themselves"
@@ -4698,9 +4682,9 @@
       "source_sentence": "These mechanisms are subject to legal challenges, and there is no assurance that we can satisfy or rely on these measures to lawfully transfer personal data to the United States"
     },
     {
-      "head": "CAC",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "CAC",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Data broadly defined as important under China law, including personal data, may not be transferable outside of China without prior assessment and approval by the Cyberspace Administration of China, or CAC. Compliance with these requirements, including CAC assessments and any deemed failures of such assessments, could cause us to incur liability, prevent us from using data collected in China, or impact our ability to transfer data outside of China"
@@ -4738,9 +4722,9 @@
       "source_sentence": "Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock"
     },
     {
-      "head": "Xbox",
-      "relation": "customer_of",
-      "tail": "Microsoft",
+      "head": "Microsoft",
+      "relation": "supplier_of",
+      "tail": "Xbox",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock"
@@ -4754,25 +4738,25 @@
       "source_sentence": "We also own and lease facilities for data centers, research and development, and/or sales and administrative purposes throughout the U.S. and in various international locations, primarily in China, India, Israel, and Taiwan"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "NVDA",
+      "head": "NVDA",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES Our common stock is traded on the Nasdaq Global Select Market under the symbol NVDA. Public trading of our common stock began on January 22, 1999"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "Publicly Announced Program",
+      "head": "Publicly Announced Program",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "The following table presents details of our share repurchase transactions during the fourth quarter of fiscal year 2023: Period Total Number of Shares Purchased (In millions) Average Price Paid per Share Total Number of Shares Purchased as Part of Publicly Announced Program (In millions) Approximate Dollar Value of Shares that May Yet Be Purchased Under the Program (In billions) October 31, 2022 - November 27, 2022 7 $ 148.11 7 $ 7.23 November 28, 2022 - December 25, 2022 — $ — — $ 7.23 December 26, 2022 - January 29, 2023 — $ — — $ 7.23 Total 7 7 Restricted Stock Unit Share Withholding We withhold common stock shares associated with net share settlements to cover tax withholding obligations upon the vesting of restricted stock unit awards under our employee equity incentive program"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "FactSet financial data",
+      "head": "FactSet financial data",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Source: FactSet financial data and analytics. 1/28/2018 1/27/2019 1/26/2020 1/31/2021 1/30/2022 1/29/2023 NVIDIA Corporation $ 100.00 $ 66.00 $ 103.63 $ 215.33 $ 378.94 $ 338.18 S&P 500 $ 100.00 $ 94.60 $ 119.36 $ 137.01 $ 165.79 $ 154.80 Nasdaq 100 $ 100.00 $ 97.69 $ 133.01 $ 189.72 $ 213.63 $ 181.38 ITEM 6. [RESERVED] 35 Table of Contents ITEM 7"
@@ -4794,25 +4778,25 @@
       "source_sentence": "We may incur significant costs and may not achieve any significant revenue from these offerings. 36 Table of Contents Global Trade During the third quarter of fiscal year 2023, the USG announced new license requirements that, with certain exceptions, impact exports to China (including Hong Kong and Macau) and Russia of our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits and our A100X. We are required to transition certain operations out of China (including Hong Kong), including research and development and supply and distribution operations"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "We have engaged with customers in China to provide alternative products not subject to the new license requirements, such as our new A800 offering"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "USG",
+      "head": "USG",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, or if customers develop their own internal solution, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs"
     },
     {
-      "head": "China",
-      "relation": "customer_of",
-      "tail": "USG",
+      "head": "USG",
+      "relation": "supplier_of",
+      "tail": "China",
       "confidence": 0.7,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, or if customers develop their own internal solution, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs"
@@ -4826,9 +4810,9 @@
       "source_sentence": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, or if customers develop their own internal solution, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "China",
+      "head": "China",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "During fiscal year 2023, end customer sales for our products in China have been negatively impacted by lockdowns and this impact may continue if lockdowns return"
@@ -4850,9 +4834,9 @@
       "source_sentence": "Our revenue to partners that sell into Russia may have been negatively impacted due to the war in Ukraine"
     },
     {
-      "head": "Contents Data Center",
-      "relation": "customer_of",
-      "tail": "CSP",
+      "head": "CSP",
+      "relation": "supplier_of",
+      "tail": "Contents Data Center",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Revenue for fiscal year 2023 revenue was $26.97 billion, flat compared with a year ago. 37 Table of Contents Data Center revenue was up 41% from a year ago led by strong growth from hyperscale customers and also reflects purchases made by several CSP partners to support multi-year cloud service agreements for our new NVIDIA AI cloud service offerings and our research and development activities"
@@ -4914,9 +4898,9 @@
       "source_sentence": "Critical Accounting Policies and Estimates Management’s discussion and analysis of financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with accounting principles generally accepted in the United States, or U.S. GAAP. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenue, cost of revenue, expenses and related disclosure of contingencies"
     },
     {
-      "head": "License and Development Arrangements",
-      "relation": "customer_of",
-      "tail": "IP",
+      "head": "IP",
+      "relation": "supplier_of",
+      "tail": "License and Development Arrangements",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "License and Development Arrangements Our license and development arrangements with customers typically require significant customization of our IP components"
@@ -4946,9 +4930,9 @@
       "source_sentence": "Graphics - The year-on-year decrease primarily reflects lower sell-in to partners to help reduce channel inventory levels as global macro-economic conditions and COVID-19 related disruptions in China weighed on gaming demand"
     },
     {
-      "head": "NVIDIA",
-      "relation": "customer_of",
-      "tail": "the United States",
+      "head": "the United States",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
       "confidence": 0.85,
       "source_file": "NVDA_2023.txt",
       "source_sentence": "Concentration of Revenue Revenue from sales to customers outside of the United States accounted for 69% and 84% of total revenue for fiscal years 2023 and 2022, respectively"

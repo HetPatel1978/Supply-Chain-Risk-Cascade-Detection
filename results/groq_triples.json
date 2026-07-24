@@ -1,5 +1,5 @@
 {
-  "total": 212,
+  "total": 248,
   "triples": [
     {
       "head": "<filing company>",
@@ -476,6 +476,158 @@
     {
       "head": "<filing company>",
       "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If the third-party intellectual property that we use becomes unavailable, is not available with required functionality or performance in the time frame, manufacturing technology, or price point needed for our new products or fails to produce designs that meet customer demands, or laws are adopted that affect our use of third party intellectual property in certain regions or products, our business could be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We depend on third-party companies for the design, manufacture and supply of motherboards, software, memory and other computer platform components to support our business and products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We depend on third-party companies for the design, manufacture and supply of motherboards, graphics cards, software (e.g., BIOS, operating systems, drivers), memory and other components that we use to design, support and sell, and our customers utilize to support and/or use our product offerings"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "AIB",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also rely on our AIB partners to support our products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "Microsoft",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
+    },
+    {
+      "head": "us",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "us",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "competitor_of",
+      "tail": "our competitors",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we fail to maintain the efficiency of our supply chain as we respond to changes in customer demand for our products, our business could be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to meet customer demand for our products depends, in part, on our ability to deliver the products our customers want on a timely basis"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third parties",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, we rely on third parties to provide certain information technology services to us, including help desk support, desktop application services, business and software support applications, server and storage administration, data center operations, database administration and voice, video and remote access"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, our inability to control gray market activities could result in customer satisfaction issues because any time products are purchased outside our authorized distribution channels there is a risk that our customers are buying counterfeit or substandard products, including products that may have been altered, mishandled or damaged, or are used products represented as new"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We continue to incur additional costs associated with complying with these requirements, such as costs related to developing internal controls for the due diligence process, determining the source of any conflict minerals used in our products, auditing the process and reporting to our customers and the SEC. In addition to the SEC regulation, the European Union, China and other jurisdictions are developing new policies focused on conflict minerals that may impact and increase the cost of our compliance program"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Customers are increasingly seeking information about the source of minerals used in our supply chain beyond those addressed in laws and regulations"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "subsidiary_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.0,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The identification of suitable acquisition or joint venture candidates can be difficult, time-consuming and costly, and we may not be able to successfully complete identified acquisitions or joint ventures. 31 Table of Contents For example, on February 14, 2022, we completed our acquisition of Xilinx and on May 26, 2022, we completed our acquisition of Pensando"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "subsidiary_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.0,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The identification of suitable acquisition or joint venture candidates can be difficult, time-consuming and costly, and we may not be able to successfully complete identified acquisitions or joint ventures. 31 Table of Contents For example, on February 14, 2022, we completed our acquisition of Xilinx and on May 26, 2022, we completed our acquisition of Pensando"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "the acquired companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "While we believe these acquisitions will result in certain benefits, including certain operational synergies and cost efficiencies, and drive product innovations, achieving these anticipated benefits will depend on successfully combining our and the acquired companies’ businesses together"
+    },
+    {
+      "head": "ATMP JVs",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party subcontractors",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also depend on third-party subcontractors to provide shipment services"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
       "tail": "Broadcom",
       "confidence": 0.95,
       "source_file": "AVGO_2023.txt",
@@ -810,6 +962,126 @@
       "source_sentence": "Open source licenses are generally “as-is” and do not provide warranties, support or assurance of title or controls on origin of the software, which exposes us to potential liability if the software fails to work or infringes the intellectual property of a third-party"
     },
     {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Some of our competitors have longer operating histories, greater name recognition, a larger installed customer base, larger technical staffs, more established relationships with vendors or suppliers, or greater manufacturing, distribution, financial, research and development, technical and marketing resources than us"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "public cloud providers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "smaller companies",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "open source authors",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Some of our competitors may also receive financial and other support from their home country government or may have a greater presence in key markets, a larger customer base, a more comprehensive IP portfolio or better patent protection than us"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "suppliers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "employees",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "consultants",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our customer contracts typically contain warranty and indemnification provisions, and in certain cases may also contain liquidated damages provisions, relating to product quality issues"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a result, if there is system-wide failure or an actual or perceived breach of information integrity, security or availability occurs in one of our end-user customer’s system, it can be difficult to determine which product is at fault and we could ultimately be harmed by the failure of another supplier’s product"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "another supplier",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a result, if there is system-wide failure or an actual or perceived breach of information integrity, security or availability occurs in one of our end-user customer’s system, it can be difficult to determine which product is at fault and we could ultimately be harmed by the failure of another supplier’s product"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, if a delay in the manufacture and delivery of our products causes the delay of a customer’s end-product delivery, we may be required, under the terms of our agreement with that customer, to compensate the customer for the adverse effects of such delays"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, some of our customer agreements provide for volume-based pricing and product pricing roadmaps, which can also reduce the average selling prices of our products over time"
+    },
+    {
       "head": "KLA Corporation",
       "relation": "depends_on",
       "tail": "Asia",
@@ -1016,6 +1288,22 @@
       "confidence": 0.95,
       "source_file": "KLAC_2023.txt",
       "source_sentence": "Any of these changes could negatively impact our prices, customer orders, revenues and gross margins; • Certain customers have undergone significant ownership changes, created alliances with other companies, experienced management changes or have outsourced manufacturing activities, any of which may result in additional complexities in managing customer relationships and transactions"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
     },
     {
       "head": "<filing company>",

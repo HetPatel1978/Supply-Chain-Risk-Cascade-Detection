@@ -108,5 +108,5 @@ def run_groq(max_sentences_per_file: int = 60, resume: bool = True):
 
 if __name__ == "__main__":
     rb = run_rule_based()
-    g, e = run_groq()
+    g, e = run_groq(max_sentences_per_file=100)
     print("\nDone.")
