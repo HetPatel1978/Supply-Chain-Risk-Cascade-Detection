@@ -225,8 +225,8 @@ if __name__ == "__main__":
     evidence_paths = retrieve_evidence(
         graph,
         start_node=start_company,
-        max_hops=2,
-        max_paths=50,
+        max_hops=5,
+        max_paths=100,
     )
 
     if target_company:
