@@ -158,6 +158,9 @@ Rules:
 - Do not downplay a supported direct dependency merely because it is not multi-hop.
 - When supplier_of and customer_of describe the same company pair using the same source evidence, treat them as one relationship rather than two separate findings.
 - Do not interpret extraction confidence scores as calibrated probabilities.
+- Treat longer cascade paths as progressively less certain.
+- Do not claim a multi-hop cascade unless every edge has supporting evidence.
+- Mention the number of hops in each material cascade.
 
 User question:
 {question}
@@ -238,6 +241,10 @@ if __name__ == "__main__":
             if result["path"][-1] == target_company
         ]
 
+    if not evidence_paths:
+        print("\nNo supported graph path was found for that question.")
+        raise SystemExit
+    
     context = build_rag_context(evidence_paths)
 
     prompt = build_rag_prompt(
