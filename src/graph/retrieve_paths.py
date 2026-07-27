@@ -24,7 +24,7 @@ def get_impacted_neighbors(graph, company: str) -> list[str]:
 def find_paths(
     graph,
     start_node: str,
-    max_hops: int = 2,
+    max_hops: int = 5,
 ) -> list[list[str]]:
     """Find supply-chain risk cascade paths from a disrupted company."""
     if start_node not in graph:
