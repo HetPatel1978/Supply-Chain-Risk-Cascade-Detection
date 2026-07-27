@@ -8,6 +8,8 @@ import os
 from groq import Groq
 from graph.visualize_paths import visualize_paths
 
+MAX_CASCADE_HOPS = 5
+MAX_EVIDENCE_PATHS = 100
 
 def build_rag_context(evidence_paths: list[dict]) -> str:
     """Convert retrieved graph evidence into an LLM-readable context."""
@@ -225,8 +227,8 @@ if __name__ == "__main__":
     evidence_paths = retrieve_evidence(
         graph,
         start_node=start_company,
-        max_hops=5,
-        max_paths=100,
+        max_hops=MAX_CASCADE_HOPS,
+        max_paths=MAX_EVIDENCE_PATHS,
     )
 
     if target_company:
