@@ -1,15 +1,20 @@
+import os
+
+from groq import Groq
+
 from graph.build_graph import (
     MERGED_TRIPLES_PATH,
     build_graph,
     load_triples,
 )
 from graph.retrieve_paths import retrieve_evidence
-import os
-from groq import Groq
 from graph.visualize_paths import visualize_paths
 
+
 MAX_CASCADE_HOPS = 5
-MAX_EVIDENCE_PATHS = 100
+MAX_EVIDENCE_PATHS = 25
+MAX_SELECTED_PATHS = 5
+
 
 def build_rag_context(evidence_paths: list[dict]) -> str:
     """Convert retrieved graph evidence into an LLM-readable context."""
@@ -38,6 +43,11 @@ def build_rag_context(evidence_paths: list[dict]) -> str:
                 else "not provided"
             )
 
+            source_sentence = relationship.get("source_sentence") or ""
+
+            if len(source_sentence) > 500:
+                source_sentence = source_sentence[:500] + "..."
+
             lines.extend(
                 [
                     f"Relationship {relationship_number}:",
@@ -48,7 +58,7 @@ def build_rag_context(evidence_paths: list[dict]) -> str:
                     ),
                     f"Confidence: {confidence_text}",
                     f"Source: {relationship['source_file']}",
-                    f"Evidence: {relationship['source_sentence']}",
+                    f"Evidence: {source_sentence}",
                     "",
                 ]
             )
@@ -78,7 +88,7 @@ def find_company_in_question(
         "disruption to ",
     ]
 
-    # First look for the company named directly after a disruption phrase.
+    # First look for the company named after a disruption phrase.
     for phrase in disruption_phrases:
         phrase_position = question_lower.find(phrase)
 
@@ -135,6 +145,20 @@ def find_companies_in_question(
         matches,
         key=lambda company: question_lower.find(company.lower()),
     )
+
+
+def select_deepest_paths(
+    evidence_paths: list[dict],
+    limit: int = MAX_SELECTED_PATHS,
+) -> list[dict]:
+    """Keep the deepest retrieved paths for the answer and visualization."""
+    sorted_paths = sorted(
+        evidence_paths,
+        key=lambda result: len(result["path"]),
+        reverse=True,
+    )
+
+    return sorted_paths[:limit]
 
 
 def build_rag_prompt(
@@ -244,8 +268,24 @@ if __name__ == "__main__":
     if not evidence_paths:
         print("\nNo supported graph path was found for that question.")
         raise SystemExit
-    
-    context = build_rag_context(evidence_paths)
+
+    max_depth_found = max(
+        len(result["path"]) - 1
+        for result in evidence_paths
+    )
+
+    selected_paths = select_deepest_paths(
+        evidence_paths,
+        limit=MAX_SELECTED_PATHS,
+    )
+
+    print(f"\nMaximum cascade depth found: {max_depth_found} hops")
+    print(
+        f"Using the {len(selected_paths)} deepest paths "
+        "for the answer and visualization."
+    )
+
+    context = build_rag_context(selected_paths)
 
     prompt = build_rag_prompt(
         question=question,
@@ -264,7 +304,7 @@ if __name__ == "__main__":
     print(answer)
 
     visualize_paths(
-        evidence_paths=evidence_paths,
+        evidence_paths=selected_paths,
         disrupted_company=start_company,
         target_company=target_company,
     )
