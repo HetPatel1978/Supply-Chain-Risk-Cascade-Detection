@@ -3,16 +3,20 @@ Supply Chain Risk Cascade Detector — Streamlit Dashboard
 Run: streamlit run app.py
 """
 
+import matplotlib
+matplotlib.use("Agg")  # headless backend — must be before pyplot import
+
 import json
 import os
 import pathlib
 import sys
 import collections
+import io
 
 import streamlit as st
 import pandas as pd
 import networkx as nx
-import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 
 ROOT = pathlib.Path(__file__).parent
 sys.path.insert(0, str(ROOT / "src"))
@@ -23,9 +27,34 @@ try:
 except ImportError:
     pass
 
-from graph.build_graph import build_graph, REL_COLOR, FILER_COMPANIES
-from rag.retriever import retrieve_context, find_cascade_paths
-from rag.generator import generate_cascade_analysis
+from graph.build_graph import build_graph, load_triples, MERGED_TRIPLES_PATH
+from graph.retrieve_paths import retrieve_evidence
+from graph.visualize_paths import visualize_paths, build_path_graph
+from rag.build_context import (
+    build_rag_context,
+    build_rag_prompt,
+    generate_answer,
+    find_company_in_question,
+    select_deepest_paths,
+    MAX_CASCADE_HOPS,
+    MAX_EVIDENCE_PATHS,
+    MAX_SELECTED_PATHS,
+)
+
+# ── Constants that used to live in build_graph.py ────────────────────────────
+REL_COLOR = {
+    "supplier_of":   "#3B82F6",
+    "depends_on":    "#F97316",
+    "competitor_of": "#EF4444",
+    "subsidiary_of": "#A855F7",
+    "partner_of":    "#22C55E",
+    "customer_of":   "#06B6D4",
+}
+
+FILER_COMPANIES = {
+    "NVIDIA", "AMD", "Applied Materials", "Lam Research",
+    "KLA", "Micron", "Broadcom", "Qualcomm", "Intel",
+}
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -38,25 +67,20 @@ st.set_page_config(
 # ── Load data (cached) ────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading knowledge graph…")
 def load_data():
-    results = ROOT / "results"
-    triples = json.loads(
-        (results / "merged_triples.json").read_text(encoding="utf-8")
-    )["triples"]
+    triples_path = ROOT / "results" / "merged_triples.json"
+    triples = load_triples(triples_path)
     G = build_graph(triples)
     return G, triples
 
 
 G, triples = load_data()
 all_companies = sorted({t["head"] for t in triples} | {t["tail"] for t in triples})
+rel_counts = collections.Counter(t["relation"] for t in triples)
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/SEC_EDGAR_logo.png/320px-SEC_EDGAR_logo.png",
-        width=180,
-    )
-    st.title("Controls")
-    st.caption("SEC 10-K filings · 2023 · 8 companies")
+    st.title("🏭 Supply Chain Risk")
+    st.caption("SEC 10-K filings · 2023 · 8 filers")
 
     st.divider()
     st.markdown("**Dataset snapshot**")
@@ -64,7 +88,6 @@ with st.sidebar:
     col_a.metric("Triples", len(triples))
     col_b.metric("Companies", G.number_of_nodes())
 
-    rel_counts = collections.Counter(t["relation"] for t in triples)
     for rel, cnt in sorted(rel_counts.items(), key=lambda x: -x[1]):
         color = REL_COLOR.get(rel, "#888")
         st.markdown(
@@ -78,7 +101,7 @@ with st.sidebar:
     if groq_key:
         st.success("Groq API · Connected", icon="✅")
     else:
-        st.warning("Groq API · Not set\n\nAdd GROQ_API_KEY to .env for LLM analysis.", icon="⚠️")
+        st.warning("Add GROQ_API_KEY to .env\nto enable LLM analysis.", icon="⚠️")
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 tab_graph, tab_rag, tab_explorer = st.tabs([
@@ -91,27 +114,30 @@ tab_graph, tab_rag, tab_explorer = st.tabs([
 with tab_graph:
     st.subheader("Supply Chain Knowledge Graph (3D Interactive)")
     st.caption(
-        "Yellow diamonds = filing companies (NVIDIA, AMD, Intel…) · "
-        "Grey circles = supply chain partners · "
+        "Yellow diamonds = filing companies · Grey circles = supply chain partners · "
         "Drag to rotate, scroll to zoom, hover for details."
     )
 
     html_path = ROOT / "results" / "supply_chain_graph_3d.html"
     if html_path.exists():
-        html_bytes = html_path.read_text(encoding="utf-8")
-        st.components.v1.html(html_bytes, height=760, scrolling=False)
+        st.components.v1.html(
+            html_path.read_text(encoding="utf-8"),
+            height=760,
+            scrolling=False,
+        )
     else:
-        st.error("Graph HTML not found. Run `python src/graph/build_graph.py` first.")
+        st.warning(
+            "3D graph HTML not found. "
+            "The graph was built before this session — check `results/` directory."
+        )
 
-    # Stats row
     st.divider()
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Nodes", G.number_of_nodes())
     c2.metric("Edges", G.number_of_edges())
-    c3.metric("Filing companies", sum(1 for _, d in G.nodes(data=True) if d.get("is_filer")))
+    c3.metric("Filing companies", sum(1 for n in G.nodes() if n in FILER_COMPANIES))
     c4.metric("Relation types", len(rel_counts))
 
-    # Most connected
     st.markdown("**Most connected nodes (by total degree)**")
     deg_df = pd.DataFrame(
         [(n, G.in_degree(n), G.out_degree(n), G.in_degree(n) + G.out_degree(n))
@@ -125,8 +151,9 @@ with tab_graph:
 with tab_rag:
     st.subheader("Supply Chain Risk Cascade Detector")
     st.caption(
-        "Select a company, simulate a disruption, and trace the downstream impact "
-        "across the supply chain graph. LLaMA 3.1 synthesizes an analyst narrative."
+        "Select a disrupted company and optionally describe a scenario. "
+        "The pipeline traverses the knowledge graph up to 5 hops and uses "
+        "LLaMA 3.1 to synthesize a grounded risk narrative."
     )
 
     left, right = st.columns([1, 2], gap="large")
@@ -141,92 +168,115 @@ with tab_rag:
             index=all_companies.index(default_co),
         )
 
-        max_hops = st.slider("Max cascade hops", min_value=1, max_value=3, value=2,
-                             help="How many supply-chain steps to follow downstream")
-
-        scenario = st.text_area(
-            "Scenario description (optional)",
-            placeholder="e.g. TSMC halts EUV production due to geopolitical tensions with China",
-            height=100,
+        max_hops = st.slider(
+            "Max cascade hops",
+            min_value=1, max_value=MAX_CASCADE_HOPS, value=2,
+            help="How many supply-chain steps to follow from the disrupted node",
         )
 
-        run_btn = st.button("⚡ Detect Risk Cascade", type="primary", use_container_width=True)
+        scenario = st.text_area(
+            "Scenario / question (optional)",
+            placeholder=(
+                "e.g. What happens to NVIDIA if TSMC halts production "
+                "due to geopolitical tensions?"
+            ),
+            height=110,
+        )
 
-        # Show direct relations of selected company
+        run_btn = st.button(
+            "⚡ Detect Risk Cascade", type="primary", use_container_width=True
+        )
+
         st.divider()
         st.markdown(f"**Direct edges for {company}**")
-        direct_rows = []
-        for u, v, d in G.edges(data=True):
-            if u == company or v == company:
-                direct_rows.append({
-                    "From": u, "Relation": d["relation"], "To": v,
-                    "Conf": f"{d['confidence']:.2f}",
-                })
+        direct_rows = [
+            {"From": u, "Relation": d["relation"], "To": v,
+             "Conf": f"{d.get('confidence', 0):.2f}"}
+            for u, v, d in G.edges(data=True)
+            if u == company or v == company
+        ]
         if direct_rows:
             st.dataframe(
                 pd.DataFrame(direct_rows).sort_values("Relation"),
                 use_container_width=True, hide_index=True,
             )
         else:
-            st.info("No direct edges found for this company.")
+            st.info("No direct edges for this company.")
 
     with right:
         if run_btn:
             with st.spinner("Traversing supply chain graph…"):
-                ctx = retrieve_context(G, company, max_hops=max_hops)
+                evidence_paths = retrieve_evidence(
+                    G,
+                    start_node=company,
+                    max_hops=max_hops,
+                    max_paths=MAX_EVIDENCE_PATHS,
+                )
 
-            paths = ctx["cascade_paths"]
-            suppliers = ctx["suppliers"]
-
-            if not paths and not suppliers:
+            if not evidence_paths:
                 st.warning(
-                    f"**{company}** has no supply-chain connections in the current graph. "
-                    "Try a more central company like TSMC, NVIDIA, or AMD."
+                    f"**{company}** has no reachable downstream dependencies "
+                    "in the current graph. Try TSMC, NVIDIA, AMD, or Lam Research."
                 )
             else:
-                # Cascade paths
-                st.markdown(f"#### Downstream cascade from **{company}**")
-                if paths:
-                    rows = []
-                    for p in paths:
-                        rows.append({
-                            "Hops": p["hops"],
-                            "Cascade chain": " → ".join(p["path"]),
-                            "Relations": " → ".join(e["relation"] for e in p["edges"]),
-                        })
-                    cascade_df = pd.DataFrame(rows).sort_values("Hops")
-                    st.dataframe(cascade_df, use_container_width=True, hide_index=True)
+                selected = select_deepest_paths(evidence_paths, limit=MAX_SELECTED_PATHS)
+                max_depth = max(len(p["path"]) - 1 for p in evidence_paths)
+                direct_count = sum(1 for p in evidence_paths if len(p["path"]) == 2)
 
-                    # Mini Plotly cascade tree
-                    affected = {p["path"][-1] for p in paths}
-                    direct = {p["path"][-1] for p in paths if p["hops"] == 1}
-                    st.markdown(
-                        f"**{len(direct)}** companies at immediate risk · "
-                        f"**{len(affected) - len(direct)}** secondary"
+                # Summary metrics
+                m1, m2, m3 = st.columns(3)
+                m1.metric("Total affected paths", len(evidence_paths))
+                m2.metric("Direct (1-hop)", direct_count)
+                m3.metric("Max depth found", f"{max_depth} hops")
+
+                # Cascade paths table
+                st.markdown(f"#### Cascade paths from **{company}**")
+                rows = []
+                for p in evidence_paths:
+                    rows.append({
+                        "Hops": len(p["path"]) - 1,
+                        "Cascade chain": " → ".join(p["path"]),
+                        "Relations": " → ".join(
+                            r["relation"] for r in p["relationships"]
+                        ),
+                    })
+                st.dataframe(
+                    pd.DataFrame(rows).sort_values("Hops"),
+                    use_container_width=True, hide_index=True,
+                )
+
+                # Matplotlib layered cascade diagram
+                st.markdown("#### Cascade diagram")
+                try:
+                    viz_path = ROOT / "results" / "_cascade_latest.png"
+                    visualize_paths(
+                        evidence_paths=selected,
+                        disrupted_company=company,
+                        output_path=viz_path,
                     )
-                else:
-                    st.info("No downstream customers found in graph.")
-
-                # Upstream suppliers
-                if suppliers:
-                    st.markdown(f"#### Upstream suppliers of **{company}**")
-                    sup_df = pd.DataFrame(suppliers).rename(
-                        columns={"company": "Supplier", "relation": "Relation"}
-                    )[["Supplier", "Relation"]]
-                    st.dataframe(sup_df, use_container_width=True, hide_index=True)
+                    if viz_path.exists():
+                        st.image(str(viz_path), use_container_width=True)
+                except Exception as exc:
+                    st.warning(f"Diagram generation failed: {exc}")
 
                 # Source evidence
-                if ctx["source_sentences"]:
-                    with st.expander("📄 Source evidence from 10-K filings"):
-                        for s in ctx["source_sentences"]:
-                            st.markdown(f"- *{s}*")
+                context_str = build_rag_context(selected)
+                with st.expander("📄 Source evidence from 10-K filings"):
+                    st.code(context_str, language=None)
 
                 # LLM analysis
-                st.markdown("#### Risk Cascade Analysis")
+                st.markdown("#### Risk Analysis (LLaMA 3.1-8B)")
                 if groq_key:
-                    with st.spinner("Generating analysis with LLaMA 3.1-8B…"):
-                        analysis = generate_cascade_analysis(ctx, scenario, groq_key)
-                    st.info(analysis)
+                    question = scenario.strip() or (
+                        f"What are the supply-chain risks if {company} is disrupted?"
+                    )
+                    prompt = build_rag_prompt(question=question, context=context_str)
+                    with st.spinner("Generating grounded analysis…"):
+                        try:
+                            answer = generate_answer(prompt)
+                            st.info(answer)
+                        except Exception as exc:
+                            st.error(f"Generation error: {exc}")
                 else:
                     st.warning(
                         "LLM analysis disabled — add `GROQ_API_KEY` to your `.env` file."
@@ -235,20 +285,15 @@ with tab_rag:
             st.markdown(
                 """
                 <div style="
-                    border: 1px dashed #475569;
-                    border-radius: 8px;
-                    padding: 2rem;
-                    text-align: center;
-                    color: #94a3b8;
-                    margin-top: 2rem;
+                    border: 1px dashed #475569; border-radius: 8px;
+                    padding: 2rem; text-align: center; color: #94a3b8; margin-top:2rem;
                 ">
                     <div style="font-size:3rem">⚡</div>
                     <div style="font-size:1.1rem; margin-top:0.5rem">
                         Select a company and click <strong>Detect Risk Cascade</strong>
                     </div>
                     <div style="margin-top:0.5rem; font-size:0.9rem">
-                        The graph will trace which companies are exposed<br>
-                        to a disruption at the selected node.
+                        Optionally add a scenario to focus the LLM analysis.
                     </div>
                 </div>
                 """,
@@ -259,9 +304,8 @@ with tab_rag:
 # ── Tab 3 · Triple Explorer ───────────────────────────────────────────────────
 with tab_explorer:
     st.subheader("Triple Explorer")
-    st.caption("All 60 clean triples extracted from SEC 10-K filings.")
+    st.caption(f"All {len(triples)} clean triples extracted from SEC 10-K filings.")
 
-    # Filters
     fc1, fc2, fc3 = st.columns(3)
     filter_rel = fc1.multiselect(
         "Relation type",
@@ -279,26 +323,23 @@ with tab_explorer:
             continue
         if filter_tail != "(all)" and t["tail"] != filter_tail:
             continue
+        sentence = t.get("source_sentence", "")
         rows.append({
             "Head": t["head"],
             "Relation": t["relation"],
             "Tail": t["tail"],
-            "Conf": round(t["confidence"], 2),
+            "Conf": round(t.get("confidence", 0), 2),
             "Extractor": t.get("extractor", ""),
             "Source file": t.get("source_file", ""),
-            "Evidence": t.get("source_sentence", "")[:120] + "…"
-            if len(t.get("source_sentence", "")) > 120
-            else t.get("source_sentence", ""),
+            "Evidence": sentence[:120] + "…" if len(sentence) > 120 else sentence,
         })
 
     st.markdown(f"**{len(rows)} triples** match the current filters.")
     if rows:
         explorer_df = pd.DataFrame(rows)
 
-        # Colour-code relation column
         def colour_rel(val):
-            c = REL_COLOR.get(val, "#888888")
-            return f"color: {c}; font-weight: 600"
+            return f"color: {REL_COLOR.get(val, '#888888')}; font-weight: 600"
 
         st.dataframe(
             explorer_df.style.map(colour_rel, subset=["Relation"]),
