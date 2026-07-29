@@ -6,6 +6,14 @@ import networkx as nx
 
 OUTPUT_PATH = Path("results/affected_supply_chain.png")
 
+HOP_COLORS = [
+    "#E31A1C",  # disrupted company
+    "#FDAE61",  # direct impact
+    "#FFFFBF",  # hop 2
+    "#ABDDA4",  # hop 3
+    "#3288BD",  # hop 4+
+]
+
 
 def build_path_graph(evidence_paths: list[dict]) -> nx.DiGraph:
     """Build a smaller graph containing only the retrieved cascade paths."""
@@ -15,11 +23,7 @@ def build_path_graph(evidence_paths: list[dict]) -> nx.DiGraph:
         path = result["path"]
 
         for source, target in zip(path, path[1:]):
-            path_graph.add_edge(
-                source,
-                target,
-                label="risk flows to",
-            )
+            path_graph.add_edge(source, target)
 
     return path_graph
 
@@ -39,16 +43,12 @@ def get_layered_positions(
     for node, hop in distances.items():
         layers.setdefault(hop, []).append(node)
 
-    ordered_layers = {}
+    ordered_layers = {0: [disrupted_company]}
 
-    # The disrupted company is always first.
-    ordered_layers[0] = [disrupted_company]
-
-    # Sort directly affected companies consistently.
     if 1 in layers:
         ordered_layers[1] = sorted(layers[1])
 
-    # Group later-hop companies near their parent in the prior layer.
+    # Group later-hop companies near their parent in the previous layer.
     for hop in range(2, max(layers, default=0) + 1):
         previous_layer = ordered_layers.get(hop - 1, [])
         previous_positions = {
@@ -100,7 +100,7 @@ def visualize_paths(
     target_company: str | None = None,
     output_path: Path = OUTPUT_PATH,
 ) -> None:
-    """Visualize direct and indirect supply-chain impacts."""
+    """Visualize supply-chain impacts using a separate color for each hop."""
     path_graph = build_path_graph(evidence_paths)
 
     if path_graph.number_of_nodes() == 0:
@@ -117,16 +117,18 @@ def visualize_paths(
 
     for node in path_graph.nodes:
         hop = distances.get(node, 0)
+        color_index = min(hop, len(HOP_COLORS) - 1)
+
+        node_colors.append(HOP_COLORS[color_index])
 
         if node == disrupted_company:
             node_sizes.append(3200)
-            node_colors.append("#d9534f")
+        elif node == target_company:
+            node_sizes.append(2700)
         elif hop == 1:
             node_sizes.append(2500)
-            node_colors.append("#f0ad4e")
         else:
             node_sizes.append(2200)
-            node_colors.append("#5b9bd5")
 
     fig, ax = plt.subplots(figsize=(9, 5))
 
@@ -157,14 +159,17 @@ def visualize_paths(
     nx.draw_networkx_labels(
         path_graph,
         positions,
-        font_size=9,
+        font_size=8,
         ax=ax,
     )
 
     layer_headings = {
-        0: "Disrupted company",
-        1: "Direct impact",
-        2: "Indirect impact",
+        hop: (
+            "Disrupted company"
+            if hop == 0
+            else f"{hop}-hop"
+        )
+        for hop in sorted(set(distances.values()))
     }
 
     highest_y = max(
@@ -173,22 +178,21 @@ def visualize_paths(
     )
 
     for hop, heading in layer_headings.items():
-        if any(distance == hop for distance in distances.values()):
-            ax.text(
-                hop * 3.8,
-                highest_y + 1.0,
-                heading,
-                ha="center",
-                va="bottom",
-                fontsize=10,
-                fontweight="bold",
-            )
+        ax.text(
+            hop * 3.8,
+            highest_y + 0.6,
+            heading,
+            ha="center",
+            va="bottom",
+            fontsize=10,
+            fontweight="bold",
+        )
 
     ax.set_title(
         f"Supply-Chain Risk Propagation from {disrupted_company}",
         fontsize=16,
         fontweight="bold",
-        pad=40,
+        pad=75,
     )
 
     ax.axis("off")
