@@ -13,7 +13,7 @@ from graph.visualize_paths import visualize_paths
 
 MAX_CASCADE_HOPS = 5
 MAX_EVIDENCE_PATHS = 25
-MAX_SELECTED_PATHS = 5
+MAX_SELECTED_PATHS = 3
 
 
 def build_rag_context(evidence_paths: list[dict]) -> str:
@@ -24,11 +24,14 @@ def build_rag_context(evidence_paths: list[dict]) -> str:
     context_sections = []
 
     for path_number, result in enumerate(evidence_paths, start=1):
-        path_text = " -> ".join(result["path"])
+        path = result["path"]
+        path_text = " -> ".join(path)
+        hop_count = len(path) - 1
 
         lines = [
             f"PATH {path_number}",
             f"Graph path: {path_text}",
+            f"Hop count: {hop_count}",
             "",
         ]
 
@@ -177,14 +180,29 @@ Rules:
 - Clearly separate direct evidence from inference.
 - If the evidence is insufficient, say so.
 - Cite the source filename for each important claim.
-- A one-hop supplier-to-customer relationship is a direct supply-chain impact.
+- A direct relationship has exactly 1 hop.
+- Any path with 2 or more hops is a multi-hop cascade.
 - Use the term multi-hop cascade only when the risk passes through at least one intermediate company.
 - Do not downplay a supported direct dependency merely because it is not multi-hop.
 - When supplier_of and customer_of describe the same company pair using the same source evidence, treat them as one relationship rather than two separate findings.
 - Do not interpret extraction confidence scores as calibrated probabilities.
 - Treat longer cascade paths as progressively less certain.
 - Do not claim a multi-hop cascade unless every edge has supporting evidence.
-- Mention the number of hops in each material cascade.
+- Use the provided hop count for each path.
+- Do not recalculate or change the provided hop count.
+- A hop is one graph relationship between two companies.
+- Label a path as direct only when its provided hop count is exactly 1.
+- Label every path with a hop count greater than 1 as a multi-hop cascade.
+
+Answer format:
+- Begin with a brief 1-2 sentence summary.
+- Mention no more than 3 distinct paths.
+- Combine paths that share most of the same companies.
+- Do not repeat the same path or relationship.
+- Distinguish direct relationships from multi-hop relationships.
+- Do not list every confidence score.
+- Keep the full answer under 250 words.
+- Use clear, non-technical language suitable for a classroom demonstration.
 
 User question:
 {question}
