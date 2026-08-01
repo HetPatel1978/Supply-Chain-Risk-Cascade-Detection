@@ -11,7 +11,8 @@ HOP_COLORS = [
     "#FDAE61",  # direct impact
     "#FFFFBF",  # hop 2
     "#ABDDA4",  # hop 3
-    "#3288BD",  # hop 4+
+    "#3288BD",  # hop 4
+    "#8e63b6",  # hop 5
 ]
 
 
