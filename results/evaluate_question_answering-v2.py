@@ -43,7 +43,7 @@ QUESTIONS = [
         "type": "insufficient_evidence",
         "question": (
             "What exact financial loss would AMD experience "
-            "if TSMC were disrupted?"
+            "from a disruption at TSMC?"
         ),
     },
 ]
