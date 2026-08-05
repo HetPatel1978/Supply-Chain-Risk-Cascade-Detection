@@ -1,0 +1,40 @@
+question_id,question_type,question,start_company,target_company,selected_paths,context_relevance,faithfulness,relationship_direction,completeness,answer_relevance,total_score,unsupported_claims,direction_errors,explanation,answer
+Q1,direct,How could a disruption at TSMC directly affect Broadcom?,TSMC,Broadcom,1,2,2,2,1,2,9,,,"The answer correctly cites the retrieved evidence that TSMC supplies wafers to Broadcom, showing a direct supplier relationship and correctly infers that a disruption would affect Broadcom. It is fully faithful and relevant, and the relationship direction is accurate. However, it omits the broader consequences (e.g., material harm to business) mentioned in the evidence, so completeness is partial.","A disruption at TSMC could directly affect Broadcom due to their supplier relationship. 
+
+Direct evidence of this relationship comes from Broadcom's SEC filing, AVGO_2023.txt, which states that TSMC supplies wafers to Broadcom. 
+
+This direct relationship is a single hop between TSMC and Broadcom, with a confidence score of 0.95."
+Q2,two_hop,How could a disruption at TSMC affect Huawei through Broadcom?,TSMC,Huawei,1,2,1,1,1,2,7,"The answer states a ""direct relationship"" with PATH 1 hop count 1, which misrepresents the overall path length.; It claims Broadcom ""depends on Broadcom for its business,"" which is unsupported and reverses the actual direction (Huawei depends on Broadcom).",Incorrect direction: Broadcom depends on Broadcom instead of Huawei depends on Broadcom.,"The answer uses the retrieved evidence to explain how a TSMC disruption could cascade to Huawei via Broadcom, so it is context‑relevant and answers the question. However, it misstates the hop count and incorrectly describes the direction of the second relationship, introducing unsupported claims and a direction error, which lowers faithfulness, relationship direction, and completeness scores.","A disruption at TSMC could affect Huawei through Broadcom, potentially impacting the supply of wafers and subsequently affecting Broadcom's business and its relationship with Huawei.
+
+There are two possible paths:
+
+1. **Direct relationship**: TSMC directly supplies Broadcom (PATH 1, Hop count: 1). This is a direct relationship supported by evidence from AVGO_2023.txt, where TSMC's disruption is mentioned as a potential risk to Broadcom's business.
+2. **Multi-hop cascade**: TSMC's disruption could affect Broadcom, which in turn depends on Broadcom for its business (PATH 1, Hop count: 2). This multi-hop cascade is supported by evidence from AVGO_2023.txt, where Huawei's dependence on Broadcom is mentioned due to U.S. export restrictions.
+
+Note that the direct relationship between TSMC and Broadcom is more certain than the multi-hop cascade, as it has a higher confidence score (0.95 vs 0.78)."
+Q3,multi_hop,How could a disruption at UMC eventually affect Huawei?,UMC,Huawei,2,1,0,0,1,1,3,"The answer claims a direct UMC‑>Huawei relationship (Path 1) which is not present in the evidence; The answer states that GLOBALFOUNDRIES is not directly related to Huawei, ignoring the provided PATH 1 that connects UMC→GLOBALFOUNDRIES→AMD→TSMC→Broadcom→Huawei","Incorrectly treats the UMC→AMD link as a direct path to Huawei, misrepresenting the direction of impact","The answer uses some of the retrieved evidence (the multi‑hop UMC→AMD→TSMC→Broadcom→Huawei chain) but misstates the direct impact path and omits the valid GLOBALFOUNDRIES‑based path, leading to inaccurate and incomplete reasoning.","**Summary:** A disruption at UMC could eventually affect Huawei through two possible paths. 
+
+**Path 1: Direct Relationship**
+UMC supplies wafers to AMD, which is a direct relationship with a hop count of 1. This is supported by Relationship 1 in PATH 2 (Source: AMD_2023.txt).
+
+**Path 2: Multi-Hop Cascade**
+UMC supplies wafers to AMD, which then relies on TSMC for wafer production. TSMC supplies wafers to Broadcom, which in turn supplies Huawei. This multi-hop cascade has a hop count of 4 and is supported by Relationships 1, 2, 3, 4, and 5 in PATH 2 (Sources: AMD_2023.txt and AVGO_2023.txt).
+
+**Path 3: Multi-Hop Cascade**
+UMC supplies wafers to GLOBALFOUNDRIES, which is not directly related to Huawei. However, GLOBALFOUNDRIES is not mentioned in the provided relationships, so we cannot determine the exact path."
+Q4,direction,"Based on the retrieved relationships, why would a disruption at TSMC affect AMD?",TSMC,AMD,1,2,2,2,2,2,10,,,"The answer directly cites the retrieved evidence that TSMC is a supplier of AMD and that AMD depends on TSMC for wafer production, correctly reflecting the direction of the relationships and fully addressing why a disruption at TSMC would impact AMD.","Summary: A disruption at TSMC could affect AMD due to their direct supplier relationship. 
+
+There are two distinct paths:
+
+1. Direct relationship: TSMC is a direct supplier of AMD, which means a disruption at TSMC could directly impact AMD's ability to produce microprocessor and GPU products. (Source: AMD_2023.txt)
+2. Direct relationship: AMD relies on TSMC for the production of all wafers for microprocessor and GPU products at 7 nm or smaller nodes. This indicates a direct dependency between the two companies. (Source: AMD_2023.txt)
+
+These two paths are direct relationships with a hop count of 1, indicating a strong and direct connection between TSMC and AMD."
+Q5,insufficient_evidence,What exact financial loss would AMD experience from a disruption at TSMC?,TSMC,AMD,1,2,2,2,2,2,10,,,"The answer correctly references the retrieved evidence about AMD's reliance on TSMC and acknowledges that the evidence does not provide an exact financial loss figure. It does not introduce any unsupported claims or invert the relationship direction, and it fully addresses the question given the available information.","Summary: 
+AMD's financial loss from a disruption at TSMC is uncertain, but we can identify a direct relationship between the two companies. 
+
+Direct Relationship: 
+AMD relies on TSMC for the production of wafers for microprocessor and GPU products at 7 nm or smaller nodes (PATH 1, Hop count: 1). This relationship is supported by direct evidence from AMD's 2023 SEC filing (AMD_2023.txt). 
+
+Multi-hop Cascade: 
+We cannot determine the exact financial loss AMD would experience from a disruption at TSMC, as the provided evidence does not specify the impact of such a disruption."
