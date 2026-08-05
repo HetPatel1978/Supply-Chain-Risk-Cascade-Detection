@@ -1,0 +1,39 @@
+question_id,question_type,question,start_company,target_company,selected_paths,context_relevance,faithfulness,relationship_direction,completeness,answer_relevance,total_score,unsupported_claims,direction_errors,explanation,answer
+Q1,direct,How could a disruption at TSMC directly affect Broadcom?,TSMC,Broadcom,1,2,2,2,2,2,10,,,"The answer correctly uses the retrieved evidence, accurately reflects the supplier relationship and its impact, respects the direction (TSMC supplies Broadcom), includes all provided information, and directly addresses how a disruption could affect Broadcom.","Summary: 
+A disruption at TSMC could directly affect Broadcom due to their supplier relationship. 
+
+Direct Relationship: 
+TSMC is a supplier of Broadcom, which means a disruption at TSMC could directly impact Broadcom's business (AVGO_2023.txt). 
+
+This direct relationship is supported by Broadcom's SEC filing, which mentions TSMC as a supplier of contract manufacturing services, including the supply of wafers (AVGO_2023.txt)."
+Q2,two_hop,How could a disruption at TSMC affect Huawei through Broadcom?,TSMC,Huawei,1,2,2,2,2,2,10,,,"The answer correctly uses the retrieved evidence, accurately reflects the supplier relationships and their directions, includes the relevant multi‑hop path, and directly addresses how a TSMC disruption could propagate to Huawei via Broadcom. No unsupported or directionally incorrect statements are present.","A disruption at TSMC could affect Huawei through Broadcom. 
+
+There are two possible paths: 
+
+1. **Direct relationship**: TSMC is a supplier of Broadcom (Source: AVGO_2023.txt). This is a direct relationship with a hop count of 1.
+2. **Multi-hop cascade**: TSMC is a supplier of Broadcom, and Broadcom is a supplier of Huawei (Source: AVGO_2023.txt). This is a multi-hop cascade with a hop count of 2."
+Q3,multi_hop,How could a disruption at UMC eventually affect Huawei?,UMC,Huawei,2,1,0,0,0,1,2,Path 1 claim that GLOBALFOUNDRIES directly supplies Broadcom (evidence shows no such link); Path 3 chain UMC→AMD→GLOBALFOUNDRIES→TSMC→Broadcom→Huawei is not present in the retrieved evidence,GLOBALFOUNDRIES → Broadcom direction is unsupported,"The answer references the retrieved evidence but misstates the first path (omits AMD and TSMC) and invents a third path not found in the evidence. It also asserts a direct supplier relationship between GLOBALFOUNDRIES and Broadcom, which is not supported, leading to low faithfulness, incorrect relationship direction, and incomplete coverage of the actual 5‑hop path. The answer is somewhat relevant to the question but contains unsupported and directionally incorrect claims.","**Summary:** A disruption at UMC could eventually affect Huawei through two possible paths. 
+
+**Path 1: Direct Relationship**
+UMC is a supplier of GLOBALFOUNDRIES, which is a supplier of Broadcom, and Broadcom is a supplier of Huawei. This is a direct relationship with 3 hops.
+
+**Path 2: Multi-Hop Cascade**
+UMC is a supplier of AMD, which is a supplier of TSMC, which is a supplier of Broadcom, and Broadcom is a supplier of Huawei. This is a multi-hop cascade with 4 hops.
+
+**Path 3: Multi-Hop Cascade**
+UMC is a supplier of AMD, which depends on GLOBALFOUNDRIES, which is a supplier of TSMC, which is a supplier of Broadcom, and Broadcom is a supplier of Huawei. This is a multi-hop cascade with 5 hops.
+
+Note: The evidence for Path 3 is less direct than Path 1 and Path 2, but it still shows a possible relationship between UMC and Huawei."
+Q4,direction,"Based on the retrieved relationships, why would a disruption at TSMC affect AMD?",TSMC,AMD,1,2,2,2,2,2,10,,,"The answer directly cites the retrieved evidence that TSMC supplies AMD and that AMD depends on TSMC for 7 nm+ wafers, correctly reflecting the relationship direction and fully addressing why a TSMC disruption would impact AMD.","A disruption at TSMC could affect AMD because AMD relies heavily on TSMC for the production of its microprocessor and GPU products at 7 nm or smaller nodes.
+
+There are two main paths that explain this relationship:
+
+1. Direct relationship: TSMC is a supplier of AMD, meaning that TSMC manufactures wafers for AMD's products. This is a direct relationship with a hop count of 1 (TSMC -> AMD).
+2. Direct relationship: AMD depends on TSMC for the production of its microprocessor and GPU products at 7 nm or smaller nodes. This is also a direct relationship with a hop count of 1 (AMD -> TSMC).
+
+Both of these relationships are direct and have a high confidence score of 0.95, as stated in the AMD_2023.txt source."
+Q5,insufficient_evidence,What exact financial loss would AMD experience if TSMC were disrupted?,AMD,TSMC,1,1,1,0,0,0,2,,"Incorrect relationship direction: answer states AMD is a supplier of TSMC, which contradicts the actual supplier‑customer relationship","The answer references the retrieved evidence but misstates the direction of the AMD‑TSMC relationship and fails to provide the exact financial loss asked for, resulting in low scores for completeness and relevance.","Summary: 
+AMD's financial loss due to a TSMC disruption is uncertain, but we can identify a direct relationship between AMD and TSMC. 
+
+Direct relationship: 
+AMD is a supplier of TSMC, as stated in AMD's 2023 filing (AMD_2023.txt). This means that AMD relies on TSMC for manufacturing its IC products."
