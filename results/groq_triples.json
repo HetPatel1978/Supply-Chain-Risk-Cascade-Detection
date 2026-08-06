@@ -1,0 +1,2429 @@
+{
+  "total": 303,
+  "triples": [
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Customer demand for products and services is fulfilled through a global distribution system in more than 195 locations and trained service engineers located in close proximity to customer sites to support over 52,000 installed Applied semiconductor, display and other manufacturing systems worldwide"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Our backlog on any particular date is not necessarily indicative of actual sales for any future periods, due to the potential for customer changes such as new orders or cancellations"
+    },
+    {
+      "head": "we",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "In addition, certain outsourced RD&E activities, process support and customer demonstrations are performed in China, India, Singapore, Taiwan and the United States. 8 Table of Contents Marketing and Sales Because of the highly technical nature of our products, we market and sell products worldwide almost entirely through a direct sales force"
+    },
+    {
+      "head": "major semiconductor, display and other manufacturers",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Our business is based on capital equipment investments by major semiconductor, display and other manufacturers, and is subject to significant variability in customer demand for our products"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "In addition, a significant driver in the semiconductor and display industries has been end-demand for mobile consumer products, which has been characterized by seasonality that impacts the timing of customer investments in manufacturing equipment and, in turn, our business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Important factors affecting the competitive position of our Display and Adjacent Markets products include: industry trends, our ability to innovate and develop new products, and the extent to which our products are technically-differentiated, as well as which customers within a highly concentrated customer base are making capital equipment investments and our existing position at these customers. 10 Table of Contents Patents and Licenses Protection of our technology assets through enforcement of our intellectual property rights, including patents, is important for our competitive position"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "We are a supplier to the global semiconductor and display and related industries, which historically have been cyclical and are subject to volatility and sudden changes in customer demand"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Changes in demand can affect the timing and amounts of customer investments in technology and manufacturing equipment and can significantly impact our operating results"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Trade restrictions and export regulations, or increases in tariffs and additional taxes, including any retaliatory measures, can negatively impact end-user demand and customer investment in manufacturing equipment, increase our supply chain complexity and our manufacturing costs, decrease margins, reduce the competitiveness of our products, or restrict our ability to sell products, provide services or purchase necessary equipment and supplies, any or all of which could have a material and adverse effect on our business, results of operations, or financial condition"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "In August 2022, we received a subpoena from the U.S. Attorney’s Office for the District of Massachusetts requesting information relating to certain China customer shipments"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Our customer base is geographically concentrated, particularly in China, Taiwan, Korea and Japan"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "As a result, the actions of even a single customer or export regulations that apply to customers in certain countries, such as those in China, have exposed and can further expose 18 Table of Contents our business and operating results to greater volatility"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Our products are configured to customer specifications, and changing, rescheduling or canceling orders may result in significant, non-recoverable costs"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "The concentration of our customer base increases our risks related to the financial condition of our customers, and the deterioration in financial condition of a single customer or the failure of a single customer to perform its obligations could have a material and adverse effect on our results of operations and cash flow"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Supply chain disruptions, manufacturing interruptions or delays, or the failure to accurately forecast customer demand, could affect our ability to meet customer demand, lead to higher costs, or result in excess or obsolete inventory"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Such shortages, as well as delays in and unpredictability of shipments due to transportation interruptions, have adversely impacted, and may continue to adversely impact, our manufacturing operations and our ability to meet customer demand"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Cybersecurity incidents affecting our suppliers could impact our supply chain and may also cause difficulties and delays in our ability to obtain parts, materials and services needed to manufacture our products and provide services, and may adversely impact our manufacturing operations, our ability to meet customer demand, and our operating results"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "If we are unable to meet our customers’ demand for a prolonged period due to our inability to obtain certain parts or components from suppliers on a timely basis or at all, our business, results of operations and customer relationships could be adversely impacted"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.95,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "If we purchase or commit to purchase inventory in anticipation of customer demand that does not materialize, or such inventory is rendered obsolete by the rapid pace of technological change, or if customers reduce, delay or cancel orders, we may incur excess or obsolete inventory charges"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs, and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, APUs, and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs and Adaptive SoC products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our sales arrangements generally operate on the basis of product forecasts provided by the particular customer, but do not typically include any commitment or requirement for minimum product purchases"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "AMD",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our client processors include: AMD Ryzen, AMD Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, and AMD PRO A-Series"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We believe that our commitment to customer service and design support improves our customers’ time-to-market and fosters relationships that encourage customers to use the next generation of our products. 8 Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "One customer accounted for 16 % of our consolidated net revenue for the year ended December 31, 2022"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Sales to this customer consisted of sales of products from our Gaming segment"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "A loss of this customer would have a material adverse effect on our business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Continued use of such software and technology is important to the operation of the design tools upon which our customers depend . Backlog Sales are made primarily pursuant to purchase orders for current delivery or agreements covering purchases over a period of time"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The loss of a significant customer may have a material adverse effect on us"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We depend on a small number of customers for a substantial portion of our business and we expect that a small number of customers will continue to account for a significant part of our revenue in the future"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We have experienced some disruptions to parts of our supply chain as a result of COVID-19 and we adjust our supply chain requirements based on changing customer needs and demands"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, we are entering markets with current and new competitors who may be able to adapt more quickly to customer requirements and emerging technologies"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third parties",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Operational and Technology Risks We rely on third parties to manufacture our products, and if they are unable to do so on a timely basis in sufficient quantities and using competitive technologies, our business could be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "Taiwan Semiconductor Manufacturing Company Limited (TSMC)",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "GLOBALFOUNDRIES Inc. (GF)",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party manufacturers",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also rely on third-party manufacturers to assemble, test, mark and pack (ATMP) our products"
+    },
+    {
+      "head": "third-party manufacturing suppliers",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "It is important to have reliable relationships with all of these third-party manufacturing suppliers to ensure adequate product supply to respond to customer demand"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, if we are unable to meet customer demand due to fluctuating or late supply from our manufacturing suppliers, it could result in lost sales and have a material adverse effect on our business"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "For example, if TSMC is not able to manufacture wafers for our microprocessor and GPU products at 7 nm or smaller nodes and our newest IC products in sufficient quantities to meet customer demand, it could have a material adverse effect on our business"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Accordingly, we depend on these suppliers to allocate to us a portion of their manufacturing capacity sufficient to meet our needs, to produce products of acceptable quality and at acceptable manufacturing yields and to deliver those products to us on a timely basis and at acceptable prices"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we are unable to secure sufficient or reliable supplies of products, our ability to meet customer demand may be adversely affected and this could materially affect our business"
+    },
+    {
+      "head": "ATMP JVs",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We may purchase equipment, materials and substrates for use by our back-end manufacturing service providers from a number of suppliers and our operations depend upon obtaining deliveries of adequate supplies of equipment and materials on a timely basis"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We may purchase equipment, materials and substrates for use by our back-end manufacturing service providers from a number of suppliers and our operations depend upon obtaining deliveries of adequate supplies of equipment and materials on a timely basis"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We may purchase equipment, materials and substrates for use by our back-end manufacturing service providers from a number of suppliers and our operations depend upon obtaining deliveries of adequate supplies of equipment and materials on a timely basis"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "<filing company>",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We may purchase equipment, materials and substrates for use by our back-end manufacturing service providers from a number of suppliers and our operations depend upon obtaining deliveries of adequate supplies of equipment and materials on a timely basis"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party suppliers",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our third-party suppliers also depend on the same timely delivery of adequate quantities of equipment and materials in the manufacture of our products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, as many of our products increase in technical complexity, we rely on our third-party suppliers to update their processes in order to continue meeting our back-end manufacturing needs"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also depend on a limited number of suppliers to provide the majority of certain types of integrated circuit packages for our microprocessors, including our APU products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If the delivery of such supply is delayed or does not occur for any reason, it could materially impact our ability to procure and process the required volume of supply to meet customer demand"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Conversely, a decrease in customer demand could result in excess inventory and an increase in our production costs, particularly since we have prepayment arrangements with certain suppliers. 21 Table of Contents Because some of the equipment and materials that we and our third-party manufacturers purchase are complex, it is sometimes difficult to substitute one equipment or materials supplier for another"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Conversely, a decrease in customer demand could result in excess inventory and an increase in our production costs, particularly since we have prepayment arrangements with certain suppliers. 21 Table of Contents Because some of the equipment and materials that we and our third-party manufacturers purchase are complex, it is sometimes difficult to substitute one equipment or materials supplier for another"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If TSMC is not able to manufacture wafers for our products at 7 nm or smaller nodes in sufficient quantities to meet customer demand, it could have a material adverse effect on our business"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "TSMC",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Moreover, we rely on TSMC, UMC and our other foundries to produce wafers with competitive performance attributes for our IC products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "UMC",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Moreover, we rely on TSMC, UMC and our other foundries to produce wafers with competitive performance attributes for our IC products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "vendors",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We may depend on vendors to create mitigations to their technology that we incorporate into our products and they may delay or decline to make such mitigations"
+    },
+    {
+      "head": "a third party",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Cyber threats have and may come into our network through malicious code that is added to widely available open-source software, compromised commercial software or security vulnerabilities in our products or those of a third party that are being used by attackers prior to mitigations being put in place, such as zero-day attacks"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "partner_of",
+      "tail": "third-party providers",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We often partner with third-party providers for certain worker services and we may provide certain limited worker information to such third parties based on the scope of the services provided to us"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "To the extent we fail to forecast demand and product mix accurately or are unable to increase production or secure sufficient capacity and there is a mismatch between supply and demand for our products, it could limit our ability to meet customer demand and have a material adverse effect on our business"
+    },
+    {
+      "head": "PC supply chain",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "For example, in the second half of 2022, we experienced a decline in our Client segment revenue as a result of weak PC market macroeconomic conditions and inventory correction actions across the PC supply chain"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If the third-party intellectual property that we use becomes unavailable, is not available with required functionality or performance in the time frame, manufacturing technology, or price point needed for our new products or fails to produce designs that meet customer demands, or laws are adopted that affect our use of third party intellectual property in certain regions or products, our business could be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We depend on third-party companies for the design, manufacture and supply of motherboards, software, memory and other computer platform components to support our business and products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We depend on third-party companies for the design, manufacture and supply of motherboards, graphics cards, software (e.g., BIOS, operating systems, drivers), memory and other components that we use to design, support and sell, and our customers utilize to support and/or use our product offerings"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "AIB",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also rely on our AIB partners to support our products"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "Microsoft",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products"
+    },
+    {
+      "head": "us",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "us",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "competitor_of",
+      "tail": "our competitors",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If any significant distributor or AIB partner or a substantial number of our distributors or AIB partners terminated their relationship with us, decided to market our competitors’ products over our products or decided not to market our products at all, our ability to bring our products to market would be impacted and we would be materially adversely affected"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we fail to maintain the efficiency of our supply chain as we respond to changes in customer demand for our products, our business could be materially adversely affected"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to meet customer demand for our products depends, in part, on our ability to deliver the products our customers want on a timely basis"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third parties",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, we rely on third parties to provide certain information technology services to us, including help desk support, desktop application services, business and software support applications, server and storage administration, data center operations, database administration and voice, video and remote access"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, our inability to control gray market activities could result in customer satisfaction issues because any time products are purchased outside our authorized distribution channels there is a risk that our customers are buying counterfeit or substandard products, including products that may have been altered, mishandled or damaged, or are used products represented as new"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We continue to incur additional costs associated with complying with these requirements, such as costs related to developing internal controls for the due diligence process, determining the source of any conflict minerals used in our products, auditing the process and reporting to our customers and the SEC. In addition to the SEC regulation, the European Union, China and other jurisdictions are developing new policies focused on conflict minerals that may impact and increase the cost of our compliance program"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Customers are increasingly seeking information about the source of minerals used in our supply chain beyond those addressed in laws and regulations"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "subsidiary_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.0,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The identification of suitable acquisition or joint venture candidates can be difficult, time-consuming and costly, and we may not be able to successfully complete identified acquisitions or joint ventures. 31 Table of Contents For example, on February 14, 2022, we completed our acquisition of Xilinx and on May 26, 2022, we completed our acquisition of Pensando"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "subsidiary_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.0,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The identification of suitable acquisition or joint venture candidates can be difficult, time-consuming and costly, and we may not be able to successfully complete identified acquisitions or joint ventures. 31 Table of Contents For example, on February 14, 2022, we completed our acquisition of Xilinx and on May 26, 2022, we completed our acquisition of Pensando"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "the acquired companies",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "While we believe these acquisitions will result in certain benefits, including certain operational synergies and cost efficiencies, and drive product innovations, achieving these anticipated benefits will depend on successfully combining our and the acquired companies’ businesses together"
+    },
+    {
+      "head": "ATMP JVs",
+      "relation": "supplier_of",
+      "tail": "Advanced Micro Devices",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business"
+    },
+    {
+      "head": "Advanced Micro Devices",
+      "relation": "depends_on",
+      "tail": "third-party subcontractors",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We also depend on third-party subcontractors to provide shipment services"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "This enhances our customer reach and our visibility into new product opportunities and, in the case of our semiconductor customers, enables us to support our customers in each stage of their product development cycle, from the early stages of production design to volume manufacturing and future growth"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "To serve customers around the world, we have strategically developed relationships with large global electronic component distributors, complemented by a number of regional distributors with customer relationships based on their respective product ranges"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our direct sales force focuses on supporting our large OEM customers, and has specialized product and service knowledge that enables us to sell specific offerings at key levels throughout a customer’s organization"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Many of our major customer relationships have been in place for many years and are often the result of years of collaborative product development"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "With sales offices located in various countries, our primary warehouse in Malaysia, and dedicated regional customer support call centers, where we address customer issues and handle logistics and other order fulfillment requirements, we believe we are well-positioned to support our customers throughout the design, technology transfer and manufacturing stages across all geographies"
+    },
+    {
+      "head": "U.S.",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our internal III-V semiconductor wafer fabrication is done in the U.S. and Singapore. 9 Table of Contents We also have a long history of operating in Asia where we manufacture and source the majority of our products and materials"
+    },
+    {
+      "head": "Singapore",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our internal III-V semiconductor wafer fabrication is done in the U.S. and Singapore. 9 Table of Contents We also have a long history of operating in Asia where we manufacture and source the majority of our products and materials"
+    },
+    {
+      "head": "Asia",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our internal III-V semiconductor wafer fabrication is done in the U.S. and Singapore. 9 Table of Contents We also have a long history of operating in Asia where we manufacture and source the majority of our products and materials"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "To address the potential disruption in our supply chain, we may use a number of techniques, including redesigning products for alternative components, making incremental or “lifetime” purchases, or qualifying more than one source of supply"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We compete based on the strength and expertise of our high speed proprietary design expertise, FBAR technology, amplifier design, module integration, proprietary materials processes, multiple storage protocols and mixed-signal design, our broad product portfolio, support of key industry standards, reputation for quality products, and our customer relationships"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "Broadcom",
+      "confidence": 0.0,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We compete based on the breadth of our enterprise management tools portfolio, breadth and synergy of offerings, our platform and hardware independence, our global reach, and our deep customer relationships and industry experience"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Intellectual Property Our success depends in part upon our ability to protect our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks, service marks, trade secrets and similar IP, as well as customary contractual protections with our customers, suppliers, employees and consultants, and through security measures to protect our trade secrets"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "suppliers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Intellectual Property Our success depends in part upon our ability to protect our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks, service marks, trade secrets and similar IP, as well as customary contractual protections with our customers, suppliers, employees and consultants, and through security measures to protect our trade secrets"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "employees",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Intellectual Property Our success depends in part upon our ability to protect our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks, service marks, trade secrets and similar IP, as well as customary contractual protections with our customers, suppliers, employees and consultants, and through security measures to protect our trade secrets"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "consultants",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Intellectual Property Our success depends in part upon our ability to protect our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks, service marks, trade secrets and similar IP, as well as customary contractual protections with our customers, suppliers, employees and consultants, and through security measures to protect our trade secrets"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Some of our customer agreements require us to indemnify our customers for third-party IP infringement claims arising from our products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Under certain contingent circumstances, some of our customers are beneficiaries of a source code escrow arrangement that would enable them to obtain a limited right to access and use our source code if specific conditions are met"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, we sell our semiconductor products through an increasingly limited number of distributors, which exposes us to additional customer concentration and related credit risks"
+    },
+    {
+      "head": "governmental entities",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a critical vendor in the digital supply chain for both governmental entities and critical infrastructure operators, we and our products may be targeted by those seeking to threaten the confidentiality, integrity and availability of systems supporting essential public services"
+    },
+    {
+      "head": "critical infrastructure operators",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a critical vendor in the digital supply chain for both governmental entities and critical infrastructure operators, we and our products may be targeted by those seeking to threaten the confidentiality, integrity and availability of systems supporting essential public services"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "While we may be entitled to damages if our vendors fail to perform under their agreements with us, any award may be insufficient to cover the actual costs incurred by us and, as a result of a vendor’s failure to perform, we may be unable to collect any damages"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "This customer concentration increases the risk of quarterly fluctuations in our operating results and our sensitivity to any material adverse developments experienced by our significant customers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Even when customers agree to source an agreed portion of their product needs from us, such arrangements often include pricing schedules or methodologies that apply regardless of the volume of products purchased, and those customers may not purchase the amount of product we expect"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "CM",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our semiconductor products require wafer manufacturers with state-of-the-art fabrication equipment and techniques, and most of our products are designed to be manufactured in a specific process, typically at one particular fab or foundry, either our own or with a particular CM. We depend on our CMs to allocate sufficient manufacturing capacity to meet our needs, to produce products of acceptable quality at acceptable yields, and to deliver those products to us on a timely basis"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As lead times to identify, qualify and establish reliable production at acceptable yields with a new CM is typically lengthy, there is often no readily available alternative source and there may be other constraints on our ability to change CMs"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "If any of the foregoing circumstances occur, we may be unable to meet our customer demand, or to the same extent as our competitors, fail to meet our contractual obligations or forgo revenue opportunities"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Further, any substantial disruption in the contract manufacturing services that we utilize, including TSMC’s supply of wafers to us, as a result of a natural disaster, climate change, water shortages, political unrest, military conflicts, geopolitical turmoil, trade tensions, government orders, labor shortages, medical epidemics, such as the COVID-19 pandemic, economic instability, equipment failure or other cause, could materially harm our business, customer relationships and results of operations"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "During fiscal year 2023, we purchased approximately two-thirds of our manufacturing materials from five materials providers, some of which are single source suppliers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We largely build to order and have extended customer lead times substantially, which has limited and may continue to limit our ability to fulfill orders and satisfy all of the demand for our products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "If we are unable to meet such increases in demand, this could damage our customer relationships, reduce revenue growth and margins, subject us to additional liabilities, harm our reputation, and prevent us from taking advantage of opportunities"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "customer opportunity",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our semiconductor business is dependent on us winning competitive bid selection processes, known as “design wins”. These selection processes are typically lengthy and can require us to dedicate significant development expenditures and scarce engineering resources in pursuit of a single customer opportunity"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "A delay or cancellation of a customer’s plans could materially and adversely affect our financial results, as we incur significant expense in the design process and may generate little or no revenue from it"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Delays in qualification or failure to qualify our products may cause a customer to discontinue use of our products and result in a significant loss of revenue"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "To date, we have not experienced a material event, however such an event could disrupt our operations, delay production, shipments and revenue, result in us being unable to timely satisfy customer demand, expose us to claims by our customers, result in significant expense to repair or replace our affected facilities, and, in some instances, could significantly curtail our research and development efforts in a particular product area or target market"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a result, we could forgo revenue opportunities, potentially lose market share, damage our customer relationships and be subject to litigation and additional liabilities, all of which could materially and adversely affect our business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We must maintain appropriate capacity and product yields at our own manufacturing facilities to meet anticipated customer demand"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Such expanded manufacturing capacity may still be insufficient, or may not come online soon enough, to meet customer demand and we may have to put customers on product allocation, forgo sales or lose customers as a result"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Many of our customer agreements, and in some cases our asset sale agreements, and/or the laws of certain jurisdictions may require us to indemnify our customers or purchasers for third-party IP infringement claims, including costs to defend those claims, and payment of damages in the case of adverse rulings"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "customer",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The growth of our software business depends on customer acceptance of our newer products and services"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Customer renewal rates may decline or fluctuate as a result of a number of factors, including the level of customer satisfaction with our solutions or customer support, customer budgets and the pricing of our solutions as compared with the solutions offered by our competitors, any of which may cause our revenue to grow more slowly than expected, if at all"
+    },
+    {
+      "head": "third parties",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The failure to renew customer agreements of similar scope, on terms that are commercially attractive to us, could materially adversely affect our business, financial condition and operating results and cash flow. 24 Table of Contents Certain software that we use in our products is licensed from third parties and may not be available to us in the future, which may delay product development and production or cause us to incur additional expense"
+    },
+    {
+      "head": "third-party",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Open source licenses are generally “as-is” and do not provide warranties, support or assurance of title or controls on origin of the software, which exposes us to potential liability if the software fails to work or infringes the intellectual property of a third-party"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Some of our competitors have longer operating histories, greater name recognition, a larger installed customer base, larger technical staffs, more established relationships with vendors or suppliers, or greater manufacturing, distribution, financial, research and development, technical and marketing resources than us"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "public cloud providers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "smaller companies",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "open source authors",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "We also face competition from public cloud 26 Table of Contents providers, numerous smaller companies that specialize in specific aspects of the highly fragmented software industry, open source authors who provide software and IP for free, competitors who offer their products through try-and-buy or freemium models, and customers who develop competing products"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Some of our competitors may also receive financial and other support from their home country government or may have a greater presence in key markets, a larger customer base, a more comprehensive IP portfolio or better patent protection than us"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "suppliers",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "employees",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "consultants",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our success depends in part upon protecting our IP. To accomplish this, we rely on a combination of IP rights, including patents, copyrights, trademarks and trade secrets, as well as customary contractual protections with our customers, suppliers, employees and consultants"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our customer contracts typically contain warranty and indemnification provisions, and in certain cases may also contain liquidated damages provisions, relating to product quality issues"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a result, if there is system-wide failure or an actual or perceived breach of information integrity, security or availability occurs in one of our end-user customer’s system, it can be difficult to determine which product is at fault and we could ultimately be harmed by the failure of another supplier’s product"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "another supplier",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "As a result, if there is system-wide failure or an actual or perceived breach of information integrity, security or availability occurs in one of our end-user customer’s system, it can be difficult to determine which product is at fault and we could ultimately be harmed by the failure of another supplier’s product"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, if a delay in the manufacture and delivery of our products causes the delay of a customer’s end-product delivery, we may be required, under the terms of our agreement with that customer, to compensate the customer for the adverse effects of such delays"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, some of our customer agreements provide for volume-based pricing and product pricing roadmaps, which can also reduce the average selling prices of our products over time"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "depends_on",
+      "tail": "Asia",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Our future performance will depend, in part, on our ability to continue to compete successfully in Asia, one of the largest markets for our equipment"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We expect to recognize approximately 40% to 50% of these performance obligations as revenue beyond the next 12 months, but this estimate is subject to constant change depending on the following: Macro-economic factors and the effect on customer behavior : The supply chain disruptions caused by the pandemic as well as elevated demand levels in recent years have led to customers agreeing to purchase equipment from us with lead times that are longer than our historical experience"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Although we seek to reduce our dependence on sole and limited source suppliers, in some cases the partial or complete loss of certain of these sources, or disruptions within our suppliers’ often complex supply chains, could disrupt scheduled deliveries to customers, damage customer relationships and have a material adverse effect on our results of operations"
+    },
+    {
+      "head": "Applied Materials, Inc.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "head": "ASML Holding N.V.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "head": "Hitachi High-Technologies Corporation",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "head": "Onto Innovation, Inc.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "head": "Lasertec, Inc.",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Industry Risks • We may not be able to keep pace with trends and technological changes in the industries in which we operate; • We have a highly concentrated customer base; and • Prevailing local and global economic conditions may negatively affect the purchasing decisions of our customers"
+    },
+    {
+      "head": "customers in China",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.85,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "If our practice of requiring prepayments in those jurisdictions changes or deteriorates, our cash flows would be harmed; • Required refunds for customer prepayments resulting from our inability to ship to certain jurisdictions, especially for customers in China, as described in more detail below"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We may lose revenue in future periods related to anticipated sales to customers in China unless we are able to replace their orders with other customer orders for which either a license has been obtained or is not required"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "depends_on",
+      "tail": "our customers",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We depend on secure information technology for our business and are exposed to risks related to cybersecurity threats and cyber incidents affecting our, our customers ’ , suppliers ’ and other service providers ’ systems and networks"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "depends_on",
+      "tail": "our suppliers",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We depend on secure information technology for our business and are exposed to risks related to cybersecurity threats and cyber incidents affecting our, our customers ’ , suppliers ’ and other service providers ’ systems and networks"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "depends_on",
+      "tail": "other service providers",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We depend on secure information technology for our business and are exposed to risks related to cybersecurity threats and cyber incidents affecting our, our customers ’ , suppliers ’ and other service providers ’ systems and networks"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "In addition, the threat could be introduced from the result of our customers and business partners incorporating the output of an AI tool that includes a threat, such as introducing malicious code by incorporating AI generated source code"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "System failures or malfunctions, such as difficulties with our customer and supplier relationship management systems, could disrupt our operations and our ability to timely and accurately process and report key components of our financial results"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "System failures or malfunctions, such as difficulties with our customer and supplier relationship management systems, could disrupt our operations and our ability to timely and accurately process and report key components of our financial results"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Such disruption has caused (as with the COVID-19 pandemic, for example) and could in the future cause inefficiencies in our workforce and delays in, among other things, shipments of products to our customers, our ability to perform services requested by our customers, the ability of our suppliers to supply us components for our products in a timely manner, or the timely installation and acceptance of our products at customer sites"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Such disruption has caused (as with the COVID-19 pandemic, for example) and could in the future cause inefficiencies in our workforce and delays in, among other things, shipments of products to our customers, our ability to perform services requested by our customers, the ability of our suppliers to supply us components for our products in a timely manner, or the timely installation and acceptance of our products at customer sites"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Any of the changes described above may negatively affect our customers’ rate of investment in the capital equipment that we produce, which could result in downward pressure on our prices, customer orders, revenues and gross margins"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Our customer base, particularly in the semiconductor industry, historically has been highly concentrated due to corporate consolidation, acquisitions and business closures"
+    },
+    {
+      "head": "foundry/logic customers",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "This increasing concentration exposes our business, financial condition and operating results to a number of risks, including the following: • The mix and type of customers, and sales to any single customer, may vary significantly from quarter to quarter and from year to year, which expose our business and operating results to increased volatility tied to individual customers; • New orders from our foundry/logic customers in the past several years have constituted a significant portion of our total orders"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "This concentration increases the impact that future business or technology changes within the foundry/logic industry may have on our business, financial condition and operating results; • In a highly concentrated business environment, if a particular customer does not place an order, or if they delay or cancel orders, we may not be able to replace the business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Furthermore, because our process control and yield management products are configured to each customer’s specifications, any changes, delays or cancellations of orders may result in significant, non-recoverable costs; • As a result of this consolidation, the customers that survive the consolidation represent a greater portion of our sales and, consequently, have greater commercial negotiating leverage"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Many of our large customers have more aggressive policies regarding engaging alternative, second-source suppliers for the products we offer and, in addition, may seek and, on occasion, receive pricing, payment, IP-related or other commercial terms that may have an adverse impact on our business and we may not be able to pass on the cost of inflation to our customers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Any of these changes could negatively impact our prices, customer orders, revenues and gross margins; • Certain customers have undergone significant ownership changes, created alliances with other companies, experienced management changes or have outsourced manufacturing activities, any of which may result in additional complexities in managing customer relationships and transactions"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Accordingly, we expect it to be more difficult to sell our products to a given customer for that specific production line application and other similar production line applications if that customer initially selects a competitor’s equipment; and • Prices differ among the products we offer for different applications due to differences in features offered or manufacturing costs"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "During down cycles in our industry, the financial results of our customers may be negatively impacted, which could result not only in a decrease in, or cancellation or delay of, orders (which are generally subject to cancellation or delay by the customer with limited or no penalty) but also a weakening of their financial condition that could impair their ability to pay for our products or our ability to recognize revenue from certain customers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Our ability to recognize revenue from a particular customer may also be negatively impacted by the customer’s funding status, which could be weakened not only by rising interest rates, adverse business conditions or inaccessibility to capital markets for any number of macroeconomic or company-specific reasons, but also by funding limitations imposed by the customer’s unique organizational structure"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We must continue to make significant investments in R&D in order to enhance the performance, features and functionality of our products, to keep pace with competitive products and to satisfy customer demands"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "We regularly recognize revenue from a sale upon shipment of the applicable product to the customer (even before receiving the customer’s formal acceptance of that product) in certain situations, including sales of products for which installation is considered perfunctory, transactions in which the product is sold to an independent distributor and we have no installation obligations, and sales of products where we have previously delivered the same product to the same customer location and that prior delivery has been accepted"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "In addition, the laws of certain territories in which we develop, manufacture or sell our products may not protect our IP rights to the same extent as the laws of the U.S. In any event, the extent to which we can protect our trade secrets through the use of confidentiality agreements is limited, and our success will depend to a significant extent on our ability to innovate ahead of our competitors"
+    },
+    {
+      "head": "KLA Corporation",
+      "relation": "competitor_of",
+      "tail": "diversified companies",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Some of our competitors are diversified companies with greater financial resources and more extensive research, engineering, manufacturing, marketing, and customer service and support capabilities than we possess"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "Loss of competitive position in any of the markets we serve, or an inability to sell our products on favorable commercial terms in new markets we may enter, could negatively affect our prices, customer orders, revenues, gross margins and market share, any of which would negatively affect our operating results and financial condition"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "In addition, we may, in limited circumstances, enter into agreements that contain customer-specific commitments on pricing, tool reliability, spare parts stocking levels, response time and other commitments and we may be unable to adjust pricing with our customers despite rising inflation in our supply chain"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "KLA Corporation",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "If a customer elects to exercise its audit or inspection rights, we may be required to expend significant resources to support the audit or inspection, as well as to defend or settle any dispute with a customer that could potentially arise out of such audit or inspection"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "We maintain a network of facilities throughout Asia, Europe, and the United States in order to meet the needs of our dynamic customer base"
+    },
+    {
+      "head": "IDMs",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our customer base includes leading semiconductor memory, foundry, and integrated device manufacturers (“IDMs”) that make products such as non-volatile memory (“NVM”), dynamic random-access memory (“DRAM”), and logic devices"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our Customer Support Business Group (“CSBG”) provides products and services to maximize installed equipment performance, predictability, and operational efficiency"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "We believe that comprehensive support programs and close working relationships with customers are essential to maintaining high customer satisfaction and our competitiveness in the marketplace"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Refer to Note 9 of our Consolidated Financial Statements, included in Part II, Item 8 of this report, for information concerning customer concentrations"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Any prolonged inability to obtain these components could have an adverse effect on our operating results and could unfavorably impact our customer relationships"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For additional details regarding the impacts of compliance with environmental laws and regulations, please refer to “Legal, Regulatory and Tax Risks – A Failure to Comply with Environmental Regulations May Adversely Affect Our Operating Results” in Item 1A: Risk Factors . Environmental, Social, and Governance We strive to incorporate environmental, social and governance (\"ESG\") consi derations into everything we do – from our operations and workplace practices, to how we source our materials and design our products"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "depends_on",
+      "tail": "customers",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our ability to succeed in the marketplace depends upon our ability to manufacture and ship products on a timeline that meets our customers’ needs, maintain existing products, and introduce product enhancements and new products that meet customer requirements on a timely basis"
+    },
+    {
+      "head": "competitor",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Accordingly, we may experience difficulty in selling to a given customer if that customer has qualified a competitor’s equipment"
+    },
+    {
+      "head": "Novellus Systems, Inc.",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Prior to joining us, he spent 18 years at Novellus Systems, Inc., (“Novellus”) in various technology development and business leadership roles, including most recently as chief operating officer from January 2011 to June 2012; executive vice president of Worldwide Sales, Marketing, and Customer Satisfaction from September 2009 to January 2011; and executive vice president of the PECVD and Electrofill Business Units from November 2008 to September 2009"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "depends_on",
+      "tail": "semiconductor manufacturers",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Future Declines in the Semiconductor Industry, and the Overall World Economic Conditions on Which It Is Significantly Dependent, Could Have a Material Adverse Impact on Our Results of Operations and Financial Condition Our business depends on the capital equipment expenditures of semiconductor manufacturers, which in turn depend on the current and anticipated market demand for integrated circuits"
+    },
+    {
+      "head": "semiconductor manufacturers",
+      "relation": "depends_on",
+      "tail": "the current and anticipated market demand for integrated circuits",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Future Declines in the Semiconductor Industry, and the Overall World Economic Conditions on Which It Is Significantly Dependent, Could Have a Material Adverse Impact on Our Results of Operations and Financial Condition Our business depends on the capital equipment expenditures of semiconductor manufacturers, which in turn depend on the current and anticipated market demand for integrated circuits"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "The economic, regulatory, political, and business conditions occurring nationally, globally, or in any of our key sales regions, which are often unpredictable, have historically impacted customer demand for our products and normal commercial relationships with our customers, suppliers, and creditors"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "The economic, regulatory, political, and business conditions occurring nationally, globally, or in any of our key sales regions, which are often unpredictable, have historically impacted customer demand for our products and normal commercial relationships with our customers, suppliers, and creditors"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "The economic, regulatory, political, and business conditions occurring nationally, globally, or in any of our key sales regions, which are often unpredictable, have historically impacted customer demand for our products and normal commercial relationships with our customers, suppliers, and creditors"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "The economic, regulatory, political, and business conditions occurring nationally, globally, or in any of our key sales regions, which are often unpredictable, have historically impacted customer demand for our products and normal commercial relationships with our customers, suppliers, and creditors"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Lam Research Corporation 2023 10-K 13 Table of Contents We believe that to remain competitive we must devote significant financial resources to offer products that meet our customers’ needs, to maintain customer service and support centers worldwide, and to invest in product and process R&D. Technological changes and developing technologies have required, and are expected to continue to require, new and costly investments"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Certain of our competitors, including those that are created and financially backed by foreign governments, have substantially greater financial resources and more extensive engineering, manufacturing, marketing, and customer service and support resources than we do and therefore have the potential to offer customers a more comprehensive array of products and/or product capabilities and to therefore achieve additional relative success in the semiconductor equipment industry"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "In many cases speed to solution is necessary for customer satisfaction and our competitors may be better positioned to achieve these objectives"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "In addition, our competitors may be able to develop products comparable or superior to those we offer or may adapt more quickly to new technologies or evolving customer requirements"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Once a Semiconductor Manufacturer Commits to Purchase a Competitor’s Semiconductor Manufacturing Equipment, the Manufacturer Typically Continues to Purchase That Competitor’s Equipment, Making It More Difficult for Us to Sell Our Equipment to That Customer Semiconductor manufacturers must make a substantial investment to qualify and integrate wafer processing equipment into a semiconductor production line"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "partner_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Strategic Alliances and Customer Consolidation May Have Negative Effects on Our Business Semiconductor manufacturing companies from time to time enter into strategic alliances or consolidate with one another to expedite the development of processes and other manufacturing technologies and/or achieve economies of scale"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "depends_on",
+      "tail": "U.S. or foreign governments",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Certain of our international sales depend on our ability to obtain export licenses from the U.S. or foreign governments, and our inability to obtain such licenses, or an expansion of the number or kinds of sales for which export licenses are required, has limited and could in the future further limit the market for our products and has had and could in the future have an adverse impact on our revenues"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "depends_on",
+      "tail": "third-party providers",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "While we have implemented ISO 27001 compliant security procedures and virus protection software, intrusion prevention systems, identity and access control, and emergency recovery processes, and we carefully select our third-party providers of information systems, to mitigate risks to the information systems that we rely on and to the technology, data, intellectual property and other sensitive information we seek to protect, those security procedures and mitigation and protection systems cannot be guaranteed to be fail-safe, and we may still suffer cybersecurity and other incidents"
+    },
+    {
+      "head": "outsource providers",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "In addition, outsource providers have played and will continue to play a key role both in the manufacturing and customer-focused operations described above, and in many of our transactional and administrative functions, such as information technology, facilities management, and certain elements of our finance organization"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Difficulties in obtaining sufficient and timely supply of parts, materials or services, and delays in and unpredictability of shipments due to transportation interruptions, have adversely impacted, and may in the future adversely impact, our manufacturing operations and our ability to meet customer demand"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "There is therefore a risk that a prolonged inability to obtain certain components or secure key services could impair our ability to manage operations, ship products, and generate revenues, which could adversely affect our operating results and damage our customer relationships"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "The pandemic resulted at various times in significant disruption of global financial markets, increases in levels of unemployment, and economic uncertainty, which adversely impacted our business and may do so in the future, and may lead to significant negative impacts on customer spending, demand for our products, the ability of our customers to pay, our financial condition and the financial condition of our suppliers, and our access to external sources of financing to fund our operations and capital expenditures"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Such disruptions may cause delays in developing or shipping our products, in engaging with customers on new product applications, or in supporting customers, which could result in the loss of business or customer trust, adversely affecting our business and operating results"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Micron Technology",
+      "confidence": 0.95,
+      "source_file": "MU_2023.txt",
+      "source_sentence": "Although the impact of the CAC decision remains uncertain, we believe that approximately half of that China-headquartered customer revenue, which equates to a low-double-digit percentage of our worldwide revenue, is at risk of being impacted"
+    },
+    {
+      "head": "Micron Technology",
+      "relation": "partner_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "MU_2023.txt",
+      "source_sentence": "To develop new product and process technology, support future growth, achieve operating efficiencies, and maintain product quality, we must continue to invest in manufacturing technologies, facilities and equipment, and R&D. We estimate capital expenditures in 2024 for property, plant, and equipment, net of partner contributions, to be slightly above $7 billion"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "industry leaders",
+      "confidence": 0.8,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We partner with industry leaders to help transform their applications or their computing platforms"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "To facilitate customer adoption, we have also built other ready-to-use system reference designs around our GPUs, including HGX for hyperscale and supercomputing data centers, EGX for enterprise and edge computing, IGX for high-precision edge AI, and AGX for autonomous machines"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our sales and marketing teams, located across our global markets, work closely with end customers and various industry ecosystems through our partner network"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "ISVs",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "internet and CSPs",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "mapping companies",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "start-ups",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "retailers/distributors",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "system builders",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "AIBs",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "OEMs",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "original device manufacturers",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "ODMs",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "tier-1 automotive suppliers",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "automotive manufacturers",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, ISVs, internet and CSPs, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "NVIDIA's partner network",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We also employ a team of application engineers and solution architects to assist our partner network in designing, testing, and qualifying system designs that incorporate our platforms"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We believe that the depth and quality of our design support are key to improving our partner network’s time-to-market, maintaining a high level of customer satisfaction, and fostering relationships that encourage our end customers and partner network to use the next generation of our products within each platform"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Thus, in addition to sales to customers in our partner network, certain of our products are also sold direct to CSPs, enterprise customers, retail channels and consumers"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "competitor_of",
+      "tail": "companies that provide or intend to provide GPUs, CPUs, DPUs, embedded SoCs, and other accelerated, AI computing processor products",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "A significant source of competition comes from companies that provide or intend to provide GPUs, CPUs, DPUs, embedded SoCs, and other accelerated, AI computing processor products, and providers of semiconductor-based high-performance interconnect products based on InfiniBand, Ethernet, Fibre Channel and proprietary technologies"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "competitor_of",
+      "tail": "providers of semiconductor-based high-performance interconnect products based on InfiniBand, Ethernet, Fibre Channel and proprietary technologies",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "A significant source of competition comes from companies that provide or intend to provide GPUs, CPUs, DPUs, embedded SoCs, and other accelerated, AI computing processor products, and providers of semiconductor-based high-performance interconnect products based on InfiniBand, Ethernet, Fibre Channel and proprietary technologies"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Some of our competitors may have greater marketing, financial, distribution and manufacturing resources than we do and may be more able to adapt to customer or technological changes"
+    },
+    {
+      "head": "third-party suppliers",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Risks Related to Demand, Supply and Manufacturing • Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand. • Dependency on third-party suppliers and their technology reduces our control over product quantity and quality, manufacturing yields, development, enhancement, and product delivery schedules and could harm our business. • Defects in our products have caused and could cause us to incur significant expenses to remediate and can damage our business"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "competitor_of",
+      "tail": "NVIDIA",
+      "confidence": 0.0,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Some of our competitors operate their own fabrication facilities, have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, new designs and more design wins, and greater financial, sales, marketing and distribution resources than we do"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "competitor_of",
+      "tail": "us",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end user customer trends, more quickly transition their products, and secure sufficient foundry capacity and packaging materials during a supply-constrained environment, which could harm our business"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Even if we are able to increase production levels to meet customer demand, we may not be able to do so in a cost-effective or timely manner, or our contract manufacturers may experience supply constraints"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "If we fail to fulfill our customers’ orders on a timely basis, or at all, our customer relationships could be damaged, we could lose revenue and market share and our reputation could be harmed"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "depends_on",
+      "tail": "third-party content providers and publishers",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We also rely on third-party content providers and publishers to make their content available on our platforms such as GeForce NOW. Failure by developers to build applications that leverage our platforms, or failure by third-party content providers or publishers to make their content available on reasonable terms or at all for use by our customers or end users on our platforms, could adversely affect customer demand"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "depends_on",
+      "tail": "foundries",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "These risks further increase when we rely on partners to supply and manufacture components that are used in our products, as these arrangements reduce our direct control over production"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "depends_on",
+      "tail": "third-party suppliers",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Furthermore, we rely on products and services provided by third-party suppliers to operate certain critical business systems, including without limitation, cloud-based infrastructure, encryption and authentication technology, employee email, and other functions, which exposes us to supply-chain attacks or other business disruptions"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Breaches of our GFN security measures, which have happened in the past, could expose our partners to a risk of loss or misuse of this source code, damage both us and our partners, and expose NVIDIA to potential litigation and liability"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Breaches of our GFN security measures, which have happened in the past, could expose our partners to a risk of loss or misuse of this source code, damage both us and our partners, and expose NVIDIA to potential litigation and liability"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "In the event a disaster, war or catastrophic event affects us, the third-party systems on which we rely, or our customers, our business could be harmed as a result of declines in revenue, increases in expenses, and substantial expenditures and time spent to fully resume operations"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We receive a significant amount of our revenue from a limited number of customers within our distribution and partner network"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "depends_on",
+      "tail": "NVIDIA's partner network",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our operating results depend on sales within our partner network, as well as the ability of these partners to sell products that incorporate our processors"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "partner_of",
+      "tail": "NVIDIA's partner network",
+      "confidence": 0.9,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Our operating results depend on sales within our partner network, as well as the ability of these partners to sell products that incorporate our processors"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "The loss of any of our large customers, a significant reduction in purchases by them, our inability to sell to a customer due to U.S. or other countries’ trade restrictions, or any difficulties in collecting accounts receivable would likely harm our financial condition and results of operations"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We sometimes host personal data in collaboration with our customers, and if a breach exposed or altered that personal data, it could harm those customer relationships and subject us to litigation, regulatory action, or fines"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Cancellation or deferral of customer purchase orders could result in our holding excess inventory"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "As a fabless semiconductor company, we must make commitments to purchase inventory based on forecasts of future customer demand"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Revenue is recognized net of allowances for returns, customer programs and any taxes collected from customers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.95,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We account for customer programs as a reduction to revenue and accrue for potential rebates and MDFs based on the amount we expect to be claimed by customers"
+    },
+    {
+      "head": "customer",
+      "relation": "supplier_of",
+      "tail": "Qualcomm",
+      "confidence": 0.95,
+      "source_file": "QCOM_2023.txt",
+      "source_sentence": "Net changes in our operating assets and liabilities positively impacted our operating cash flows primarily from a decrease in accounts receivable as a result of lower revenues and a decrease in other assets primarily driven by utilization of prior 45 advanced supply agreement payments (which payments were primarily made during 2022 and 2021) and certain settlement payments received associated with our forward starting interest rate swaps, partially offset by lower operating liabilities resulting from lower purchases due to lower customer demand"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Qualcomm",
+      "confidence": 0.95,
+      "source_file": "QCOM_2023.txt",
+      "source_sentence": "We measure inventory at the lower of cost or net realizable value considering judgments and estimates related to future customer demand and other market conditions, such as the impact of certain capacity constraints experienced across the semiconductor industry through the third quarter of fiscal 2022, as well as the impact of the macroeconomic environment in fiscal 2022 and 2023, which negatively impacted consumer demand for smartphones and other devices that incorporate our products and technologies"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Qualcomm",
+      "confidence": 0.95,
+      "source_file": "QCOM_2023.txt",
+      "source_sentence": "Although we believe these estimates are reasonable, any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs and would be reflected in cost of sales resulting in a negative impact to our gross margin in that period"
+    },
+    {
+      "head": "CCG",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "CCG revenue decreased 8% due to lower notebook and desktop volume from lower demand across market segments, partially offset by increased volume in the second half of the year as customer inventory levels normalized compared to higher levels in the first half"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Beyond the CPU, we are delivering a growing family of xPU products, which encompass client and data center GPUs, IPUs, FPGAs, and other accelerators"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Intel has helped set the stage for this movement, with our historic contributions in developing standards such as CXL, Thunderbolt™, and PCI Express*. We also contributed to the design, build, and validation of open-source products in the industry such as Linux*, Android*, and others"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "public sector",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "With one of the most geographically balanced supply chains across North America, Europe and Asia, we plan to partner with the public sector to strengthen the resilience of the global semiconductor supply chain by investing in a more geographically balanced capacity"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We are aggressively building out manufacturing shell space, which gives us flexibility in how and when we bring additional capacity online based on milestone triggers such as product readiness, market conditions, and customer commitments. ▪ Government incentives"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "The Intel Core Ultra processor is our first high-volume client product on Intel 4 and began shipping to customers in Q3 2023. ▪ Intel 3 is expected to deliver further logic scaling and up to 18% performance-per-watt improvement over Intel 4"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We are showing strong customer and performance momentum for our Intel ® Gaudi ® AI accelerators"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "Stability AI",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In Q3 2023, we announced that a large AI supercomputer would be built entirely on Intel Xeon processors and 4,000 Intel Gaudi 2 AI hardware accelerators, with Stability AI as the anchor customer"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We continue to work across our supply chain to minimize disruptions, improve productivity, and increase overall capacity and output to meet customer expectations"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "coalition of technology companies",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "As part of the Alliance for Global Inclusion, we worked with a coalition of technology companies to create a global inclusion index survey, which serves as a benchmark for companies to track diversity and inclusion improvements, provide information on current best practices, and highlight opportunities to improve outcomes across industries"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Where we become aware of a concern that Intel products are being used by a business partner in connection with abuses of human rights, we intend to evaluate and restrict or cease business with the third party unless and until we have a high confidence that Intel's products are not being used to adversely impact human rights. 1 This is a preliminary estimate"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We perform periodic audits, and identify critical direct suppliers to engage through capability-building programs, which help suppliers build sustainability acumen and verify compliance with the Responsible Business Alliance and the Intel Code of Conduct"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "By doing this, we believe we help continue to fuel innovation across the industry, providing a solid source of IP, scale, and cash flow for Intel"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Intel Core Ultra represents an inflection point in Intel's client processor roadmap as we usher in the age of the AI PC. With new capabilities in the PC, including significantly improved battery life, AI capabilities with our NPU and GPU products, and up to double the graphics performance with Intel Core Ultra processors, we seek to provide compelling reasons to drive refresh in commercial and consumer markets"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Notebook volume decreased 5% from 2022, driven by lower demand across market segments, partially offset by increased volume in the second half of the year as customer inventory levels normalized compared to higher levels in the first half"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Desktop volume decreased 9% from 2022, driven by lower demand across market segments, partially offset by increased volume in the second half of the year as customer inventory levels normalized compared to higher levels in the first half"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "On-Premises Edge: More than just providing silicon, we partner with companies to design and deliver solutions to help a wide range of customers transform their businesses and take advantage of the rapidly increasing number of connected and intelligent devices"
+    },
+    {
+      "head": "vendor",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Offering unique optimizations for network, the Internet of Things, hybrid AI, and edge workloads on Intel architecture, the platform also broadly supports diverse architectures and can be consumed on a modular basis—avoiding vendor lock-in"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Key Business Developments ■ In 2023, we were granted four design wins on Intel 18A, including a design win with a significant high performance computing customer on Intel 18A and a large prepayment"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We have seen accelerated interest in our advanced packaging business, especially for AI related designs, and have secured five new design wins. ■ Our IFS Accelerator Ecosystem Alliance program doubled in size to over 40 strategic agreements across EDA, silicon IP, design services, cloud, and USMAG alliances since launching in Q1 2022"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "Open System Foundry",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We believe Open System Foundry is a world-class foundry offering, delivered from a resilient, secure, and sustainable source of supply and complemented by access to the systems of chips capabilities from Intel"
+    },
+    {
+      "head": "CCG",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "CCG revenue decreased 8% from 2022 primarily due to lower notebook and desktop volume driven by lower demand across market segments, partially offset by increased volume in the second half of the year as customer inventory levels normalized compared to higher levels in the first half"
+    },
+    {
+      "head": "hyperscale customer",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "DCAI revenue decreased 20% from 2022 due to lower server volume resulting from a softening CPU data center market, which was partially offset by higher server ASPs from a lower mix of hyperscale customer-related revenue and a higher mix of high core count products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "The decrease in our \"all other\" revenue was due to revenue from the divested NAND memory business of $4.3 billion recognized in 2021, for which historical results are recorded in “all other,” and $584 million of revenue recognized in 2021 from a prepaid customer supply agreement"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "Bain Capital",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Our sources of liquidity in 2023 included $1.5 billion from partner contributions, net proceeds of $1.6 billion from a secondary offering of Mobileye Class A common stock, $1.4 billion of cash proceeds from the sale of minority stakes in our IMS business to both Bain Capital and TSMC, and government incentives of $1.0 billion"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "TSMC",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Our sources of liquidity in 2023 included $1.5 billion from partner contributions, net proceeds of $1.6 billion from a secondary offering of Mobileye Class A common stock, $1.4 billion of cash proceeds from the sale of minority stakes in our IMS business to both Bain Capital and TSMC, and government incentives of $1.0 billion"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In 2023 these actions included, among others, negotiating with suppliers to optimize our payment terms and conditions, adjusting the amounts and timing of cash flows associated with customer sales programs and collections, managing inventory levels and purchasing practices, and selling certain of our accounts receivable on a non-recourse basis to third-party financial institutions"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "partner",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Financing Activities Financing cash flows consist primarily of payment of dividends to stockholders, issuance and repayment of short-term and long-term debt, and proceeds from partner contributions and equity-related issuances"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "Mobileye",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Cash provided by financing activities in 2022 compared to cash used for financing activities in 2021 was primarily due to higher commercial paper and debt issuances, our 2022 curtailment of common stock repurchases, proceeds from the Mobileye IPO, and partner contributions for joint investments, partially offset by higher 2022 debt repayments"
+    },
+    {
+      "head": "Apple",
+      "relation": "competitor_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "For example, in 2020, Apple introduced PC products utilizing its own internally developed ARM-based semiconductor designs in place of our client CPUs, and we face increasing competition from Apple's products and ecosystem"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products"
+    },
+    {
+      "head": "Samsung",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Our products compete based on a number of factors, including performance, energy efficiency, ease-of-integration, ease-of-use, innovative design, features, workload optimization, price, quality, reliability, security, software ecosystem and developer support, time-to-market, reliable product roadmap execution, brand recognition, customer support and customization, and availability"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "For example, our competitors have introduced data center and client platform products with performance improvements and additional processor core counts that have contributed to an increasingly competitive environment"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Further, our DCAI revenue, platform ASPs and market share were negatively impacted by the competitive environment and the shift of customer spend towards GPUs during the past few years"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Building and maintaining a competitive foundry business requires high ongoing investments to maintain leading-edge process technology and manufacturing capacity, which investments in many instances must be made ahead of customer commitments and may not be recouped"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "As a result, our strategy requires us to overcome customer concerns regarding protection of confidentiality information, intellectual property, and foundry capacity, among other competitive concerns, to attract and retain such customers"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "To the extent we are unable to add capacity or increase production fast enough, we are at times required to make production decisions and/or are unable to fully meet market demand, which can result in a loss of revenue opportunities or market share, legal claims, and/or damage to customer relationships"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Production timing delays have at times caused us to miss customer product design windows, which can result in lost revenue opportunities and damage to our customer relationships"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "incumbent competitors",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "These new and developing areas and products represent a significant portion of our revenue growth opportunity, and they also introduce new sources of competition, including, in some cases, incumbent competitors with established technologies, ecosystems, and customer bases, lower prices, margins, or costs, and greater brand recognition"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In particular, geopolitical and trade tensions between the US and China, one of our largest markets, have led to increased tariffs and trade restrictions, including tariffs applicable to some of our products, and have affected customer ordering patterns"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We also rely on suppliers to provide certain components for our products and to manufacture and assemble and test some of our components and products"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "These and other supply chain issues can increase our costs, disrupt or reduce our production, delay our product shipments, prevent us from meeting customer demand, damage our customer relationships, or negatively affect our reputation"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "These shortages have previously limited our ability to supply customer demand in certain of our businesses, and have adversely affected customer demand for our products, as some customers have been unable to procure sufficient quantities of third-party components used together with our products to produce finished systems"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "<filing company>",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "However, for certain components, services, materials, and equipment, we rely on a single or a limited number of suppliers, or upon suppliers in a single location, which can impact the nature, quality, availability, and pricing of the products and services available to us"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "third parties",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In addition, we are often required to rely on third parties, including hardware, software, and services vendors, as well as our customers and end users, to develop and/or deploy mitigation techniques, and the availability, effectiveness, and performance impact of mitigation techniques can depend solely or in part on the actions of these third parties in determining whether, when, and how to develop and deploy mitigations"
+    },
+    {
+      "head": "third parties",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In addition, we are often required to rely on third parties, including hardware, software, and services vendors, as well as our customers and end users, to develop and/or deploy mitigation techniques, and the availability, effectiveness, and performance impact of mitigation techniques can depend solely or in part on the actions of these third parties in determining whether, when, and how to develop and deploy mitigations"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "As we grow certain emerging business lines, such as our foundry business and our cloud computing and software-as-a-service offerings, we expect to collect or host significant amounts of highly sensitive customer data, which may increasingly make us a target of attempts to steal or corrupt that data"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "employees",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We rely on IP law—as well as confidentiality and licensing agreements with our customers, employees, technology development partners, and others—to protect our IP and IP rights"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "technology development partners",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We rely on IP law—as well as confidentiality and licensing agreements with our customers, employees, technology development partners, and others—to protect our IP and IP rights"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "others",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We rely on IP law—as well as confidentiality and licensing agreements with our customers, employees, technology development partners, and others—to protect our IP and IP rights"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "distributors",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We depend on many distributors to help us create end-customer demand, provide technical support and other value-added services to customers, fill customer orders, and stock our products"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "key distributors",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "At times, we rely on one or more key distributors for a product, and a material change in our relationship with one or more of these distributors or their failure to perform as expected could reduce our revenue"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Our corporate responsibility initiatives, including our RISE strategy and related goals, could expose us to heightened scrutiny and numerous financial, legal, reputational, operational, compliance, and other risks, including lost customer opportunities, which could negatively impact us"
+    },
+    {
+      "head": "<filing company>",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In accordance with contract terms, the revenue for combined performance obligations and standalone product sales is recognized at the time of product shipment from our facilities or delivery to the customer location, as determined by the agreed-upon shipping terms"
+    }
+  ]
+}

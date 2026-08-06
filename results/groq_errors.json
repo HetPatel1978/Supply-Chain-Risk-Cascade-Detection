@@ -1,0 +1,12 @@
+[
+  {
+    "sentence": "Server ASPs increased 20% from 2022, primarily due to a lower mix of hyperscale customer-related revenue and a higher mix of high core count products. 2022 vs. 2021 Revenue was $19.4 billion, down $3.3 billion from 2021, due to a decrease in server revenue, partially offset by higher other DCAI revenue",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 94)  |  raw='{\"triples\":[{\"head\":\"Intel\",\"relation\":\"customer_of\",\"tail\":\"hyperscale\",\"confidence\":0.8}]}\\n\\nNote: The relation \"customer_of\" is used here because the sentence mentions \"hyperscale customer-related revenue\", implying that Intel is the customer of hyperscale.'",
+    "source_file": "INTC_2023.txt"
+  },
+  {
+    "sentence": "Delays in the development of foundries’ future manufacturing processes could delay the introduction of products or components we design for such processes, and insufficient foundry capacity could prevent us from meeting customer demand",
+    "error": "JSON parse error: Extra data: line 3 column 1 (char 101)  |  raw='{\"triples\":[{\"head\":\"Intel\",\"relation\":\"customer_of\",\"tail\":\"<filing company>\",\"confidence\":0.95}]}\\n\\nNote: The sentence implies that Intel is the customer of the filing company (Intel itself), as it mentions \"products or components we design\" which refers to the filing company\\'s products or components.'",
+    "source_file": "INTC_2023.txt"
+  }
+]

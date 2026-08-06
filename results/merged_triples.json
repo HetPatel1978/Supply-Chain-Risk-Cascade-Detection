@@ -1,0 +1,671 @@
+{
+  "total": 74,
+  "triples": [
+    {
+      "head": "AMD",
+      "relation": "depends_on",
+      "tail": "TSMC",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm",
+      "extractor": "groq"
+    },
+    {
+      "head": "AMD",
+      "relation": "depends_on",
+      "tail": "GLOBALFOUNDRIES",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm",
+      "extractor": "groq"
+    },
+    {
+      "head": "AMD",
+      "relation": "depends_on",
+      "tail": "Microsoft",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With respect to our graphics products, we depend in part on Microsoft to design and develop its operating system to run on or support our graphics products",
+      "extractor": "groq"
+    },
+    {
+      "head": "AMD",
+      "relation": "depends_on",
+      "tail": "UMC",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Moreover, we rely on TSMC, UMC and our other foundries to produce wafers with competitive performance attributes for our IC products",
+      "extractor": "groq"
+    },
+    {
+      "head": "ASML",
+      "relation": "supplier_of",
+      "tail": "KLA",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "groq"
+    },
+    {
+      "head": "Apple",
+      "relation": "competitor_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "For example, in 2020, Apple introduced PC products utilizing its own internally developed ARM-based semiconductor designs in place of our client CPUs, and we face increasing competition from Apple's products and ecosystem",
+      "extractor": "groq"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "supplier_of",
+      "tail": "KLA",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "groq"
+    },
+    {
+      "head": "Hitachi",
+      "relation": "supplier_of",
+      "tail": "KLA",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "groq"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "TSMC",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Our sources of liquidity in 2023 included $1.5 billion from partner contributions, net proceeds of $1.6 billion from a secondary offering of Mobileye Class A common stock, $1.4 billion of cash proceeds from the sale of minority stakes in our IMS business to both Bain Capital and TSMC, and government incentives of $1.0 billion",
+      "extractor": "groq"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "Mobileye",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Cash provided by financing activities in 2022 compared to cash used for financing activities in 2021 was primarily due to higher commercial paper and debt issuances, our 2022 curtailment of common stock repurchases, proceeds from the Mobileye IPO, and partner contributions for joint investments, partially offset by higher 2022 debt repayments",
+      "extractor": "groq"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "AMD",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs, and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, APUs, and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs and Adaptive SoC products",
+      "extractor": "groq"
+    },
+    {
+      "head": "Lasertec",
+      "relation": "supplier_of",
+      "tail": "KLA",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "groq"
+    },
+    {
+      "head": "Novellus Systems",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.95,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Prior to joining us, he spent 18 years at Novellus Systems, Inc., (“Novellus”) in various technology development and business leadership roles, including most recently as chief operating officer from January 2011 to June 2012; executive vice president of Worldwide Sales, Marketing, and Customer Satisfaction from September 2009 to January 2011; and executive vice president of the PECVD and Electrofill Business Units from November 2008 to September 2009",
+      "extractor": "groq"
+    },
+    {
+      "head": "Onto Innovation",
+      "relation": "supplier_of",
+      "tail": "KLA",
+      "confidence": 0.95,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "groq"
+    },
+    {
+      "head": "Samsung",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products",
+      "extractor": "groq"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "AMD",
+      "confidence": 0.95,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "For example, if TSMC is not able to manufacture wafers for our microprocessor and GPU products at 7 nm or smaller nodes and our newest IC products in sufficient quantities to meet customer demand, it could have a material adverse effect on our business",
+      "extractor": "groq"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Broadcom",
+      "confidence": 0.95,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Further, any substantial disruption in the contract manufacturing services that we utilize, including TSMC’s supply of wafers to us, as a result of a natural disaster, climate change, water shortages, political unrest, military conflicts, geopolitical turmoil, trade tensions, government orders, labor shortages, medical epidemics, such as the COVID-19 pandemic, economic instability, equipment failure or other cause, could materially harm our business, customer relationships and results of operations",
+      "extractor": "groq"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.95,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products",
+      "extractor": "groq"
+    },
+    {
+      "head": "AMD",
+      "relation": "subsidiary_of",
+      "tail": "Xilinx",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "With the acquisition of Xilinx, Inc. (XIlinx) in February 2022, our product portfolio now includes FPGAs and Adaptive SoCs used in the data center and embedded markets",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "subsidiary_of",
+      "tail": "Pensando Systems",
+      "confidence": 0.9,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Also, with the acquisition of Pensando Systems, Inc. in May 2022, we offer high-performance DPUs and next generation data center solutions",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Applied Materials",
+      "relation": "subsidiary_of",
+      "tail": "AT&T",
+      "confidence": 0.9,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Dickerson started his semiconductor career in manufacturing and engineering management at General Motors’ Delco Electronics Division and then AT&T Technologies. (2) Mr",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Aruba Networks",
+      "relation": "subsidiary_of",
+      "tail": "HPE",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Hahn served as executive vice president, chief compliance officer, general counsel and secretary of CA Technologies, an enterprise software company, from February 2019 to November 2019 (until its acquisition by Broadcom Corp.), general counsel and secretary of Aruba Networks from April 2013 to June 2016 (until its acquisition by Hewlett Packard Enterprise), general counsel and secretary of ShoreTel, Inc. from 2007 to 2013, and general counsel and secretary of Genesis Microchip from 2002 to 2007",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "subsidiary_of",
+      "tail": "VMware",
+      "confidence": 0.9,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Recent Development Acquisition of VMware, Inc",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "CA Technologies",
+      "relation": "subsidiary_of",
+      "tail": "Broadcom",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Hahn served as executive vice president, chief compliance officer, general counsel and secretary of CA Technologies, an enterprise software company, from February 2019 to November 2019 (until its acquisition by Broadcom Corp.), general counsel and secretary of Aruba Networks from April 2013 to June 2016 (until its acquisition by Hewlett Packard Enterprise), general counsel and secretary of ShoreTel, Inc. from 2007 to 2013, and general counsel and secretary of Genesis Microchip from 2002 to 2007",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "subsidiary_of",
+      "tail": "Novellus Systems",
+      "confidence": 0.9,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "He joined the company in 2012 through the acquisition of Novellus, where he was the vice president of sales operations",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "SanDisk",
+      "relation": "subsidiary_of",
+      "tail": "Western Digital",
+      "confidence": 0.9,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "He was Chief Legal Officer and Senior Vice President, IP Licensing for SanDisk Corporation from 2014 until its acquisition by Western Digital Corporation in 2016",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Xilinx",
+      "relation": "subsidiary_of",
+      "tail": "AMD",
+      "confidence": 0.9,
+      "source_file": "AMAT_2023.txt",
+      "source_sentence": "Hill was Executive Vice President and Chief Financial Officer of Xilinx, Inc., a company that designed and developed programmable devices and associated technologies, from April 2020 until its acquisition by Advanced Micro Devices, Inc. in February 2022",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "Sony",
+      "confidence": 0.85,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "The success of our semi-custom SoC products is dependent on securing customers for our semi-custom design pipeline and consumer market conditions, including the success of the Sony PlayStation® 5, Microsoft® Xbox TM Series S and Microsoft® Xbox TM Series X game console systems and next generation consoles for Sony and Microsoft, worldwide",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "TSMC",
+      "confidence": 0.85,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Therefore, the foundries, particularly TSMC which manufactures our newest IC products, must be able to transition to advanced manufacturing process technologies and increased wafer sizes, produce wafers at acceptable yields and deliver them in a timely manner",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "Qualcomm",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In processors, we compete with Advanced Micro Devices, Inc. (AMD) and vendors who design applications processors based on ARM architecture*, such as Qualcomm Inc. (Qualcomm), and Apple Inc. (Apple), with its M1 and M2 products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "ASML",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV photolithography tools that we are deploying in our Intel 4 and subsequent manufacturing process nodes",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "TSMC",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”)",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "supplier_of",
+      "tail": "Huawei",
+      "confidence": 0.85,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Flex",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "IBM",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "The combination of expanded partnerships and RAMP-C enables customers to develop and fabricate chips on Intel 18A, including customers such as Nvidia, IBM, Microsoft, Boeing, and Northrop Grumman. ■ We announced a commercial agreement with Tower, pursuant to which we are expected to provide foundry services and manufacturing capacity through our New Mexico advanced manufacturing facility for 300mm advanced analog processing",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "supplier_of",
+      "tail": "TSMC",
+      "confidence": 0.85,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Of the five major semiconductor foundries, TSMC, Samsung, Global Foundries (GF), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corporation (SMIC), only Samsung is an IDM and foundry, and only GF is headquartered in the US. TSMC leads the market with 59% market share, followed by Samsung at 16% in 2022 1 . Neither Samsung nor TSMC currently offers its most advanced nodes outside of Asia and both have limited advanced node capacity in the US. We believe the Open System Foundry model delivers differentiated capabilities to help our customers lead in their industries while bringing stability to the global semiconductor supply chain",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.85,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our most significant customers during the fiscal years ending June 25, 2023, June 26, 2022, and June 27, 2021 included Intel Corporation; Kioxia Corporation; Micron Technology, Inc.; Samsung Electronics Company, Ltd.; and Taiwan Semiconductor Manufacturing Company",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "supplier_of",
+      "tail": "Amkor Technology",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "NVIDIA",
+      "relation": "supplier_of",
+      "tail": "Advantest",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "SMIC",
+      "relation": "supplier_of",
+      "tail": "Lam Research",
+      "confidence": 0.85,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "TSMC",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.85,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "partner_of",
+      "tail": "Microsoft",
+      "confidence": 0.82,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "We also announced a collaboration with Microsoft to drive the development of AI on personal computing, with Intel Core Ultra processors and Windows 11 expected to scale across the ecosystem of Intel and Microsoft OEM and ISV partners",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "competitor_of",
+      "tail": "Intel",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Competition in Data Center Segment In Data Center, we compete against Intel Corporation (Intel) with our FPGA, Adaptive SoC, CPU and DPU server products and NVIDIA Corporation (NVIDIA) with our CPU, GPU and DPU server products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "ASM International",
+      "relation": "competitor_of",
+      "tail": "Applied Materials",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "competitor_of",
+      "tail": "Atlassian",
+      "confidence": 0.8,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Our primary competitors are Atlassian Corporation, Plc, BeyondTrust Corporation, BMC Software Inc., Cisco Systems, Inc., CrowdStrike Holdings, Inc., CyberArk Software, Ltd., Dino-Software Corporation, International Business Machines Corporation, Microsoft Corporation, New Relic, Inc., OpenText Corporation, Oracle Corporation, Proofpoint, Inc., Rocket Software, Inc., SailPoint Technologies Holdings, Inc., Salesforce.com, Inc., ServiceNow, Inc., SolarWinds Corporation, Splunk, Inc. and Zscaler, Inc",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "NVIDIA",
+      "confidence": 0.8,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Intel could also take actions that place our discrete graphics processing units (GPUs) at a competitive disadvantage, including giving one or more of our competitors in the graphics market, such as NVIDIA Corporation, preferential access to its proprietary graphics interface or other useful information or restricting access to external companies",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "AMD",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "In processors, we compete with Advanced Micro Devices, Inc. (AMD) and vendors who design applications processors based on ARM architecture*, such as Qualcomm Inc. (Qualcomm), and Apple Inc. (Apple), with its M1 and M2 products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "Apple",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "For example, in 2020, Apple introduced PC products utilizing its own internally developed ARM-based semiconductor designs in place of our client CPUs, and we face increasing competition from Apple's products and ecosystem",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "competitor_of",
+      "tail": "TSMC",
+      "confidence": 0.8,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "KLA",
+      "relation": "competitor_of",
+      "tail": "Applied Materials",
+      "confidence": 0.8,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "competitor_of",
+      "tail": "Applied Materials",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "Our primary competitor in the dielectric and metals deposition market is Applied Materials, Inc",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "competitor_of",
+      "tail": "ASM International",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Tokyo Electron",
+      "relation": "competitor_of",
+      "tail": "Screen Holdings",
+      "confidence": 0.8,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "For ALD and PECVD, we also compete against ASM International and Wonik IPS. In the etch market, our primary competitors are Applied Materials, Inc.; Hitachi, Ltd.; and Tokyo Electron, Ltd., and our primary competitors in the wet clean market are Screen Holding Co., Ltd.; Semes Co., Ltd.; and Tokyo Electron, Ltd",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Broadcom",
+      "relation": "depends_on",
+      "tail": "VMware",
+      "confidence": 0.78,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Achieving these benefits will depend, in part, on our ability to integrate VMware's business successfully and efficiently",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Huawei",
+      "relation": "depends_on",
+      "tail": "Broadcom",
+      "confidence": 0.78,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "For example, Huawei Technologies Co., Ltd., one of our customers, is subject to certain U.S. export restrictions, which has required us to suspend sales to Huawei until we obtain licenses from the U.S. Department of Commerce",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "AMD",
+      "confidence": 0.78,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "As a result of Intel’s position in the microprocessor market, Intel has been able to control x86 microprocessor and computer system standards and benchmarks and to dictate the type of products the microprocessor market requires of us",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "Microsoft",
+      "confidence": 0.78,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to innovate beyond the x86 instruction set controlled by Intel depends partially on Microsoft designing and developing its operating systems to run on or support our x86-based microprocessor products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "depends_on",
+      "tail": "TSMC",
+      "confidence": 0.78,
+      "source_file": "INTC_2023.txt",
+      "source_sentence": "Most of our competitors rely on third-party foundries, such as TSMC or Samsung, for the manufacture and assembly and test of their semiconductor components and products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "depends_on",
+      "tail": "SMIC",
+      "confidence": 0.78,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "AMD",
+      "relation": "supplier_of",
+      "tail": "Intel",
+      "confidence": 0.75,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our primary competitor in the supply of CPUs is Intel",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Chroma ATE",
+      "relation": "supplier_of",
+      "tail": "BYD Auto",
+      "confidence": 0.75,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "KLA",
+      "relation": "supplier_of",
+      "tail": "Applied Materials",
+      "confidence": 0.75,
+      "source_file": "KLAC_2023.txt",
+      "source_sentence": "To remain competitive, we use significant financial resources to offer a broad range of products, to maintain customer service and support centers worldwide, and to invest in product R&D. In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Technologies Corporation, Onto Innovation, Inc. and Lasertec, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Lam Research",
+      "relation": "supplier_of",
+      "tail": "SMIC",
+      "confidence": 0.75,
+      "source_file": "LRCX_2023.txt",
+      "source_sentence": "These rules have required and may require us to apply for and obtain additional export licenses to supply certain of our products to customers in China, such as SMIC, YMTC and ChangXin Memory Technologies, Inc., and there is no assurance that we will be issued licenses that we apply for on a timely basis or at all",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Advantest",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Amkor Technology",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Ibiden",
+      "relation": "supplier_of",
+      "tail": "NVIDIA",
+      "confidence": 0.7,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "We purchase substrates from Ibiden Co",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Microsoft",
+      "relation": "supplier_of",
+      "tail": "AMD",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "In addition, some software drivers licensed for use with our products are certified by Microsoft",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "UMC",
+      "relation": "supplier_of",
+      "tail": "GLOBALFOUNDRIES",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "UMC",
+      "relation": "supplier_of",
+      "tail": "AMD",
+      "confidence": 0.7,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10 Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Arm",
+      "relation": "subsidiary_of",
+      "tail": "SoftBank",
+      "confidence": 0.65,
+      "source_file": "NVDA_2023.txt",
+      "source_sentence": "Termination of the Arm Share Purchase Agreement In February 2022, NVIDIA and SoftBank Group Corp., or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited, or Arm, from SoftBank",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Dell",
+      "relation": "subsidiary_of",
+      "tail": "VMware",
+      "confidence": 0.65,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "Risks Relating to Taxes • Changes in tax legislation or policies could materially impact our financial position and results of operations. • Our corporate income taxes could significantly increase if we are unable to maintain our tax concessions or if our assumptions and interpretations regarding tax laws and concessions prove to be incorrect. • Our income taxes and overall cash tax costs are affected by a number of factors that could materially, adversely affect financial results. • We have potential tax liabilities as a result of VMware’s former controlling ownership by Dell, which could have an adverse effect on our financial condition and operating results",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Intel",
+      "relation": "subsidiary_of",
+      "tail": "AMD",
+      "confidence": 0.65,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Our ability to innovate beyond the x86 instruction set controlled by Intel depends partially on Microsoft designing and developing its operating systems to run on or support our x86-based microprocessor products",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "Microchip Technology",
+      "relation": "subsidiary_of",
+      "tail": "Microsemi",
+      "confidence": 0.65,
+      "source_file": "AMD_2023.txt",
+      "source_sentence": "Competition in Embedded Segment We expect continued competition from our primary FPGA competitors such as Intel, Lattice Semiconductor Corporation and Microsemi Corporation (Microsemi, acquired by Microchip), from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated and NXP Semiconductors N.V., and from NVIDIA. In addition, we expect continued competition from the ASIC market, which has been ongoing since the inception of FPGAs",
+      "extractor": "rule_based"
+    },
+    {
+      "head": "VMware",
+      "relation": "subsidiary_of",
+      "tail": "Broadcom",
+      "confidence": 0.65,
+      "source_file": "AVGO_2023.txt",
+      "source_sentence": "In addition, the hybrid-cloud portfolio we acquired with VMware helps enterprises simplify their information technology (“IT”) environments so they can increase business velocity and flexibility",
+      "extractor": "rule_based"
+    }
+  ]
+}
